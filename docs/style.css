@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+#pdf-root {
+    background: white;
+    padding: 25px;
+    width: 210mm;
+    min-height: 297mm;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+section {
+    margin-top: 25px;
+}
+
+.meta div, section div, footer div {
+    margin-bottom: 5px;
+}
+
+.opcja {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.opcja .nazwa {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 12px;
+    text-align: center;
+    opacity: 0.8;
+}
