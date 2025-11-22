@@ -27,12 +27,19 @@ async function loadData() {
 function renderOferta(data) {
     const { karta, oferta, tworca, spolka } = data;
 
-    // --- podstawowe dane ---
+    /* ===============================
+       DANE PODSTAWOWE
+    =============================== */
+
     document.getElementById("dataUtworzenia").textContent =
         new Date(oferta._createdDate).toLocaleString("pl-PL");
 
-    document.getElementById("autor").textContent =
-        oferta.imieNazwiskoZamawiajacego || "—";
+    // klient - brak w JSON → placeholder
+    document.getElementById("autor").textContent = "—";
+
+    /* ===============================
+       DANE REALIZACJI
+    =============================== */
 
     document.getElementById("dataRealizacji").textContent =
         karta.dataRealizacji
@@ -40,7 +47,7 @@ function renderOferta(data) {
             : "—";
 
     document.getElementById("miejsceRealizacji").textContent =
-        karta.miejsceRealizacji?.formattedAddressLine || "—";
+        karta.miejsceRealizacji?.formatted || "—";
 
     document.getElementById("typRealizacji").textContent =
         karta.typRealizacji || "—";
@@ -48,13 +55,21 @@ function renderOferta(data) {
     document.getElementById("typUslugi").textContent =
         karta.typUslugi || "—";
 
-    // --- twórca ---
+    /* ===============================
+       TWÓRCA
+    =============================== */
+
     if (tworca) {
         document.getElementById("tworca").textContent =
             `${tworca.imie} ${tworca.nazwisko}`;
+    } else {
+        document.getElementById("tworca").textContent = "—";
     }
 
-    // --- lista opcji ---
+    /* ===============================
+       POZYCJE
+    =============================== */
+
     const listaOpcji = document.getElementById("listaOpcji");
     listaOpcji.innerHTML = "";
 
@@ -64,33 +79,39 @@ function renderOferta(data) {
 
         el.innerHTML = `
             <div class="nazwaOpcji">${op.nazwa}</div>
-            <div class="opisOpcji">${op.opisKanoniczny || ""}</div>
-            <div class="cenaOpcji">${op.cenaBrutto} zł</div>
+            <div class="cenaOpcji">${op.cenaBrutto.toLocaleString("pl-PL")} zł</div>
         `;
 
         listaOpcji.appendChild(el);
     });
 
-    // --- podsumowanie ---
+    /* ===============================
+       PODSUMOWANIE
+    =============================== */
+
     document.getElementById("cenaNetto").textContent =
-        oferta.sumaNetto + " zł";
+        oferta.sumaNetto.toLocaleString("pl-PL") + " zł";
 
     document.getElementById("cenaVat").textContent =
-        oferta.wartoscVAT + " zł";
+        oferta.wartoscVAT.toLocaleString("pl-PL") + " zł";
 
     document.getElementById("cenaBrutto").textContent =
-        oferta.sumaCalkowita + " zł";
+        oferta.sumaBrutto.toLocaleString("pl-PL") + " zł";
 
     document.getElementById("kosztDojazdu").textContent =
-        oferta.kosztDojazdu + " zł";
+        oferta.kosztDojazdu.toLocaleString("pl-PL") + " zł";
 
-    // --- spółka ---
+    /* ===============================
+       SPÓŁKA
+    =============================== */
+
     if (spolka) {
         document.getElementById("spolkaNazwa").textContent = spolka.nazwa || "";
         document.getElementById("spolkaNip").textContent = "NIP: " + (spolka.nip || "");
         document.getElementById("spolkaAdres").textContent = spolka.adres || "";
     }
 }
+
 
 /* =========================================================
    3) GENEROWANIE PDF
