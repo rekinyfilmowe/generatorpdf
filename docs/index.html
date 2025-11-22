@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Oferta PDF</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- html2pdf -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+
+<div id="pdf-root">
+
+    <header>
+        <h1 id="tytul-oferty">Oferta</h1>
+        <div class="meta">
+            <div><strong>Data utworzenia:</strong> <span id="dataUtworzenia"></span></div>
+            <div><strong>Utworzył:</strong> <span id="utworzyl"></span></div>
+        </div>
+    </header>
+
+    <section id="sekcjaPodstawowe">
+        <h2>Dane realizacji</h2>
+        <div><strong>Data realizacji:</strong> <span id="dataRealizacji"></span></div>
+        <div><strong>Miejsce realizacji:</strong> <span id="miejsceRealizacji"></span></div>
+        <div><strong>Typ realizacji:</strong> <span id="typRealizacji"></span></div>
+        <div><strong>Typ usługi:</strong> <span id="typUslugi"></span></div>
+    </section>
+
+    <section id="sekcjaOpcje">
+        <h2>Pozycje</h2>
+        <div id="listaOpcji"></div>
+    </section>
+
+    <section id="sekcjaKoszty">
+        <h2>Podsumowanie</h2>
+        <div><strong>Suma netto:</strong> <span id="sumaNetto"></span></div>
+        <div><strong>VAT:</strong> <span id="sumaVAT"></span></div>
+        <div><strong>Suma brutto:</strong> <span id="sumaBrutto"></span></div>
+        <div><strong>Koszt dojazdu:</strong> <span id="kosztDojazdu"></span></div>
+    </section>
+
+    <footer>
+        <div id="firma"></div>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
