@@ -1,0 +1,301 @@
+{
+  "karta": {
+    "idKlient": "ba915896-49f7-4135-b056-4ec3eefdc0b0",
+    "miejsceRealizacji": {
+      "city": "Kielce",
+      "location": {
+        "latitude": 50.8659989,
+        "longitude": 20.6286268
+      },
+      "latitude": 50.8659989,
+      "formatted": "Kielce, Polska",
+      "country": "PL",
+      "longitude": 20.6286268,
+      "subdivision": "SK"
+    },
+    "_id": "4a40af5c-b1b3-4b96-9f24-f07c0269676d",
+    "_owner": "90f08f7e-b2ff-460a-ac38-a4279aaa9db1",
+    "_createdDate": "2025-11-25T18:44:26.243Z",
+    "nazwa": "Moja realizacja [06.06.2026]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-11-25T18:44:26.243Z",
+    "dataRealizacji": "2026-06-06",
+    "status": "ofertowanie",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "typUslugi": "filmowiec",
+    "idProfilKlienta": "4f65fc93-5e0f-4e85-8a63-b8e7374d9292"
+  },
+  "oferta": {
+    "wartoscVATPrzedRabatem": 3839,
+    "sumaNettoPrzedRabatem": 16688,
+    "sumaCalkowita": 16422,
+    "sumaNetto": 13351,
+    "kosztOperatorow": null,
+    "blokadaEdycjiPakietu": false,
+    "idZgodaMarketingowa": "b2f0d3ea-8f59-4477-81d2-deb31ae7f0a3",
+    "_id": "48bc5ab1-9dc9-4f61-a5ad-2bac92ed970b",
+    "wybraneOpcje": [
+      {
+        "opis": "Liczba godzin pracy wybranego Twórcy w ramach rezerwacji usługi.\n\nCena bazowa obejmuje:\n✔ Usługę operatorską realizowaną przez Twórcę\n✔ Profesjonalne nagranie wszystkich kluczowych momentów\n✔ Korzystanie z wysokiej klasy sprzętu filmowego i audio\n\nCena bazowa nie obejmuje:\n✔ Usługi montażowej z zarejestrowanych materiałów\n\nJeśli chcesz zamówić usługę montażu, przejdź do kolejnych opcji i sprawdź, co proponujemy.",
+        "vat": 1093,
+        "_id": "bazaCeny",
+        "nazwa": "Usługa operatorska",
+        "terminCena": 0,
+        "cena": 5845,
+        "terminOddania": 180,
+        "idLocal": "bazaCeny",
+        "podtyp": "9",
+        "cenaBrutto": 5845
+      },
+      {
+        "opis": "Materiał wideo o wysokiej rozdzielczości, pozwalający dostrzec najdrobniejsze detale obrazu. Film jest możliwy do oglądania na odpowiednich, do tego przystosowanych urządzeniach z oznaczeniem 4K lub wyższych.",
+        "vat": 0,
+        "_id": "jakosc4k",
+        "nazwa": "Rozdzielczość 4K",
+        "terminCena": 0,
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "jakosc4k",
+        "podtyp": "1",
+        "cenaBrutto": 0
+      },
+      {
+        "opis": "Reportażowa forma przedstawienia historii o Parze Młodej. Spokojne ujęcia i muzyka subtelnie prowadzą emocje widza przez cały film. Materiał obejmuje ujęcia ze wszystkich etapów dnia objętych godzinami pracy (np. przygotowania, ceremonia, przysięga, przemowy, przyjęcie i zabawa).",
+        "vat": 1458,
+        "_id": "film-glowny-40",
+        "nazwa": "Film główny",
+        "terminCena": 0,
+        "czasTrwania": "30-40 min.",
+        "cena": 7794,
+        "terminOddania": 180,
+        "idLocal": "film-glowny-40",
+        "podtyp": "1",
+        "cenaBrutto": 7794
+      },
+      {
+        "opis": "Ujęcia realizowane w dniu reportażu, najczęściej o zachodzie słońca, na terenie miejsca przyjęcia. Stanowią one doskonałe uzupełnienie materiału, do wykorzystania na początku lub w zakończeniu filmu (czas pracy: 15–20 min.).",
+        "vat": 0,
+        "_id": "sesjaZachod",
+        "nazwa": "Sesja plenerowa w dniu ślubu",
+        "terminCena": 0,
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "sesjaZachod",
+        "podtyp": "1",
+        "cenaBrutto": 0
+      },
+      {
+        "opis": "Zaawansowane ujęcia lotnicze w ramach opcji Drone (Full Repo), a także szybkie i dynamiczne loty sportowym małym dronem, zarówno na zewnątrz, jak i wewnątrz obiektu podczas przygotowań między dekoracjami (czas pracy: do 22:00).",
+        "vat": 520,
+        "_id": "dron-sport",
+        "nazwa": "Dron - Full Repo i Drone FPV",
+        "terminCena": 0,
+        "cena": 2783,
+        "terminOddania": 180,
+        "idLocal": "dron-sport",
+        "podtyp": "1",
+        "cenaBrutto": 2783
+      }
+    ],
+    "_owner": "90f08f7e-b2ff-460a-ac38-a4279aaa9db1",
+    "zgodaWarunkiUmowy": "<p class=\"font_8\">7.6.1. Korzystanie z materiałów z Reportażu udostępnionych w mediach społecznościowych przez inne osoby fizyczne lub podmioty trzecie uczestniczące w Reportażu.</p>\n<p class=\"font_8\">7.6.2. Wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych. Publikowanie fragmentów Dzieła w portfolio, internecie, mediach społecznościowych, kursach online oraz materiałach promocyjnych, niezależnie od terminu publikacji przez Zamawiającego, na czas nieokreślony, na wszystkich polach eksploatacji, bez ograniczeń terytorialnych;</p>\n<p class=\"font_8\">7.6.3. Przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim — zarówno uczestniczącym w Reportażu, jak i innym — na podstawie odrębnych umów (przeniesienia praw lub licencji) pod warunkiem, że materiały będą wykorzystywane wyłącznie w celach promocji w ramach Umowy;</p>\n<p class=\"font_8\">7.6.4. Zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów marketingowych w celu promocji swojej usługi.</p>",
+    "_createdDate": "2025-11-25T18:57:10.305Z",
+    "idRezerwacji": null,
+    "wartoscVAT": 3071,
+    "sumaOpcjiNettoBezProwizji": 10114,
+    "prowizjaPlatformyVAT": 466,
+    "nocleg": "Niewliczony w cenę",
+    "_updatedDate": "2025-11-25T18:57:10.305Z",
+    "zgodaNazwaPubliczna": "<p class=\"font_9\"><strong>Pełna zgoda marketingowa</strong></p>",
+    "rodzajRezerwacjiOpis": "Wybierasz rezerwację zwrotną (droższą o 10%). Zachowujesz prawo do odstąpienia od umowy\nw ciągu 14 dni od jej zawarcia. W przypadku odstąpienia od umowy zwrotowi nie podlega\n10-procentowa różnica w cenie, stanowiąca opłatę za elastyczność rezerwacji.",
+    "idKlientKarta": "4a40af5c-b1b3-4b96-9f24-f07c0269676d",
+    "bezzwrotnaDodatkowyProcent": 10,
+    "zapisOferty": "konfigurator",
+    "bezzwrotnaDodatkowaKwota": 1642,
+    "prowizjaPlatformyNetto": 2023,
+    "potwierdzony": false,
+    "snapshot": {
+      "cart": [
+        [
+          "bazaCeny",
+          {
+            "qty": 9,
+            "name": "Usługa operatorska",
+            "multi": true,
+            "selected": true
+          }
+        ],
+        [
+          "jakosc4k",
+          {
+            "qty": 1,
+            "name": "Rozdzielczość 4K",
+            "multi": false,
+            "selected": true
+          }
+        ],
+        [
+          "film-glowny-15",
+          {
+            "name": "Film główny",
+            "selected": false,
+            "qty": 1,
+            "stepId": "e58e8e4d-0290-423d-a641-c8898d713c2a",
+            "multi": false
+          }
+        ],
+        [
+          "film-glowny-25",
+          {
+            "name": "Film główny",
+            "selected": false,
+            "qty": 1,
+            "stepId": "e58e8e4d-0290-423d-a641-c8898d713c2a",
+            "multi": false
+          }
+        ],
+        [
+          "film-glowny-40",
+          {
+            "name": "Film główny",
+            "selected": true,
+            "qty": 1,
+            "stepId": "e58e8e4d-0290-423d-a641-c8898d713c2a",
+            "multi": false
+          }
+        ],
+        [
+          "film-glowny-60",
+          {
+            "name": "Film główny",
+            "selected": false,
+            "qty": 1,
+            "stepId": "e58e8e4d-0290-423d-a641-c8898d713c2a",
+            "multi": false
+          }
+        ],
+        [
+          "sesjaZachod",
+          {
+            "name": "Sesja plenerowa w dniu ślubu",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40c8e026-4434-4f3f-8e56-0159f21bcdde",
+            "multi": false
+          }
+        ],
+        [
+          "def567",
+          {
+            "name": "Dron - Pano",
+            "selected": false,
+            "qty": 1,
+            "stepId": "26da579c-8842-4a3b-bbb8-4bb5ad14ff9d",
+            "multi": false
+          }
+        ],
+        [
+          "def234",
+          {
+            "name": "Dron - Full Repo",
+            "selected": false,
+            "qty": 1,
+            "stepId": "26da579c-8842-4a3b-bbb8-4bb5ad14ff9d",
+            "multi": false
+          }
+        ],
+        [
+          "dron-sport",
+          {
+            "name": "Dron - Full Repo i Drone FPV",
+            "selected": true,
+            "qty": 1,
+            "stepId": "26da579c-8842-4a3b-bbb8-4bb5ad14ff9d",
+            "multi": false
+          }
+        ]
+      ],
+      "currentStepIndex": 7,
+      "priceMode": "brutto",
+      "version": 1,
+      "rebateOn": true
+    },
+    "zgodaOpisPubliczny": "<p class=\"font_9\">W ramach wybranej opcji Zamawiający otrzymuje preferencyjne warunki współpracy oraz rabat. Wykonawca wzamian otrzymuje licencję na:</p>\n<ul class=\"font_9\">\n  <li><p class=\"font_9\">korzystanie z materiałów z Reportażu udostępnionych w mediach społecznościowych przez inne osoby fizyczne lub podmioty trzecie uczestniczące w Reportażu;</p></li>\n  <li><p class=\"font_9\">wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych;</p></li>\n  <li><p class=\"font_9\">przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim;</p></li>\n  <li><p class=\"font_9\">zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów marketingowych w celu promocji swojej usługi.</p></li>\n</ul>",
+    "idTworca": "0af6572b-0116-4094-9d7a-a74bcbf4e036",
+    "nazwaOferty": "Nowy pakiet",
+    "idProfilu": "4f65fc93-5e0f-4e85-8a63-b8e7374d9292",
+    "liczbaAsystentow": 1,
+    "sumaBruttoPrzedRabatem": 20527,
+    "sumaBrutto": 16422,
+    "wyslanaDoTworcy": false,
+    "kosztDojazdu": 264,
+    "typUslugi": "filmowiec",
+    "bezzwrotna": false,
+    "rabatSpecjalny": {
+      "tryb": "on",
+      "wartosc": -0.14285714285714302
+    },
+    "szczegolyFV": {
+      "suma": {
+        "netto": 13351,
+        "vat": 3071,
+        "brutto": 16422
+      }
+    },
+    "czasPracy": 9,
+    "statusPakietu": "draft"
+  },
+  "tworca": {
+    "typProfilu": "tworca",
+    "ibanRachunek": "82 1050 1416 1000 0090 8185 5257",
+    "kodPocztowy": "25-516",
+    "pesel": 6572974769,
+    "avatar": "https://rekiny-filmowe.b-cdn.net/tworcy/0af6572b-0116-4094-9d7a-a74bcbf4e036/zdjecie/2342940a-2b21-47e2-baa3-b3be791a407c.JPG",
+    "email": "zapytaj@rekinyfilmowe.pl",
+    "stripeAccountId": "acct_1SSZieI0FX1GvixR",
+    "_id": "0af6572b-0116-4094-9d7a-a74bcbf4e036",
+    "_owner": "d37be024-ec98-4ed0-a37b-8da5d8e1a785",
+    "_createdDate": "2025-10-07T17:14:39.701Z",
+    "nazwa": "Patryk",
+    "completion": 0,
+    "telefon": "664220747",
+    "idUzytkownika": "a22e8c5a-db7a-4102-8714-5595ec330e50",
+    "miejscowosc": "Kielce",
+    "nazwisko": "Jarząbek",
+    "_updatedDate": "2025-11-12T08:55:24.645Z",
+    "nrDom": 16,
+    "zweryfikowany": true,
+    "imie": "Patryk",
+    "nazwaBanku": "ING Bank Śląski",
+    "zadatekWartosc": 80,
+    "nrLok": 7,
+    "ulica": "Al. IX Wieków Kielc",
+    "nazwaPodmiotu": "Rekiny Filmowe Spółka z ograniczoną odpowiedzialnością",
+    "nazwaFirmy": "Rekiny Filmowe",
+    "waluta": "PLN"
+  },
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
