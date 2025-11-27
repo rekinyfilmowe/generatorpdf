@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="pl">
-
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>Oferta PDF</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
 
     <!-- html2pdf -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
@@ -17,57 +16,87 @@
 
     <!-- LOGO -->
     <header class="header">
-        <img src="assets/logo.png" class="logo" />
+        <img src="assets/logo.svg" class="logo"/>
         <h1>Oferta wygenerowana za pomocą Platformy Rekiny Filmowe</h1>
     </header>
 
-    <!-- META -->
+    <!-- META GRID -->
     <section class="meta-grid">
-        <div>
-            <div class="label">Data utworzenia</div>
-            <div id="dataUtworzenia"></div>
-        </div>
-        <div>
-            <div class="label">Autor</div>
-            <div id="autor"></div>
+
+        <div class="meta-item">
+            <img src="assets/icons/calendar.svg">
+            <div>
+                <div class="label">Data utworzenia</div>
+                <div id="dataUtworzenia"></div>
+            </div>
         </div>
 
-        <div>
-            <div class="label">Data realizacji</div>
-            <div id="dataRealizacji"></div>
-        </div>
-        <div>
-            <div class="label">Miejsce realizacji</div>
-            <div id="miejsceRealizacji"></div>
-        </div>
-
-        <div>
-            <div class="label">Typ realizacji</div>
-            <div id="typRealizacji"></div>
-        </div>
-        <div>
-            <div class="label">Typ usługi</div>
-            <div id="typUslugi"></div>
+        <div class="meta-item">
+            <img src="assets/icons/person.svg">
+            <div>
+                <div class="label">Autor</div>
+                <div id="autor"></div>
+            </div>
         </div>
 
-        <div>
-            <div class="label">Twórca</div>
-            <div id="tworca"></div>
+        <div class="meta-item">
+            <img src="assets/icons/calendar.svg">
+            <div>
+                <div class="label">Data realizacji</div>
+                <div id="dataRealizacji"></div>
+            </div>
         </div>
-        <div>
-            <div class="label">Liczba operatorów</div>
-            <div id="liczbaOperatorow"></div>
+
+        <div class="meta-item">
+            <img src="assets/icons/location.svg">
+            <div>
+                <div class="label">Miejsce realizacji</div>
+                <div id="miejsceRealizacji"></div>
+            </div>
         </div>
+
+        <div class="meta-item">
+            <img src="assets/icons/celebration.svg">
+            <div>
+                <div class="label">Typ realizacji</div>
+                <div id="typRealizacji"></div>
+            </div>
+        </div>
+
+        <div class="meta-item">
+            <img src="assets/icons/handshake.svg">
+            <div>
+                <div class="label">Typ usługi</div>
+                <div id="typUslugi"></div>
+            </div>
+        </div>
+
+        <div class="meta-item">
+            <img src="assets/icons/person.svg">
+            <div>
+                <div class="label">Twórca</div>
+                <div id="tworca"></div>
+            </div>
+        </div>
+
+        <div class="meta-item">
+            <img src="assets/icons/person.svg">
+            <div>
+                <div class="label">Liczba operatorów</div>
+                <div id="liczbaOperatorow"></div>
+            </div>
+        </div>
+
     </section>
 
     <!-- WYBRANY PAKIET -->
-    <section>
+    <section class="section">
         <h2>Wybrany pakiet</h2>
         <div id="listaOpcji"></div>
     </section>
 
     <!-- RODZAJ REZERWACJI -->
-    <section>
+    <section class="section">
         <h2>Rodzaj rezerwacji</h2>
         <div id="rodzajRezerwacji"></div>
     </section>
@@ -79,7 +108,7 @@
             <span id="cenaPrzedRabatem"></span>
         </div>
         <div class="row">
-            <span>Pełna zgoda marketingowa</span>
+            <span>Zgoda marketingowa</span>
             <span id="zgodaMarketingowa"></span>
         </div>
         <div class="row">
@@ -101,5 +130,4 @@
 
 <script src="script.js"></script>
 </body>
-
 </html>
