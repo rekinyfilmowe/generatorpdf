@@ -1,10 +1,17 @@
+/* =========================================================
+   1) ŁADOWANIE DANYCH JSON Z GITHUB
+========================================================= */
 async function loadData() {
     const params = new URLSearchParams(location.search);
     const key = params.get("key");
+    if (!key) {
+        alert("Brak klucza PDF");
+        return null;
+    }
 
     const url = `https://raw.githubusercontent.com/rekinyfilmowe/generatorpdf/main/data/${key}`;
-    const res = await fetch(url);
 
+    const res = await fetch(url);
     if (!res.ok) {
         alert("Błąd pobierania danych PDF: " + res.status);
         return null;
@@ -13,21 +20,25 @@ async function loadData() {
     return res.json();
 }
 
-function formatPLN(num) {
-    return num.toLocaleString("pl-PL") + " zł";
-}
+/* =========================================================
+   2) RENDER
+========================================================= */
 
 function renderOferta(data) {
-    const { karta, oferta, tworca } = data;
+    const { karta, oferta, tworca, spolka } = data;
+
+    /* METADANE */
 
     document.getElementById("dataUtworzenia").textContent =
         new Date(oferta._createdDate).toLocaleString("pl-PL");
 
     document.getElementById("autor").textContent =
-        karta.daneDoUmowy?.imieZam1 || "—";
+        oferta.autor || "—";
 
     document.getElementById("dataRealizacji").textContent =
-        karta.dataRealizacji || "—";
+        karta.dataRealizacji
+            ? karta.dataRealizacji
+            : "—";
 
     document.getElementById("miejsceRealizacji").textContent =
         karta.miejsceRealizacji?.formatted || "—";
@@ -39,87 +50,103 @@ function renderOferta(data) {
         karta.typUslugi || "—";
 
     document.getElementById("tworca").textContent =
-        tworca ? `${tworca.imie} ${tworca.nazwisko}` : "—";
+        `${tworca.imie} ${tworca.nazwisko}`;
 
     document.getElementById("liczbaOperatorow").textContent =
-        oferta.liczbaAsystentow ? oferta.liczbaAsystentow + 1 : "—";
+        oferta.liczbaAsystentow
+            ? oferta.liczbaAsystentow + 1
+            : 1;
 
-    // ----------------------------------------
-    // OPCJE – kategorie 1:1 z Twoim layoutem
-    // ----------------------------------------
+    /* KATEGORIE OPCJI */
 
     const lista = document.getElementById("listaOpcji");
     lista.innerHTML = "";
 
-    // Kategorie
-    const CATEGORIES = [
-        {
-            title: "Składowe Techniczne",
-            filter: op => op.podtyp === "1" || op.podtyp === "14"
-        },
-        {
-            title: "Rezultaty Dzieła",
-            filter: op => op.podtyp === "2"
-        }
-    ];
+    const opcje = oferta.wybraneOpcje;
 
-    CATEGORIES.forEach(cat => {
-        const items = oferta.wybraneOpcje.filter(cat.filter);
-        if (!items.length) return;
+    const categories = {
+        tech: [],
+        rezultaty: []
+    };
 
-        const catEl = document.createElement("div");
-        catEl.className = "package-category";
-        catEl.textContent = cat.title;
-        lista.appendChild(catEl);
+    // podział wg plikWynikowy
+    for (const op of opcje) {
+        if (op.podtyp === "2") categories.rezultaty.push(op);
+        else categories.tech.push(op);
+    }
 
-        items.forEach(op => {
-            const itemEl = document.createElement("div");
-            itemEl.className = "opcja-item";
-            itemEl.innerHTML = `
-                <span>${op.nazwa}</span>
-                <span>${formatPLN(op.cenaBrutto)}</span>
-            `;
-            lista.appendChild(itemEl);
+    if (categories.tech.length > 0) {
+        lista.innerHTML += `<div class="category">Składowe Techniczne</div>`;
+        categories.tech.forEach(op => {
+            lista.innerHTML += `
+                <div class="option-row">
+                    <span>${op.nazwa}</span>
+                    <span>${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
+                </div>`;
         });
-    });
+    }
 
-    // ----------------------------------------
-    // RODZAJ REZERWACJI
-    // ----------------------------------------
-    document.getElementById("rodzajRezerwacji").textContent =
-        oferta.rodzajRezerwacjiOpis || "—";
+    if (categories.rezultaty.length > 0) {
+        lista.innerHTML += `<div class="category">Rezultaty Dzieła</div>`;
+        categories.rezultaty.forEach(op => {
+            lista.innerHTML += `
+                <div class="option-row">
+                    <span>${op.nazwa}</span>
+                    <span>${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
+                </div>`;
+        });
+    }
 
-    // ----------------------------------------
-    // PODSUMOWANIE FINANSOWE
-    // ----------------------------------------
-    document.getElementById("cenaPrzedRabatem").textContent =
-        formatPLN(oferta.sumaBruttoPrzedRabatem);
+    /* RODZAJ REZERWACJI */
+
+    document.getElementById("rodzajRezerwacjiOpis").textContent =
+        oferta.rodzajRezerwacjiOpis;
+
+    /* PODSUMOWANIE */
+
+    document.getElementById("sumaPrzedRabatem").textContent =
+        oferta.sumaBruttoPrzedRabatem.toLocaleString("pl-PL") + " zł";
 
     document.getElementById("zgodaMarketingowa").textContent =
-        oferta.zgodaNazwaPubliczna ? "- " + oferta.wartoscVATPrzedRabatem + " zł" : "0 zł";
+        oferta.wartoscVATPrzedRabatem > 0
+            ? "- " + oferta.wartoscVATPrzedRabatem.toLocaleString("pl-PL") + " zł"
+            : "0 zł";
 
-    document.getElementById("doZaplaty").textContent =
-        formatPLN(oferta.sumaBrutto);
+    document.getElementById("sumaPoRabacie").textContent =
+        oferta.sumaBrutto.toLocaleString("pl-PL") + " zł";
 
     document.getElementById("kosztDojazdu").textContent =
-        formatPLN(oferta.kosztDojazdu);
+        oferta.kosztDojazdu.toLocaleString("pl-PL") + " zł";
 
-    document.getElementById("doZaplatyFinal").textContent =
-        formatPLN(oferta.sumaBrutto + oferta.kosztDojazdu);
+    const sumaKoncowa =
+        oferta.sumaBrutto + oferta.kosztDojazdu;
+
+    document.getElementById("sumaKoncowa").textContent =
+        sumaKoncowa.toLocaleString("pl-PL") + " zł";
 }
+
+/* =========================================================
+   3) GENEROWANIE PDF
+========================================================= */
 
 function autoPDF() {
     const element = document.getElementById("pdf-root");
 
-    const opt = {
-        margin: 0,
-        html2canvas: { scale: 3 },
-        jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
-        filename: "oferta.pdf"
-    };
-
-    html2pdf().set(opt).from(element).save();
+    html2pdf()
+        .set({
+            margin: 0,
+            filename: "oferta.pdf",
+            image: { type: "jpeg", quality: 1 },
+            html2canvas: { scale: 3 },
+            jsPDF: { unit: "mm", format: "a4", orientation: "portrait" }
+        })
+        .from(element)
+        .save();
 }
+
+/* =========================================================
+   4) START
+========================================================= */
 
 window.onload = async () => {
     const data = await loadData();
@@ -127,5 +154,5 @@ window.onload = async () => {
 
     renderOferta(data);
 
-    setTimeout(autoPDF, 500);
+    setTimeout(autoPDF, 400);
 };
