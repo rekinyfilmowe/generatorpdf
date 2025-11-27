@@ -1,48 +1,15 @@
-/* LOAD JSON */
 async function loadData() {
     const params = new URLSearchParams(location.search);
     const key = params.get("key");
     if (!key) return null;
 
-    const url = `https://raw.githubusercontent.com/rekinyfilmowe/generatorpdf/main/data/${key}`;
+    const url = `data/${key}`;
     const res = await fetch(url);
-
     if (!res.ok) return null;
+
     return res.json();
 }
 
-/* FORMATERY WIX (przeniesione 1:1) */
-function formatDuration(timeStr) {
-    if (!timeStr) return "";
-    const clean = timeStr.trim().toLowerCase();
-
-    if (clean.includes("sek") || clean.includes("min") || clean.includes("godz"))
-        return timeStr.trim();
-
-    const num = Number(clean);
-    if (!isNaN(num)) return `${num} min`;
-
-    return timeStr.trim();
-}
-
-function extractTimeFromName(name) {
-    if (!name) return "";
-
-    const m = name.match(/(\d+(\s*[-–]\s*\d+)?)(\s*)(min|sek|godz)/i);
-    if (m) return m[1] + " " + m[4];
-
-    return "";
-}
-
-function formatTermin(kartaData, dni) {
-    if (!kartaData) return "";
-    const base = new Date(kartaData);
-    if (isNaN(base.getTime())) return "";
-    base.setDate(base.getDate() + dni);
-    return base.toLocaleDateString("pl-PL");
-}
-
-/* RENDER */
 function renderOferta({ karta, oferta, tworca }) {
 
     /* METADANE */
@@ -87,67 +54,35 @@ function renderOferta({ karta, oferta, tworca }) {
         else tech.push(op);
     }
 
-    function kategoria(txt) {
-        lista.innerHTML += `<div class="category">${txt}</div>`;
+    function opisOpcji(op) {
+        return op.opis || op.meta?.opisKanoniczny || "";
     }
 
-    function getOpisTechniczny(op) {
-
-        const parts = [];
-
-        // ilość
-        if (op.podtyp) {
-            const m = String(op.podtyp).match(/\d+/);
-            if (m && Number(m[0]) >= 2) parts.push(`ilość: ${m[0]}`);
-        }
-
-        // czas trwania
-        let czas = op.czasTrwania || extractTimeFromName(op.nazwa) || "";
-        if (czas) {
-            parts.push(`długość: ${formatDuration(czas)}`);
-        }
-
-        // termin oddania (tylko dla plików wynikowych)
-        if (op.meta?.plikWynikowy) {
-            const dni = op.terminOddania ?? op.meta?.terminOddania ?? 180;
-            const termin = formatTermin(karta.dataRealizacji, dni);
-            if (termin) parts.push(`termin oddania: ${termin}`);
-        }
-
-        return parts.length ? parts.join(" • ") : "";
+    function addKategoria(title) {
+        lista.innerHTML += `<div class="category">${title}</div>`;
     }
 
     function addOpcja(op) {
-
-        const opisTechniczny = getOpisTechniczny(op);
+        const opis = opisOpcji(op);
 
         lista.innerHTML += `
             <div class="option-block">
-
                 <div class="option-row">
-                    <span>${op.nazwa}</span>
-                    <span>${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
+                    <span class="option-name">${op.nazwa}</span>
+                    <span class="option-price">${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
                 </div>
-
-                ${opisTechniczny
-                    ? `<div class="option-meta">${opisTechniczny}</div>`
-                    : ""}
-
-                ${op.opis
-                    ? `<div class="option-desc">${op.opis}</div>`
-                    : ""}
-
+                ${opis ? `<div class="option-desc">${opis}</div>` : ""}
             </div>
         `;
     }
 
     if (tech.length) {
-        kategoria("Składowe Techniczne");
+        addKategoria("Składowe Techniczne:");
         tech.forEach(addOpcja);
     }
 
     if (rez.length) {
-        kategoria("Rezultaty Dzieła");
+        addKategoria("Rezultaty Dzieła:");
         rez.forEach(addOpcja);
     }
 
@@ -157,7 +92,7 @@ function renderOferta({ karta, oferta, tworca }) {
 
     document.getElementById("rodzajRezerwacjiCena").textContent =
         oferta.bezzwrotnaDodatkowaKwota > 0
-            ? `+ ${oferta.bezzwrotnaDodatkowaKwota} zł`
+            ? `+ ${oferta.bezzwrotnaDodatkowaKwota.toLocaleString("pl-PL")} zł`
             : "0 zł";
 
     /* PODSUMOWANIE */
@@ -166,7 +101,7 @@ function renderOferta({ karta, oferta, tworca }) {
 
     document.getElementById("zgodaMarketingowa").textContent =
         oferta.wartoscVATPrzedRabatem > 0
-            ? "- " + oferta.wartoscVATPrzedRabatem.toLocaleString("pl-PL") + " zł"
+            ? `- ${oferta.wartoscVATPrzedRabatem.toLocaleString("pl-PL")} zł`
             : "0 zł";
 
     document.getElementById("sumaPoRabacie").textContent =
@@ -175,19 +110,19 @@ function renderOferta({ karta, oferta, tworca }) {
     document.getElementById("kosztDojazdu").textContent =
         oferta.kosztDojazdu.toLocaleString("pl-PL") + " zł";
 
-    const suma = oferta.sumaBrutto + oferta.kosztDojazdu;
+    const suma =
+        oferta.sumaBrutto + oferta.kosztDojazdu;
 
     document.getElementById("sumaKoncowa").textContent =
         suma.toLocaleString("pl-PL") + " zł";
 }
 
-/* PDF */
 function autoPDF() {
     html2pdf()
         .set({
             margin: 0,
             filename: "oferta.pdf",
-            html2canvas: { scale: 3 },
+            html2canvas: { scale: 3, useCORS: true },
             jsPDF: { unit: "mm", format: "a4" }
         })
         .from(document.getElementById("pdf-root"))
@@ -200,5 +135,5 @@ window.onload = async () => {
 
     renderOferta(data);
 
-    setTimeout(autoPDF, 500);
+    setTimeout(autoPDF, 600);
 };
