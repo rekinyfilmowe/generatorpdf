@@ -130,9 +130,9 @@ body {
 }
 
 .meta-item img {
-    width: 28px;
-    height: 28px;
+    width: 24px;       /* docelowy rozmiar ikony */
+    height: 24px;
     object-fit: contain;
-    flex-shrink: 0;
     display: block;
+    flex-shrink: 0;
 }
