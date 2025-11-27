@@ -196,27 +196,26 @@ document.getElementById("zgodaMarketingowa").textContent =
 
 /* PDF */
 function autoPDF() {
-  html2pdf()
-  .set({
-      margin: 0,
-      filename: "oferta.pdf",
-      html2canvas: {
-          scale: 3,
-          letterRendering: true
-      },
-      jsPDF: {
-          unit: "mm",
-          format: "a4",
-          orientation: "portrait"
-      },
-      pagebreak: { 
-          mode: ['css', 'legacy'],
-          avoid: ['.option-block', '.rezerwacja-row']
-      }
-  })
-  .from(document.getElementById("pdf-root"))
-  .save();
-
+    html2pdf()
+        .set({
+            margin: 0,              // ⛔ ZERO — bo marginesy są w CSS
+            filename: "oferta.pdf",
+            html2canvas: {
+                scale: 3,
+                letterRendering: true
+            },
+            jsPDF: {
+                unit: "mm",
+                format: "a4",
+                orientation: "portrait"
+            },
+            pagebreak: {
+                mode: ['css', 'legacy'],
+                avoid: ['.option-block', '.rezerwacja-row']
+            }
+        })
+        .from(document.getElementById("pdf-root"))
+        .save();
 }
 
 window.onload = async () => {
