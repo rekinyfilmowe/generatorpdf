@@ -164,10 +164,14 @@ function renderOferta({ karta, oferta, tworca }) {
     document.getElementById("sumaPrzedRabatem").textContent =
         oferta.sumaBruttoPrzedRabatem.toLocaleString("pl-PL") + " zł";
 
-    document.getElementById("zgodaMarketingowaLabel").innerHTML =
-    oferta.zgodaNazwaPubliczna || "Zgoda marketingowa";
+    let zgoda = oferta.zgodaNazwaPubliczna || "Zgoda marketingowa";
 
-    // Wyliczamy rabat identycznie jak w Wix
+// Usuń wszystkie tagi HTML (p, strong, span itp.)
+zgoda = zgoda.replace(/<\/?[^>]+(>|$)/g, "").trim();
+
+document.getElementById("zgodaMarketingowaLabel").textContent = zgoda;
+
+// Wyliczamy rabat identycznie jak w Wix
 const sumaPrzed = oferta.sumaBruttoPrzedRabatem || 0;
 const sumaPo = oferta.sumaBrutto || 0;
 
