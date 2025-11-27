@@ -164,7 +164,7 @@ function renderOferta({ karta, oferta, tworca }) {
     document.getElementById("sumaPrzedRabatem").textContent =
         oferta.sumaBruttoPrzedRabatem.toLocaleString("pl-PL") + " zł";
 
-    document.getElementById("zgodaMarketingowaLabel").textContent =
+    document.getElementById("zgodaMarketingowaLabel").innerHTML =
     oferta.zgodaNazwaPubliczna || "Zgoda marketingowa";
 
     // Wyliczamy rabat identycznie jak w Wix
