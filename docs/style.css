@@ -12,10 +12,9 @@ body {
 }
 
 #pdf-root {
-    width: 210mm;
-    min-height: 297mm;
-    padding: 0;        /* ← ZERUJEMY */
-    box-sizing: border-box;
+    width: 190mm;   /* zamiast 210mm */
+    min-height: 277mm;
+    margin: 0 auto;
     background: #fff;
 }
 
