@@ -1,42 +1,65 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background: #f4f4f4;
+    font-family: 'Inter', Arial, sans-serif;
+    background: #eee;
 }
 
 #pdf-root {
     background: white;
-    padding: 25px;
+    padding: 40px;
     width: 210mm;
     min-height: 297mm;
     margin: auto;
-    box-sizing: border-box;
+    color: #222;
 }
 
-h1, h2 {
-    margin-top: 0;
+.logo {
+    height: 55px;
+    margin-bottom: 20px;
 }
 
-section {
-    margin-top: 25px;
+.header h1 {
+    font-size: 20px;
+    margin: 5px 0 30px;
 }
 
-.meta div, section div, footer div {
-    margin-bottom: 5px;
+.meta-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 40px;
 }
 
-.opcja {
-    padding: 8px 0;
-    border-bottom: 1px solid #ccc;
-}
-
-.opcja .nazwa {
-    font-weight: bold;
-}
-
-footer {
-    margin-top: 40px;
+.label {
     font-size: 12px;
-    text-align: center;
-    opacity: 0.8;
+    opacity: 0.6;
+}
+
+#listaOpcji {
+    margin-top: 20px;
+}
+
+.opcja-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.summary {
+    margin-top: 35px;
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 10px;
+}
+
+.summary .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+}
+
+.summary .total {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
 }
