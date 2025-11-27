@@ -128,3 +128,24 @@ body {
     font-weight: bold;
     color: #AE8E54;
 }
+
+/* --- Poprawne marginesy pomiędzy stronami PDF --- */
+
+html, body {
+    height: auto !important;
+}
+
+#pdf-root {
+    padding-bottom: 20mm; /* dodatkowy margines na dole każdej strony */
+}
+
+* {
+    -webkit-region-break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+.page-break {
+    display: block;
+    height: 20mm; /* odstęp między stronami */
+    page-break-after: always;
+}
