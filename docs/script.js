@@ -1,6 +1,4 @@
-/* =============================
-    1) LOAD JSON
-============================= */
+/* LOAD JSON */
 async function loadData() {
     const params = new URLSearchParams(location.search);
     const key = params.get("key");
@@ -10,13 +8,10 @@ async function loadData() {
     const res = await fetch(url);
 
     if (!res.ok) return null;
-
     return res.json();
 }
 
-/* =============================
-    2) RENDER
-============================= */
+/* RENDER */
 function renderOferta({ karta, oferta, tworca }) {
 
     /* METADANE */
@@ -44,77 +39,73 @@ function renderOferta({ karta, oferta, tworca }) {
     document.getElementById("liczbaOperatorow").textContent =
         oferta.liczbaAsystentow ? oferta.liczbaAsystentow + 1 : 1;
 
-    /* OPCJE — poprawiony podział + opisy */
+    /* OPCJE */
+    const lista = document.getElementById("listaOpcji");
+    lista.innerHTML = "";
 
-const lista = document.getElementById("listaOpcji");
-lista.innerHTML = "";
+    let opcje = oferta.wybraneOpcje.sort((a, b) =>
+        (a.meta?.kanonicznaKolejnosc ?? 9999) -
+        (b.meta?.kanonicznaKolejnosc ?? 9999)
+    );
 
-// 1. Sortowanie po kanonicznej kolejności
-let opcje = oferta.wybraneOpcje.sort((a, b) =>
-    (a.meta?.kanonicznaKolejnosc ?? 9999) -
-    (b.meta?.kanonicznaKolejnosc ?? 9999)
-);
+    const tech = [];
+    const rez = [];
 
-// 2. Podział na techniczne i rezultaty
-const tech = [];
-const rez = [];
+    for (const op of opcje) {
+        if (op.meta?.plikWynikowy) rez.push(op);
+        else tech.push(op);
+    }
 
-for (const op of opcje) {
-    if (op.meta?.plikWynikowy === true) rez.push(op);
-    else tech.push(op);
-}
+    function kategoria(txt) {
+        lista.innerHTML += `<div class="category">${txt}</div>`;
+    }
 
-// helper — pobieranie opisu
-function opisOpcji(op) {
-    if (op.opis && op.opis.trim() !== "") return op.opis.trim();
-    return op.meta?.opisKanoniczny || "";
-}
+    function addOpcja(op) {
+        const termin = op.terminOddania > 0
+            ? `• termin oddania: ${formatTermin(op.terminOddania)}`
+            : "";
 
-// helper — render kategorii
-function kategoria(title) {
-    lista.innerHTML += `
-        <div class="category">${title}</div>
-    `;
-}
+        const czas = op.czasTrwania
+            ? `• długość: ${op.czasTrwania}`
+            : "";
 
-// helper — render opcji
-function addOpcja(op) {
-    const opis = opisOpcji(op);
+        const meta = (czas || termin)
+            ? `<div class="option-meta">${czas} ${termin}</div>`
+            : "";
 
-    lista.innerHTML += `
-        <div class="option-block">
-            <div class="option-row">
-                <span class="option-name">${op.nazwa}</span>
-                <span class="option-price">${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
+        lista.innerHTML += `
+            <div class="option-block">
+
+                <div class="option-row">
+                    <span>${op.nazwa}</span>
+                    <span>${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
+                </div>
+
+                ${meta}
+
+                ${op.opis ? `<div class="option-desc">${op.opis}</div>` : ""}
             </div>
+        `;
+    }
 
-            ${opis ? `<div class="option-desc">${opis}</div>` : ""}
-        </div>
-    `;
-}
+    if (tech.length) {
+        kategoria("Składowe Techniczne:");
+        tech.forEach(addOpcja);
+    }
 
-// 3. Renderowanie kategorii
-if (tech.length) {
-    kategoria("Składowe Techniczne");
-    tech.forEach(addOpcja);
-}
-
-if (rez.length) {
-    kategoria("Rezultaty Dzieła");
-    rez.forEach(addOpcja);
-}
-
+    if (rez.length) {
+        kategoria("Rezultaty Dzieła:");
+        rez.forEach(addOpcja);
+    }
 
     /* RODZAJ REZERWACJI */
     document.getElementById("rodzajRezerwacjiOpis").textContent =
         oferta.rodzajRezerwacjiOpis;
 
-    if (oferta.bezzwrotnaDodatkowaKwota > 0) {
-        document.getElementById("rodzajRezerwacjiCena").textContent =
-            `+ ${oferta.bezzwrotnaDodatkowaKwota.toLocaleString("pl-PL")} zł`;
-    } else {
-        document.getElementById("rodzajRezerwacjiCena").textContent = `0 zł`;
-    }
+    document.getElementById("rodzajRezerwacjiCena").textContent =
+        oferta.bezzwrotnaDodatkowaKwota > 0
+            ? `+ ${oferta.bezzwrotnaDodatkowaKwota} zł`
+            : "0 zł";
 
     /* PODSUMOWANIE */
     document.getElementById("sumaPrzedRabatem").textContent =
@@ -131,16 +122,19 @@ if (rez.length) {
     document.getElementById("kosztDojazdu").textContent =
         oferta.kosztDojazdu.toLocaleString("pl-PL") + " zł";
 
-    const suma =
-        oferta.sumaBrutto + oferta.kosztDojazdu;
+    const suma = oferta.sumaBrutto + oferta.kosztDojazdu;
 
     document.getElementById("sumaKoncowa").textContent =
         suma.toLocaleString("pl-PL") + " zł";
 }
 
-/* =============================
-    3) PDF
-============================= */
+function formatTermin(days) {
+    const d = new Date();
+    d.setDate(d.getDate() + days);
+    return d.toLocaleDateString("pl-PL");
+}
+
+/* PDF */
 function autoPDF() {
     html2pdf()
         .set({
@@ -153,13 +147,11 @@ function autoPDF() {
         .save();
 }
 
-/* =============================
-    4) START
-============================= */
 window.onload = async () => {
     const data = await loadData();
     if (!data) return;
 
     renderOferta(data);
-    setTimeout(autoPDF, 400);
+
+    setTimeout(autoPDF, 500);
 };
