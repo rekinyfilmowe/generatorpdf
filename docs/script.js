@@ -167,10 +167,16 @@ function renderOferta({ karta, oferta, tworca }) {
     document.getElementById("zgodaMarketingowaLabel").textContent =
     oferta.zgodaNazwaPubliczna || "Zgoda marketingowa";
 
-    document.getElementById("zgodaMarketingowa").textContent =
-        oferta.wartoscVATPrzedRabatem > 0
-            ? "- " + oferta.wartoscVATPrzedRabatem.toLocaleString("pl-PL") + " zł"
-            : "0 zł";
+    // Wyliczamy rabat identycznie jak w Wix
+const sumaPrzed = oferta.sumaBruttoPrzedRabatem || 0;
+const sumaPo = oferta.sumaBrutto || 0;
+
+const rabat = Math.round(sumaPrzed - sumaPo);
+
+document.getElementById("zgodaMarketingowa").textContent =
+    rabat > 0
+        ? `- ${rabat.toLocaleString("pl-PL")} zł`
+        : "0 zł";
 
     document.getElementById("sumaPoRabacie").textContent =
         oferta.sumaBrutto.toLocaleString("pl-PL") + " zł";
