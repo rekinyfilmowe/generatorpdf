@@ -1,88 +1,86 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8">
     <title>Oferta PDF</title>
-
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css">
 
     <!-- html2pdf -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </head>
-
 <body>
 
 <div id="pdf-root">
 
-    <!-- LOGO -->
+    <!-- Logo -->
     <header class="header">
-        <img src="assets/logo.svg" class="logo"/>
+        <img class="logo" src="assets/icons/logo.svg" alt="Logo">
         <h1>Oferta wygenerowana za pomocą Platformy Rekiny Filmowe</h1>
     </header>
 
-    <!-- META GRID -->
+    <!-- METADANE -->
     <section class="meta-grid">
 
         <div class="meta-item">
-            <img src="assets/icons/calendar.svg">
+            <img src="assets/icons/calendar.svg" />
             <div>
-                <div class="label">Data utworzenia</div>
+                <div class="meta-label">Data utworzenia</div>
                 <div id="dataUtworzenia"></div>
             </div>
         </div>
 
         <div class="meta-item">
-            <img src="assets/icons/person.svg">
+            <img src="assets/icons/person.svg" />
             <div>
-                <div class="label">Autor</div>
+                <div class="meta-label">Autor</div>
                 <div id="autor"></div>
             </div>
         </div>
 
         <div class="meta-item">
-            <img src="assets/icons/calendar.svg">
+            <img src="assets/icons/calendar.svg" />
             <div>
-                <div class="label">Data realizacji</div>
+                <div class="meta-label">Data realizacji</div>
                 <div id="dataRealizacji"></div>
             </div>
         </div>
 
         <div class="meta-item">
-            <img src="assets/icons/location.svg">
+            <img src="assets/icons/location.svg" />
             <div>
-                <div class="label">Miejsce realizacji</div>
+                <div class="meta-label">Miejsce realizacji</div>
                 <div id="miejsceRealizacji"></div>
             </div>
         </div>
 
         <div class="meta-item">
-            <img src="assets/icons/celebration.svg">
+            <img src="assets/icons/celebration.svg" />
             <div>
-                <div class="label">Typ realizacji</div>
+                <div class="meta-label">Typ realizacji</div>
                 <div id="typRealizacji"></div>
             </div>
         </div>
 
         <div class="meta-item">
-            <img src="assets/icons/handshake.svg">
+            <img src="assets/icons/handshake.svg" />
             <div>
-                <div class="label">Typ usługi</div>
+                <div class="meta-label">Typ usługi</div>
                 <div id="typUslugi"></div>
             </div>
         </div>
 
         <div class="meta-item">
-            <img src="assets/icons/person.svg">
+            <img src="assets/icons/person.svg" />
             <div>
-                <div class="label">Twórca</div>
+                <div class="meta-label">Twórca</div>
                 <div id="tworca"></div>
             </div>
         </div>
 
         <div class="meta-item">
-            <img src="assets/icons/person.svg">
+            <img src="assets/icons/person.svg" />
             <div>
-                <div class="label">Liczba operatorów</div>
+                <div class="meta-label">Liczba operatorów</div>
                 <div id="liczbaOperatorow"></div>
             </div>
         </div>
@@ -98,32 +96,37 @@
     <!-- RODZAJ REZERWACJI -->
     <section class="section">
         <h2>Rodzaj rezerwacji</h2>
-        <div id="rodzajRezerwacji"></div>
+        <div id="rodzajRezerwacjiOpis"></div>
     </section>
 
     <!-- PODSUMOWANIE -->
-    <section class="summary">
-        <div class="row">
-            <span>Cena przed rabatem</span>
-            <span id="cenaPrzedRabatem"></span>
-        </div>
-        <div class="row">
-            <span>Zgoda marketingowa</span>
-            <span id="zgodaMarketingowa"></span>
-        </div>
-        <div class="row">
-            <span>Do zapłaty</span>
-            <span id="doZaplaty"></span>
-        </div>
-        <div class="row">
-            <span>Dojazd (dodatkowo)</span>
-            <span id="kosztDojazdu"></span>
+    <section class="summary-box">
+
+        <div class="summary-row">
+            <div class="lbl">Cena przed rabatem</div>
+            <div id="sumaPrzedRabatem"></div>
         </div>
 
-        <div class="row total">
-            <span>Do zapłaty (z dojazdem)</span>
-            <span id="doZaplatyFinal"></span>
+        <div class="summary-row">
+            <div class="lbl">Zgoda marketingowa</div>
+            <div id="zgodaMarketingowa"></div>
         </div>
+
+        <div class="summary-row">
+            <div class="lbl">Do zapłaty</div>
+            <div id="sumaPoRabacie"></div>
+        </div>
+
+        <div class="summary-row">
+            <div class="lbl">Dojazd (dodatkowo)</div>
+            <div id="kosztDojazdu"></div>
+        </div>
+
+        <div class="summary-total">
+            <span>Do zapłaty (z dojazdem)</span>
+            <span id="sumaKoncowa"></span>
+        </div>
+
     </section>
 
 </div>
