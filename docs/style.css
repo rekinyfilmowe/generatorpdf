@@ -14,7 +14,7 @@ body {
 #pdf-root {
     width: 210mm;
     min-height: 297mm;
-    padding: 25px 30px;
+    padding: 0;        /* ← ZERUJEMY */
     box-sizing: border-box;
     background: #fff;
 }
