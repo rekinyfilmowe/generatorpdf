@@ -109,6 +109,21 @@ body {
     color: #777;
 }
 
+/* RODZAJ REZERWACJI — wyrównanie stylów do listy opcji */
+.rezerwacja-opis {
+    font-size: 12px;
+    color: #333;
+    line-height: 1.35;
+    margin-top: 6px;
+    white-space: pre-line;
+}
+
+.rezerwacja-cena {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
 /* PODSUMOWANIE */
 .summary-box {
     background: #F8F6F2;
