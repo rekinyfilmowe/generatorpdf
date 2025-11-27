@@ -128,3 +128,11 @@ body {
     font-weight: bold;
     color: #AE8E54;
 }
+
+.meta-item img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    flex-shrink: 0;
+    display: block;
+}
