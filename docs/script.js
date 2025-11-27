@@ -1,34 +1,25 @@
-/* =========================================================
-   1) ŁADOWANIE DANYCH JSON Z GITHUB
-========================================================= */
+/* =============================
+    1) LOAD JSON
+============================= */
 async function loadData() {
     const params = new URLSearchParams(location.search);
     const key = params.get("key");
-    if (!key) {
-        alert("Brak klucza PDF");
-        return null;
-    }
+    if (!key) return null;
 
     const url = `https://raw.githubusercontent.com/rekinyfilmowe/generatorpdf/main/data/${key}`;
-
     const res = await fetch(url);
-    if (!res.ok) {
-        alert("Błąd pobierania danych PDF: " + res.status);
-        return null;
-    }
+
+    if (!res.ok) return null;
 
     return res.json();
 }
 
-/* =========================================================
-   2) RENDER
-========================================================= */
-
-function renderOferta(data) {
-    const { karta, oferta, tworca, spolka } = data;
+/* =============================
+    2) RENDER
+============================= */
+function renderOferta({ karta, oferta, tworca }) {
 
     /* METADANE */
-
     document.getElementById("dataUtworzenia").textContent =
         new Date(oferta._createdDate).toLocaleString("pl-PL");
 
@@ -36,74 +27,67 @@ function renderOferta(data) {
         oferta.autor || "—";
 
     document.getElementById("dataRealizacji").textContent =
-        karta.dataRealizacji
-            ? karta.dataRealizacji
-            : "—";
+        karta.dataRealizacji || "—";
 
     document.getElementById("miejsceRealizacji").textContent =
         karta.miejsceRealizacji?.formatted || "—";
 
     document.getElementById("typRealizacji").textContent =
-        karta.typRealizacji || "—";
+        karta.typRealizacji;
 
     document.getElementById("typUslugi").textContent =
-        karta.typUslugi || "—";
+        karta.typUslugi;
 
     document.getElementById("tworca").textContent =
         `${tworca.imie} ${tworca.nazwisko}`;
 
     document.getElementById("liczbaOperatorow").textContent =
-        oferta.liczbaAsystentow
-            ? oferta.liczbaAsystentow + 1
-            : 1;
+        oferta.liczbaAsystentow ? oferta.liczbaAsystentow + 1 : 1;
 
-    /* KATEGORIE OPCJI */
+    /* OPCJE */
 
     const lista = document.getElementById("listaOpcji");
     lista.innerHTML = "";
 
-    const opcje = oferta.wybraneOpcje;
+    const tech = [];
+    const rez = [];
 
-    const categories = {
-        tech: [],
-        rezultaty: []
-    };
-
-    // podział wg plikWynikowy
-    for (const op of opcje) {
-        if (op.podtyp === "2") categories.rezultaty.push(op);
-        else categories.tech.push(op);
+    for (const op of oferta.wybraneOpcje) {
+        if (op.podtyp === "2") rez.push(op);
+        else tech.push(op);
     }
 
-    if (categories.tech.length > 0) {
+    if (tech.length) {
         lista.innerHTML += `<div class="category">Składowe Techniczne</div>`;
-        categories.tech.forEach(op => {
-            lista.innerHTML += `
-                <div class="option-row">
-                    <span>${op.nazwa}</span>
-                    <span>${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
-                </div>`;
-        });
+        tech.forEach(op => appendRow(op, lista));
     }
 
-    if (categories.rezultaty.length > 0) {
+    if (rez.length) {
         lista.innerHTML += `<div class="category">Rezultaty Dzieła</div>`;
-        categories.rezultaty.forEach(op => {
-            lista.innerHTML += `
-                <div class="option-row">
-                    <span>${op.nazwa}</span>
-                    <span>${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
-                </div>`;
-        });
+        rez.forEach(op => appendRow(op, lista));
+    }
+
+    function appendRow(op, lista) {
+        lista.innerHTML += `
+            <div class="option-row">
+                <span>${op.nazwa}</span>
+                <span>${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
+            </div>
+        `;
     }
 
     /* RODZAJ REZERWACJI */
-
     document.getElementById("rodzajRezerwacjiOpis").textContent =
         oferta.rodzajRezerwacjiOpis;
 
-    /* PODSUMOWANIE */
+    if (oferta.bezzwrotnaDodatkowaKwota > 0) {
+        document.getElementById("rodzajRezerwacjiCena").textContent =
+            `+ ${oferta.bezzwrotnaDodatkowaKwota.toLocaleString("pl-PL")} zł`;
+    } else {
+        document.getElementById("rodzajRezerwacjiCena").textContent = `0 zł`;
+    }
 
+    /* PODSUMOWANIE */
     document.getElementById("sumaPrzedRabatem").textContent =
         oferta.sumaBruttoPrzedRabatem.toLocaleString("pl-PL") + " zł";
 
@@ -118,41 +102,35 @@ function renderOferta(data) {
     document.getElementById("kosztDojazdu").textContent =
         oferta.kosztDojazdu.toLocaleString("pl-PL") + " zł";
 
-    const sumaKoncowa =
+    const suma =
         oferta.sumaBrutto + oferta.kosztDojazdu;
 
     document.getElementById("sumaKoncowa").textContent =
-        sumaKoncowa.toLocaleString("pl-PL") + " zł";
+        suma.toLocaleString("pl-PL") + " zł";
 }
 
-/* =========================================================
-   3) GENEROWANIE PDF
-========================================================= */
-
+/* =============================
+    3) PDF
+============================= */
 function autoPDF() {
-    const element = document.getElementById("pdf-root");
-
     html2pdf()
         .set({
             margin: 0,
             filename: "oferta.pdf",
-            image: { type: "jpeg", quality: 1 },
             html2canvas: { scale: 3 },
-            jsPDF: { unit: "mm", format: "a4", orientation: "portrait" }
+            jsPDF: { unit: "mm", format: "a4" }
         })
-        .from(element)
+        .from(document.getElementById("pdf-root"))
         .save();
 }
 
-/* =========================================================
-   4) START
-========================================================= */
-
+/* =============================
+    4) START
+============================= */
 window.onload = async () => {
     const data = await loadData();
     if (!data) return;
 
     renderOferta(data);
-
     setTimeout(autoPDF, 400);
 };
