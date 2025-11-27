@@ -1,41 +1,69 @@
 body {
     font-family: 'Inter', Arial, sans-serif;
-    background: #eee;
+    background: #f3f3f3;
 }
 
 #pdf-root {
     background: white;
-    padding: 40px;
     width: 210mm;
     min-height: 297mm;
     margin: auto;
-    color: #222;
+    padding: 40px;
+    color: #000000;
 }
 
 .logo {
-    height: 55px;
-    margin-bottom: 20px;
+    height: 50px;
+    margin-bottom: 10px;
 }
 
 .header h1 {
     font-size: 20px;
-    margin: 5px 0 30px;
+    margin: 10px 0 30px;
+    font-weight: 600;
 }
 
 .meta-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    gap: 25px 40px;
     margin-bottom: 40px;
+}
+
+.meta-item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.meta-item img {
+    width: 22px;
+    height: 22px;
+    opacity: 0.85;
 }
 
 .label {
     font-size: 12px;
     opacity: 0.6;
+    margin-bottom: 2px;
 }
 
-#listaOpcji {
-    margin-top: 20px;
+.section {
+    margin-top: 35px;
+}
+
+h2 {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.package-category {
+    background: #E5E5E5;
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .opcja-item {
@@ -60,6 +88,7 @@ body {
 
 .summary .total {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 15px;
+    color: #AE8E54;
 }
