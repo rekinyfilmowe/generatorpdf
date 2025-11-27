@@ -4,6 +4,10 @@
          format('opentype');
 }
 
+@page {
+    margin: 12mm; /* JEDYNE marginesy PDF */
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -11,8 +15,10 @@ body {
     font-family: 'Sofia', Arial, sans-serif;
 }
 
+/* ⛔ NIE 190mm — TO ZA DUŻO */
+/* ✔️ 184mm = idealnie + nie ucina */
 #pdf-root {
-    width: 190mm;   /* zamiast 210mm */
+    width: 184mm;
     min-height: 277mm;
     margin: 0 auto;
     background: #fff;
