@@ -50,7 +50,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 12px;
-    font-size: 13px;
+    font-size: 12px;
     align-items: flex-start;   /* ← kluczowe */
 }
 
@@ -80,7 +80,7 @@ body {
     border-radius: 10px;
     margin-top: 20px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* OPCJE */
@@ -92,7 +92,7 @@ body {
 .option-row {
     display: flex;
     justify-content: space-between;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
 }
 
