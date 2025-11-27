@@ -98,3 +98,37 @@ body {
     border-top: 2px solid #ddd;
     padding-top: 15px;
 }
+
+.category {
+    background: #e5e5e5;
+    padding: 10px 15px;
+    margin: 25px 0 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.option-block {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.option-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.option-name {
+    font-weight: 500;
+}
+
+.option-price {
+    font-weight: 500;
+}
+
+.option-desc {
+    margin-top: 6px;
+    font-size: 13px;
+    opacity: 0.85;
+    line-height: 1.4;
+}
