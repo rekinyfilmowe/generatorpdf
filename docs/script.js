@@ -1,139 +1,92 @@
-/* =========================================================
-   1) ŁADOWANIE DANYCH JSON Z GITHUB (key → data/key.json)
-========================================================= */
 async function loadData() {
     const params = new URLSearchParams(location.search);
     const key = params.get("key");
-    if (!key) {
-        alert("Brak klucza PDF");
-        return null;
-    }
 
     const url = `https://raw.githubusercontent.com/rekinyfilmowe/generatorpdf/main/data/${key}`;
-    const response = await fetch(url);
 
-    if (!response.ok) {
-        alert("Błąd pobierania danych PDF: " + response.status);
+    const res = await fetch(url);
+
+    if (!res.ok) {
+        alert("Błąd pobierania danych PDF: " + res.status);
         return null;
     }
 
-    return response.json();
+    return res.json();
 }
-
-/* =========================================================
-   2) RENDEROWANIE OFERTY NA STRONIE HTML
-========================================================= */
 
 function renderOferta(data) {
     const { karta, oferta, tworca, spolka } = data;
 
-    /* ===============================
-       DANE PODSTAWOWE
-    =============================== */
-
     document.getElementById("dataUtworzenia").textContent =
         new Date(oferta._createdDate).toLocaleString("pl-PL");
 
-    // klient - brak w JSON → placeholder
-    document.getElementById("autor").textContent = "—";
-
-    /* ===============================
-       DANE REALIZACJI
-    =============================== */
+    document.getElementById("autor").textContent = karta.daneDoUmowy?.imieZam1 || "—";
 
     document.getElementById("dataRealizacji").textContent =
-        karta.dataRealizacji
-            ? new Date(karta.dataRealizacji).toLocaleDateString("pl-PL")
-            : "—";
+        karta.dataRealizacji || "—";
 
     document.getElementById("miejsceRealizacji").textContent =
         karta.miejsceRealizacji?.formatted || "—";
 
-    document.getElementById("typRealizacji").textContent =
-        karta.typRealizacji || "—";
+    document.getElementById("typRealizacji").textContent = karta.typRealizacji || "—";
 
-    document.getElementById("typUslugi").textContent =
-        karta.typUslugi || "—";
+    document.getElementById("typUslugi").textContent = karta.typUslugi || "—";
 
-    /* ===============================
-       TWÓRCA
-    =============================== */
+    document.getElementById("tworca").textContent =
+        tworca ? `${tworca.imie} ${tworca.nazwisko}` : "—";
 
-    if (tworca) {
-        document.getElementById("tworca").textContent =
-            `${tworca.imie} ${tworca.nazwisko}`;
-    } else {
-        document.getElementById("tworca").textContent = "—";
-    }
+    document.getElementById("liczbaOperatorow").textContent =
+        oferta.liczbaAsystentow ? oferta.liczbaAsystentow + 1 : "—";
 
-    /* ===============================
-       POZYCJE
-    =============================== */
+    // opcje
+    const lista = document.getElementById("listaOpcji");
 
-    const listaOpcji = document.getElementById("listaOpcji");
-    listaOpcji.innerHTML = "";
+    lista.innerHTML = "";
 
     oferta.wybraneOpcje.forEach(op => {
         const el = document.createElement("div");
-        el.className = "opcja";
-
+        el.className = "opcja-item";
         el.innerHTML = `
-            <div class="nazwaOpcji">${op.nazwa}</div>
-            <div class="cenaOpcji">${op.cenaBrutto.toLocaleString("pl-PL")} zł</div>
+            <span>${op.nazwa}</span>
+            <span>${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
         `;
-
-        listaOpcji.appendChild(el);
+        lista.appendChild(el);
     });
 
-    /* ===============================
-       PODSUMOWANIE
-    =============================== */
+    // rodzaj rezerwacji
+    document.getElementById("rodzajRezerwacji").textContent =
+        oferta.rodzajRezerwacjiOpis || "—";
 
-    document.getElementById("cenaNetto").textContent =
-        oferta.sumaNetto.toLocaleString("pl-PL") + " zł";
+    // podsumowanie finansowe
+    document.getElementById("cenaPrzedRabatem").textContent =
+        oferta.sumaBruttoPrzedRabatem.toLocaleString("pl-PL") + " zł";
 
-    document.getElementById("cenaVat").textContent =
-        oferta.wartoscVAT.toLocaleString("pl-PL") + " zł";
+    document.getElementById("zgodaMarketingowa").textContent =
+        oferta.zgodaNazwaPubliczna ? "- " + oferta.wartoscVATPrzedRabatem : "0 zł";
 
-    document.getElementById("cenaBrutto").textContent =
+    document.getElementById("doZaplaty").textContent =
         oferta.sumaBrutto.toLocaleString("pl-PL") + " zł";
 
     document.getElementById("kosztDojazdu").textContent =
         oferta.kosztDojazdu.toLocaleString("pl-PL") + " zł";
 
-    /* ===============================
-       SPÓŁKA
-    =============================== */
-
-    if (spolka) {
-        document.getElementById("spolkaNazwa").textContent = spolka.nazwa || "";
-        document.getElementById("spolkaNip").textContent = "NIP: " + (spolka.nip || "");
-        document.getElementById("spolkaAdres").textContent = spolka.adres || "";
-    }
+    const final = oferta.sumaBrutto + oferta.kosztDojazdu;
+    document.getElementById("doZaplatyFinal").textContent =
+        final.toLocaleString("pl-PL") + " zł";
 }
-
-
-/* =========================================================
-   3) GENEROWANIE PDF
-========================================================= */
 
 function autoPDF() {
     const element = document.getElementById("pdf-root");
 
     const opt = {
         margin: 0,
-        filename: 'oferta.pdf',
-        image: { type: 'jpeg', quality: 1 },
+        filename: "oferta.pdf",
         html2canvas: { scale: 3 },
-        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+        jsPDF: { unit: "mm", format: "a4", orientation: "portrait" }
     };
 
     html2pdf().set(opt).from(element).save();
 }
-
-/* =========================================================
-   4) START
-========================================================= */
 
 window.onload = async () => {
     const data = await loadData();
@@ -141,6 +94,5 @@ window.onload = async () => {
 
     renderOferta(data);
 
-    // mały delay, żeby DOM się narysował
-    setTimeout(autoPDF, 300);
+    setTimeout(autoPDF, 500);
 };
