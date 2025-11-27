@@ -1,7 +1,10 @@
 @font-face {
     font-family: 'Sofia';
-    src: url('grafiki/sofia.otf') format('opentype');
+    src: url('https://raw.githubusercontent.com/rekinyfilmowe/generatorpdf/main/grafiki/sofia.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 body {
     margin: 0;
