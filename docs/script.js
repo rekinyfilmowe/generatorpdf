@@ -198,7 +198,7 @@ document.getElementById("zgodaMarketingowa").textContent =
 function autoPDF() {
   html2pdf()
   .set({
-      margin: [10, 10, 10, 10],   // góra, prawo, dół, lewo w mm
+      margin: 0,
       filename: "oferta.pdf",
       html2canvas: {
           scale: 3,
