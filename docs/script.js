@@ -44,37 +44,66 @@ function renderOferta({ karta, oferta, tworca }) {
     document.getElementById("liczbaOperatorow").textContent =
         oferta.liczbaAsystentow ? oferta.liczbaAsystentow + 1 : 1;
 
-    /* OPCJE */
+    /* OPCJE — poprawiony podział + opisy */
 
-    const lista = document.getElementById("listaOpcji");
-    lista.innerHTML = "";
+const lista = document.getElementById("listaOpcji");
+lista.innerHTML = "";
 
-    const tech = [];
-    const rez = [];
+// 1. Sortowanie po kanonicznej kolejności
+let opcje = oferta.wybraneOpcje.sort((a, b) =>
+    (a.meta?.kanonicznaKolejnosc ?? 9999) -
+    (b.meta?.kanonicznaKolejnosc ?? 9999)
+);
 
-    for (const op of oferta.wybraneOpcje) {
-        if (op.podtyp === "2") rez.push(op);
-        else tech.push(op);
-    }
+// 2. Podział na techniczne i rezultaty
+const tech = [];
+const rez = [];
 
-    if (tech.length) {
-        lista.innerHTML += `<div class="category">Składowe Techniczne</div>`;
-        tech.forEach(op => appendRow(op, lista));
-    }
+for (const op of opcje) {
+    if (op.meta?.plikWynikowy === true) rez.push(op);
+    else tech.push(op);
+}
 
-    if (rez.length) {
-        lista.innerHTML += `<div class="category">Rezultaty Dzieła</div>`;
-        rez.forEach(op => appendRow(op, lista));
-    }
+// helper — pobieranie opisu
+function opisOpcji(op) {
+    if (op.opis && op.opis.trim() !== "") return op.opis.trim();
+    return op.meta?.opisKanoniczny || "";
+}
 
-    function appendRow(op, lista) {
-        lista.innerHTML += `
+// helper — render kategorii
+function kategoria(title) {
+    lista.innerHTML += `
+        <div class="category">${title}</div>
+    `;
+}
+
+// helper — render opcji
+function addOpcja(op) {
+    const opis = opisOpcji(op);
+
+    lista.innerHTML += `
+        <div class="option-block">
             <div class="option-row">
-                <span>${op.nazwa}</span>
-                <span>${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
+                <span class="option-name">${op.nazwa}</span>
+                <span class="option-price">${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
             </div>
-        `;
-    }
+
+            ${opis ? `<div class="option-desc">${opis}</div>` : ""}
+        </div>
+    `;
+}
+
+// 3. Renderowanie kategorii
+if (tech.length) {
+    kategoria("Składowe Techniczne");
+    tech.forEach(addOpcja);
+}
+
+if (rez.length) {
+    kategoria("Rezultaty Dzieła");
+    rez.forEach(addOpcja);
+}
+
 
     /* RODZAJ REZERWACJI */
     document.getElementById("rodzajRezerwacjiOpis").textContent =
