@@ -152,3 +152,7 @@ body {
     font-weight: bold;
     color: #AE8E54;
 }
+
+@page {
+    margin: 12mm;
+}
