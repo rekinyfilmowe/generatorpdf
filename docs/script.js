@@ -164,6 +164,9 @@ function renderOferta({ karta, oferta, tworca }) {
     document.getElementById("sumaPrzedRabatem").textContent =
         oferta.sumaBruttoPrzedRabatem.toLocaleString("pl-PL") + " zł";
 
+    document.getElementById("zgodaMarketingowaLabel").textContent =
+    oferta.zgodaNazwaPubliczna || "Zgoda marketingowa";
+
     document.getElementById("zgodaMarketingowa").textContent =
         oferta.wartoscVATPrzedRabatem > 0
             ? "- " + oferta.wartoscVATPrzedRabatem.toLocaleString("pl-PL") + " zł"
