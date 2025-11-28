@@ -171,8 +171,19 @@ if (op.idLocal === "bazaCeny" || op.idLocalOpcji === "bazaCeny") {
     }
 
     /* RODZAJ REZERWACJI */
-    document.getElementById("rodzajRezerwacjiOpis").textContent =
-        oferta.rodzajRezerwacjiOpis;
+    // 🔹 NAZWA RODZAJU REZERWACJI – identycznie jak na stronie
+let nazwaRodzaju = "";
+if (oferta.bezzwrotnaDodatkowaKwota > 0) {
+    nazwaRodzaju = "Rezerwacja zwrotna";
+} else if (oferta.bezzwrotna === true) {
+    nazwaRodzaju = "Rezerwacja bezzwrotna";
+}
+
+// 🔹 Wypełnij opis z nazwą u góry
+document.getElementById("rodzajRezerwacjiOpis").innerHTML = `
+    <strong>${nazwaRodzaju}</strong><br>
+    ${oferta.rodzajRezerwacjiOpis || ""}
+`;
 
     document.getElementById("rodzajRezerwacjiCena").textContent =
         oferta.bezzwrotnaDodatkowaKwota > 0
