@@ -100,6 +100,28 @@ body {
     font-weight: 600;
     white-space: nowrap;
 }
+/* ===== RODZAJ REZERWACJI – wygląd taki jak OPCJE ===== */
+
+.rezerwacja-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* opis = taki jak option-desc */
+.rezerwacja-opis {
+    font-size: 10px;         /* identyczne jak opis opcji */
+    color: #555;
+    white-space: pre-line;
+    flex: 1;
+}
+
+/* cena = taka jak option-row */
+.rezerwacja-cena {
+    font-size: 12px;         /* identyczne jak nazwy opcji */
+    font-weight: 600;
+    white-space: nowrap;
+}
 
 /* ==============================
    PODSUMOWANIE
