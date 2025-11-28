@@ -201,7 +201,7 @@ function autoPDF() {
             margin: 10,
             filename: "oferta.pdf",
             html2canvas: {
-                scale: 2,
+                scale: 1,
                 letterRendering: true,
                 backgroundColor: "#ffffff"
             },
