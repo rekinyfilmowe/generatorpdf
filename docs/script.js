@@ -68,7 +68,7 @@ function renderOferta({ karta, oferta, tworca }) {
         `${tworca.imie} ${tworca.nazwisko}`;
 
     document.getElementById("liczbaOperatorow").textContent =
-        oferta.liczbaAsystentow ? oferta.liczbaAsystentow  1 : 1;
+       oferta.liczbaAsystentow ? oferta.liczbaAsystentow + 1 : 1;
 
     /* OPCJE */
     const lista = document.getElementById("listaOpcji");
