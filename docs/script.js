@@ -46,11 +46,10 @@ function formatTermin(kartaData, dni) {
 function renderOferta({ karta, oferta, tworca }) {
 
     /* METADANE */
-    document.getElementById("dataUtworzenia").textContent =
-        new Date(oferta._createdDate).toLocaleString("pl-PL");
+   document.getElementById("dataUtworzenia").textContent =
+    new Date().toLocaleString("pl-PL");
 
-    document.getElementById("autor").textContent =
-        oferta.autor || "—";
+   
 
     document.getElementById("dataRealizacji").textContent =
         karta.dataRealizacji || "—";
@@ -67,8 +66,7 @@ function renderOferta({ karta, oferta, tworca }) {
     document.getElementById("tworca").textContent =
         `${tworca.imie} ${tworca.nazwisko}`;
 
-    document.getElementById("liczbaOperatorow").textContent =
-       oferta.liczbaAsystentow ? oferta.liczbaAsystentow + 1 : 1;
+   
 
     const nocleg = (oferta.nocleg ?? "").toString().trim();
 document.getElementById("noclegFinal").textContent =
