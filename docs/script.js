@@ -38,7 +38,7 @@ function formatTermin(kartaData, dni) {
     if (!kartaData) return "";
     const base = new Date(kartaData);
     if (isNaN(base.getTime())) return "";
-    base.setDate(base.getDate() + dni);
+    base.setDate(base.getDate()  dni);
     return base.toLocaleDateString("pl-PL");
 }
 
@@ -68,7 +68,7 @@ function renderOferta({ karta, oferta, tworca }) {
         `${tworca.imie} ${tworca.nazwisko}`;
 
     document.getElementById("liczbaOperatorow").textContent =
-        oferta.liczbaAsystentow ? oferta.liczbaAsystentow + 1 : 1;
+        oferta.liczbaAsystentow ? oferta.liczbaAsystentow  1 : 1;
 
     /* OPCJE */
     const lista = document.getElementById("listaOpcji");
@@ -88,7 +88,7 @@ function renderOferta({ karta, oferta, tworca }) {
     }
 
     function kategoria(txt) {
-        lista.innerHTML += `<div class="category">${txt}</div>`;
+        lista.innerHTML = `<div class="category">${txt}</div>`;
     }
 
     function getOpisTechniczny(op) {
@@ -97,7 +97,7 @@ function renderOferta({ karta, oferta, tworca }) {
 
         // ilość
         if (op.podtyp) {
-            const m = String(op.podtyp).match(/\d+/);
+            const m = String(op.podtyp).match(/\d/);
             if (m && Number(m[0]) >= 2) parts.push(`ilość: ${m[0]}`);
         }
 
@@ -121,7 +121,7 @@ function renderOferta({ karta, oferta, tworca }) {
 
         const opisTechniczny = getOpisTechniczny(op);
 
-        lista.innerHTML += `
+        lista.innerHTML = `
             <div class="option-block">
 
                 <div class="option-row">
@@ -157,7 +157,7 @@ function renderOferta({ karta, oferta, tworca }) {
 
     document.getElementById("rodzajRezerwacjiCena").textContent =
         oferta.bezzwrotnaDodatkowaKwota > 0
-            ? `+ ${oferta.bezzwrotnaDodatkowaKwota} zł`
+            ? `${oferta.bezzwrotnaDodatkowaKwota} zł`
             : "0 zł";
 
     /* PODSUMOWANIE */
