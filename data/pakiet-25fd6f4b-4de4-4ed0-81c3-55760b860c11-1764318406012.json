@@ -1,0 +1,492 @@
+{
+  "karta": {
+    "idKlient": "4f167145-a8e6-4f35-a9ab-12c061fd7321",
+    "miejsceRealizacji": {
+      "city": "Radomsko",
+      "location": {
+        "latitude": 51.0668544,
+        "longitude": 19.4449387
+      },
+      "latitude": 51.0668544,
+      "formatted": "Radomsko, Polska",
+      "country": "PL",
+      "longitude": 19.4449387,
+      "subdivision": "LD"
+    },
+    "_id": "4c1d8daf-5d40-4126-9657-6571d2b9beef",
+    "_owner": "086b01f5-2762-4435-9b09-2ca0af20579d",
+    "_createdDate": "2025-11-03T12:28:40.635Z",
+    "nazwa": "Moja realizacja [24.11.2025]",
+    "typRealizacji": "slub",
+    "hasloUmowy": "KK7LRT",
+    "_updatedDate": "2025-11-03T13:41:02.141Z",
+    "dodatkoweInformacje": "aaaaa",
+    "dataRealizacji": "2025-11-24",
+    "status": "ofertowanie",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "typUslugi": "filmowiec",
+    "daneDoUmowy": {
+      "adresZam1": {
+        "subdivisions": [
+          {
+            "code": "TX",
+            "name": "Teksas",
+            "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+          },
+          {
+            "code": "Hrabstwo Dallas",
+            "name": "Hrabstwo Dallas",
+            "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+          },
+          {
+            "code": "Dallas",
+            "name": "Dallas",
+            "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+          },
+          {
+            "code": "US",
+            "name": "Stany Zjednoczone",
+            "type": "COUNTRY"
+          }
+        ],
+        "city": "Dallas",
+        "location": {
+          "latitude": 32.7766642,
+          "longitude": -96.79698789999999
+        },
+        "streetAddress": {
+          "number": "",
+          "name": "",
+          "apt": "",
+          "formattedAddressLine": "Dallas"
+        },
+        "formatted": "Dallas, Teksas, Stany Zjednoczone",
+        "country": "US",
+        "subdivision": "TX"
+      },
+      "emailOdbiorcy": "",
+      "imNazZam1": "marcin zek",
+      "emailZam1": "marcin.zakrzewski.ck@gmail.com",
+      "zyczeniaSpecjalne": "aaaaa",
+      "telefonPrefix": "+48",
+      "telefonZam1": "666222333",
+      "checkEmailOdbiorcy": false
+    },
+    "idProfilKlienta": "147637e1-db12-4ddb-b540-0444d405eb28"
+  },
+  "oferta": {
+    "wartoscVATPrzedRabatem": 1609,
+    "sumaNettoPrzedRabatem": 42001,
+    "sumaCalkowita": 30527,
+    "sumaNetto": 29400,
+    "kosztOperatorow": null,
+    "blokadaEdycjiPakietu": false,
+    "idZgodaMarketingowa": "ee96813f-c2fe-4976-a9cb-84f7215d2688",
+    "_id": "25fd6f4b-4de4-4ed0-81c3-55760b860c11",
+    "wybraneOpcje": [
+      {
+        "vat": 322,
+        "_id": "bazaCeny",
+        "nazwa": "Usługa operatorska + Czas pracy",
+        "terminCena": 0,
+        "terminInd": null,
+        "czasTrwania": "",
+        "cena": 8722,
+        "terminOddania": 180,
+        "idLocal": "bazaCeny",
+        "podtyp": "14",
+        "cenaBrutto": 8722,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 74,
+        "_id": "abc123",
+        "nazwa": "Rolka",
+        "terminCena": 0,
+        "terminInd": 180,
+        "czasTrwania": "30 sek.",
+        "cena": 1994,
+        "terminOddania": 180,
+        "idLocal": "abc123",
+        "podtyp": "2",
+        "cenaBrutto": 1994,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 0,
+        "_id": "jakosc4k",
+        "nazwa": "4K (3840 px)",
+        "terminCena": 0,
+        "terminInd": null,
+        "czasTrwania": "",
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "jakosc4k",
+        "podtyp": "1",
+        "cenaBrutto": 0,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 2,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 161,
+        "_id": "zwiastun-sde",
+        "nazwa": "Szybki zwiastun SDE (w dniu realizacji)",
+        "terminCena": 0,
+        "terminInd": 0,
+        "czasTrwania": "3 min.",
+        "cena": 4361,
+        "terminOddania": 0,
+        "idLocal": "zwiastun-sde",
+        "podtyp": "1",
+        "cenaBrutto": 4361,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 2,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 276,
+        "_id": "film-glowny-25",
+        "nazwa": "Film główny 20 – 25 min",
+        "terminCena": 0,
+        "terminInd": 180,
+        "czasTrwania": "25 min.",
+        "cena": 7476,
+        "terminOddania": 180,
+        "idLocal": "film-glowny-25",
+        "podtyp": "1",
+        "cenaBrutto": 7476,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 46,
+        "_id": "xyz567",
+        "nazwa": "Dodatkowa kamera na ceremonii",
+        "terminCena": 0,
+        "terminInd": null,
+        "czasTrwania": "",
+        "cena": 1246,
+        "terminOddania": 180,
+        "idLocal": "xyz567",
+        "podtyp": "1",
+        "cenaBrutto": 1246,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 41,
+        "_id": "ujeciaSlowMotion",
+        "nazwa": "Ujęcia super slow motion",
+        "terminCena": 0,
+        "terminInd": null,
+        "czasTrwania": "",
+        "cena": 1121,
+        "terminOddania": 180,
+        "idLocal": "ujeciaSlowMotion",
+        "podtyp": "1",
+        "cenaBrutto": 1121,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 4,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 0,
+        "_id": "sesjaZachod",
+        "nazwa": "Sesja plenerowa o zachodzie słońca",
+        "terminCena": 0,
+        "terminInd": null,
+        "czasTrwania": "",
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "sesjaZachod",
+        "podtyp": "1",
+        "cenaBrutto": 0,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 5,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 92,
+        "_id": "def7382",
+        "nazwa": "Dodatkowy klip z części tanecznej",
+        "terminCena": 0,
+        "terminInd": 180,
+        "czasTrwania": "10 min.",
+        "cena": 2492,
+        "terminOddania": 180,
+        "idLocal": "def7382",
+        "podtyp": "1",
+        "cenaBrutto": 2492,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 5,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 115,
+        "_id": "dron-sport",
+        "nazwa": "Dron Sport (FPV)",
+        "terminCena": 0,
+        "terminInd": null,
+        "czasTrwania": "",
+        "cena": 3115,
+        "terminOddania": 180,
+        "idLocal": "dron-sport",
+        "podtyp": "1",
+        "cenaBrutto": 3115,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      }
+    ],
+    "_owner": "086b01f5-2762-4435-9b09-2ca0af20579d",
+    "zgodaWarunkiUmowy": "<p class=\"font_8\">7.6.1. Wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych; publikowanie fragmentów Dzieła w portfolio, Internecie, mediach społecznościowych, kursach online oraz materiałach promocyjnych, niezależnie od terminu publikacji przez Zamawiającego; na czas nieokreślony, na wszystkich polach eksploatacji, bez ograniczeń terytorialnych; Przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim — zarówno uczestniczącym w Reportażu, jak i innym — na podstawie odrębnych umów (przeniesienia praw lub licencji) pod warunkiem, że materiały będą wykorzystywane wyłącznie w celach promocji w ramach Umowy,</p>\n<p class=\"font_8\">7.6.2. Zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów marketingowych w celu promocji swojej usługi,</p>\n<p class=\"font_8\">7.6.3. Korzystanie z materiałów udostępnionych w Social Media przez inne osoby fizyczne lub podmioty trzecie biorące udział w Reportażu,</p>\n<p class=\"font_8\">7.6.4. Wykonawcy przysługuje wyłączność na rejestrację materiałów wideo w trakcie Reportażu, a Zamawiający zobowiązuje się nie angażować ani nie zezwalać na angażowanie przez inne podmioty uczestniczące (w szczególności Wedding Plannerów, Fotografów, Operatorów, itp.) jakichkolwiek profesjonalnych firm lub osób trzecich dokonujących rejestracji tego samego wydarzenia, bez uprzedniej pisemnej zgody Wykonawcy i na warunkach przez niego określonych. W szczególności zakazane są działania, które zakłócają realizację Dzieła i wpływają na jakość lub przebieg pracy Wykonawcy; ujawniają know-how Wykonawcy, w tym sposób pracy, dobór sprzętu, techniki rejestracji i oświetlenia; prowadzą do tworzenia lub publikowania przez inne osoby materiałów, które przedstawiają sceny, ujęcia, aranżacje lub kompozycje kadrów przygotowane przez Wykonawcę, są myląco podobne do rezultatów Dzieła, mogą wpływać na odbiór artystyczny, wizerunkowy lub komercyjną wartość Dzieła. Postanowień niniejszego paragrafu nie stosuje się, jeżeli Zamawiający uzgodni z Wykonawcą obecność innych podmiotów, a Wykonawca wyraził na to uprzednią, pisemną zgodę.</p>",
+    "_createdDate": "2025-11-03T13:38:31.146Z",
+    "idRezerwacji": "9539ad59-2b6b-4bd1-aef1-dcddba6ee00c",
+    "wartoscVAT": 1127,
+    "sumaOpcjiNettoBezProwizji": 24500,
+    "prowizjaPlatformyVAT": 1127,
+    "nocleg": "Niewliczony w cenę",
+    "_updatedDate": "2025-11-25T13:40:58.708Z",
+    "zgodaNazwaPubliczna": "<p class=\"font_9\"><strong>Pełna zgoda marketingowa oraz wyłączność</strong></p>",
+    "rodzajRezerwacjiOpis": "Wybierasz „niższą cenę za bezzwrotną rezerwację”. Rezerwujesz usługę w niższej cenie,\nale bez prawa odstąpienia od umowy. W przypadku rezygnacji należy wpłacić pełną kwotę\nwynagrodzenia, a wpłacona kwota nie podlega zwrotowi.",
+    "idKlientKarta": "4c1d8daf-5d40-4126-9657-6571d2b9beef",
+    "bezzwrotnaDodatkowyProcent": 0,
+    "zapisOferty": "konfigurator",
+    "bezzwrotnaDodatkowaKwota": 0,
+    "prowizjaPlatformyNetto": 4900,
+    "potwierdzony": false,
+    "snapshot": {
+      "cart": [
+        [
+          "ujeciaSlowMotion",
+          {
+            "name": "Ujęcia super slow motion",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40c8e026-4434-4f3f-8e56-0159f21bcdde",
+            "multi": false
+          }
+        ],
+        [
+          "sesjaZachod",
+          {
+            "name": "Sesja plenerowa o zachodzie słońca",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40c8e026-4434-4f3f-8e56-0159f21bcdde",
+            "multi": false
+          }
+        ],
+        [
+          "jakosc4k",
+          {
+            "name": "4K (3840 px)",
+            "selected": true,
+            "qty": 1,
+            "stepId": "9d5ae391-cb13-4aa3-b8bb-ef2d727c0942",
+            "multi": false
+          }
+        ],
+        [
+          "bazaCeny",
+          {
+            "name": "Usługa operatorska + Czas pracy",
+            "selected": true,
+            "qty": 14,
+            "stepId": "288e619a-2f1b-4b5b-9830-918dd214a768",
+            "multi": true
+          }
+        ],
+        [
+          "film-glowny-25",
+          {
+            "name": "Film główny 20 – 25 min",
+            "selected": true,
+            "qty": 1,
+            "stepId": "e58e8e4d-0290-423d-a641-c8898d713c2a",
+            "multi": false
+          }
+        ],
+        [
+          "zwiastun-sde",
+          {
+            "name": "Szybki zwiastun SDE (w dniu realizacji)",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40e2e2d1-6162-4954-a2a6-ba174038c4e9",
+            "multi": false
+          }
+        ],
+        [
+          "abc123",
+          {
+            "name": "Rolka",
+            "selected": true,
+            "qty": 2,
+            "stepId": "374af296-b095-4763-8581-5838ac3106a8",
+            "multi": true
+          }
+        ],
+        [
+          "def7382",
+          {
+            "name": "Dodatkowy klip z części tanecznej",
+            "selected": true,
+            "qty": 1,
+            "stepId": "67009281-5511-4350-9967-2c281a58b72f",
+            "multi": false
+          }
+        ],
+        [
+          "xyz567",
+          {
+            "name": "Dodatkowa kamera na ceremonii",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40c8e026-4434-4f3f-8e56-0159f21bcdde",
+            "multi": false
+          }
+        ],
+        [
+          "dron-sport",
+          {
+            "name": "Dron Sport (FPV)",
+            "selected": true,
+            "qty": 1,
+            "stepId": "26da579c-8842-4a3b-bbb8-4bb5ad14ff9d",
+            "multi": false
+          }
+        ]
+      ],
+      "currentStepIndex": 0,
+      "priceMode": "brutto",
+      "version": 1,
+      "rebateOn": true
+    },
+    "zgodaOpisPubliczny": "<p class=\"font_9\">Udzielasz Wykonawcy pełnej zgody marketingowej i wyłączności:</p>\n<ul class=\"font_9\">\n  <li><p class=\"font_9\">może wykorzystywać zaakceptowane materiały w celach promocyjnych i komercyjnych bez ograniczeń terytorialnych i czasowych,</p></li>\n  <li><p class=\"font_9\">przez 15 dni od dnia reportażu nie zlecasz podobnych ujęć innym firmom ani osobom,</p></li>\n  <li><p class=\"font_9\">w zamian otrzymujesz najwyższy rabat i preferencyjne warunki współpracy.</p></li>\n</ul>",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "nazwaOferty": "Nowy pakiet",
+    "idProfilu": "147637e1-db12-4ddb-b540-0444d405eb28",
+    "liczbaAsystentow": 2,
+    "sumaBruttoPrzedRabatem": 43610,
+    "sumaBrutto": 30527,
+    "wyslanaDoTworcy": false,
+    "kosztDojazdu": 258,
+    "typUslugi": "filmowiec",
+    "bezzwrotna": true,
+    "rabatSpecjalny": {
+      "tryb": "on",
+      "wartosc": 0.30000000000000004
+    },
+    "szczegolyFV": {
+      "suma": {
+        "netto": 29400,
+        "vat": 1127,
+        "brutto": 30527
+      }
+    },
+    "czasPracy": 14,
+    "statusPakietu": "rezerwacja"
+  },
+  "tworca": {
+    "typProfilu": "tworca",
+    "vat": null,
+    "ibanRachunek": "82 1050 1416 1000 0090 8185 5257",
+    "kodPocztowy": "25-516",
+    "pesel": 6572974769,
+    "avatar": "https://rekiny-filmowe.b-cdn.net/tworcy/default/zdjecie/db95b1bc-bbed-423f-b63a-07ffa2e46a6e.jpg",
+    "email": "zapytaj@rekinyfilmowe.pl",
+    "stripeAccountId": "acct_1SG7CkEcPmS9YG22",
+    "_id": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "_owner": "d37be024-ec98-4ed0-a37b-8da5d8e1a785",
+    "_createdDate": "2025-10-07T17:14:39.400Z",
+    "nazwa": "Marcin",
+    "completion": 29,
+    "telefon": "+48 880 826 588",
+    "idUzytkownika": "a22e8c5a-db7a-4102-8714-5595ec330e50",
+    "miejscowosc": "Kielce",
+    "nazwisko": "Zakrzewski",
+    "_updatedDate": "2025-11-18T10:06:12.572Z",
+    "nrDom": 16,
+    "zweryfikowany": true,
+    "imie": "Marcin",
+    "nazwaBanku": "ING Bank Śląski",
+    "zadatekWartosc": 80,
+    "nrLok": 7,
+    "ulica": "Al. IX Wieków Kielc",
+    "nazwaPodmiotu": "Rekiny Filmowe Spółka z ograniczoną odpowiedzialnością",
+    "nazwaFirmy": "Rekiny Filmowe",
+    "waluta": "PLN"
+  },
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
