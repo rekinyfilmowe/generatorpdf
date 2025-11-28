@@ -88,7 +88,7 @@ function renderOferta({ karta, oferta, tworca }) {
     }
 
     function kategoria(txt) {
-        lista.innerHTML = `<div class="category">${txt}</div>`;
+      lista.innerHTML += `<div class="category">${txt}</div>`;
     }
 
     function getOpisTechniczny(op) {
