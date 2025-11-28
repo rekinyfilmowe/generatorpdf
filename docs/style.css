@@ -1,10 +1,12 @@
 @font-face {
     font-family: 'Sofia';
-    src: url('https://raw.githubusercontent.com/rekinyfilmowe/generatorpdf/main/grafiki/sofia.otf')
-         format('opentype');
+    src: url('https://raw.githubusercontent.com/rekinyfilmowe/generatorpdf/main/grafiki/sofia.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block; /* upewnia się, że PDF zawsze poczeka na font */
 }
 
-/* JEDYNY margines PDF */
+/* Jedyny margines PDF */
 @page {
     margin: 12mm;
 }
@@ -14,69 +16,47 @@ body {
     padding: 0;
     background: #fff;
     font-family: 'Sofia', Arial, sans-serif;
+    font-size: 12px; /* BAZA (jeśli coś dziedziczy, zawsze 12px) */
 }
 
-/* Szerokość idealnie mieszcząca się w PDF */
+/* GŁÓWNA RAMKA PDF */
 #pdf-root {
-    width: 184mm;          /* gwarancja braku ucięć */
+    width: 184mm;
     min-height: 277mm;
     margin: 0 auto;
     background: #fff;
-    padding: 0 4mm;        /* DODANE → minimalny bezpieczny padding */
+    padding: 0 4mm;
     box-sizing: border-box;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 18px;
-    margin-bottom: 25px;
-}
-
-.logo {
-    height: 36px;
-    width: auto;
-}
+/* ==============================
+   NAGŁÓWKI
+============================== */
 
 .header-title {
-    font-size: 20px;
+    font-size: 14px; /* nagłówek główny */
     font-weight: 600;
     margin: 0;
 }
 
-.meta-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 18px 60px;
-    margin-bottom: 35px;
-}
-
-.meta-item {
-    display: flex;
-    flex-direction: row;
-    gap: 12px;
-    font-size: 12px;
-    align-items: flex-start;
-}
-
-.meta-item img {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-    flex-shrink: 0;
-    margin-top: 2px;
-}
-
-.meta-label {
-    color: #666;
-    font-size: 12px;
-}
-
 .section h2 {
     margin-top: 40px;
-    font-size: 14px;
+    font-size: 14px; /* nagłówki sekcji */
+    font-weight: 600;
 }
+
+/* ==============================
+   METADANE
+============================== */
+
+.meta-item, 
+.meta-label {
+    font-size: 12px;
+}
+
+/* ==============================
+   KATEGORIE
+============================== */
 
 .category {
     background: #f1f1f1;
@@ -87,40 +67,33 @@ body {
     font-size: 12px;
 }
 
-.option-block {
-    padding: 10px 0;
-    border-bottom: 1px solid #e2e2e2;
-}
+/* ==============================
+   OPCJE
+============================== */
 
 .option-row {
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 12px;  /* NAZWA OPCJI */
+    font-weight: 600;
 }
 
 .option-desc {
     margin-top: 6px;
-    font-size: 12px;
+    font-size: 10px;  /* OPIS OPCJI — stały rozmiar */
     color: #555;
     white-space: pre-line;
 }
 
 .option-meta {
     margin-top: 4px;
-    font-size: 11px;
+    font-size: 10px; /* meta info */
     color: #777;
 }
 
-.rezerwacja-row {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.rezerwacja-opis {
-    flex: 1;
-}
+/* ==============================
+   REZERWACJA
+============================== */
 
 .rezerwacja-cena {
     font-size: 12px;
@@ -128,26 +101,20 @@ body {
     white-space: nowrap;
 }
 
+/* ==============================
+   PODSUMOWANIE
+============================== */
+
 .summary-box {
-    background: #F8F6F2;
-    padding: 20px;
-    margin-top: 40px;
-    border-radius: 12px;
     font-size: 12px;
 }
 
 .summary-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+    font-size: 12px;
 }
 
 .summary-total {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 15px;
-    border-top: 2px solid #ddd;
-    font-size: 16px;
+    font-size: 14px; /* TOTAL */
     font-weight: bold;
     color: #AE8E54;
 }
