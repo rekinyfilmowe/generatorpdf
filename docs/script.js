@@ -101,9 +101,18 @@ document.getElementById("noclegFinal").textContent =
 
         // ilość
         if (op.podtyp) {
-           const m = String(op.podtyp).match(/\d+/);
-            if (m && Number(m[0]) >= 2) parts.push(`ilość: ${m[0]}`);
+    const m = String(op.podtyp).match(/\d+/);
+    if (m && Number(m[0]) >= 2) {
+
+        // 🔥 SPECJALNY WYJĄTEK TYLKO DLA bazaCeny
+        if (op.idLocal === "bazaCeny" || op.idLocalOpcji === "bazaCeny") {
+            parts.push(`ilość godzin pracy: ${m[0]} (maksymalnie do 00:30)`);
+        } else {
+            parts.push(`ilość: ${m[0]}`);
         }
+
+    }
+}
 
         // czas trwania
         let czas = op.czasTrwania || extractTimeFromName(op.nazwa) || "";
