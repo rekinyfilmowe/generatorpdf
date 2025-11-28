@@ -201,7 +201,7 @@ function autoPDF() {
             margin: 10,              // ⛔ ZERO — bo marginesy są w CSS
             filename: "oferta.pdf",
             html2canvas: {
-                scale: 3,
+                scale: 2,
                 letterRendering: true
             },
             jsPDF: {
