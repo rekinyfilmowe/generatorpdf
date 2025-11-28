@@ -70,6 +70,10 @@ function renderOferta({ karta, oferta, tworca }) {
     document.getElementById("liczbaOperatorow").textContent =
        oferta.liczbaAsystentow ? oferta.liczbaAsystentow + 1 : 1;
 
+    const nocleg = (oferta.nocleg ?? "").toString().trim();
+document.getElementById("noclegFinal").textContent =
+    nocleg !== "" ? nocleg : "-";
+
     /* OPCJE */
     const lista = document.getElementById("listaOpcji");
     lista.innerHTML = "";
