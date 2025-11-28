@@ -202,7 +202,8 @@ function autoPDF() {
             filename: "oferta.pdf",
             html2canvas: {
                 scale: 2,
-                letterRendering: true
+                letterRendering: true,
+                backgroundColor: "#ffffff"
             },
             jsPDF: {
                 unit: "mm",
