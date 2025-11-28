@@ -38,7 +38,7 @@ function formatTermin(kartaData, dni) {
     if (!kartaData) return "";
     const base = new Date(kartaData);
     if (isNaN(base.getTime())) return "";
-    base.setDate(base.getDate()  dni);
+   base.setDate(base.getDate() + dni);
     return base.toLocaleDateString("pl-PL");
 }
 
