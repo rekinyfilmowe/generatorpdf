@@ -121,7 +121,7 @@ function renderOferta({ karta, oferta, tworca }) {
 
         const opisTechniczny = getOpisTechniczny(op);
 
-        lista.innerHTML = `
+        lista.innerHTML += `
             <div class="option-block">
 
                 <div class="option-row">
