@@ -114,6 +114,14 @@ function renderOferta({ karta, oferta, tworca }) {
             if (termin) parts.push(`termin oddania: ${termin}`);
         }
 
+        // 🔥 SPECJALNY CASE: bazaCeny → dodaj ilość operatorów
+if (op.idLocal === "bazaCeny" || op.idLocalOpcji === "bazaCeny") {
+    const asystenci = Number(oferta.liczbaAsystentow ?? 0);
+    const operatorzy = 1 + (isNaN(asystenci) ? 0 : asystenci);
+    parts.push(`ilość operatorów: ${operatorzy}`);
+}
+
+
         return parts.length ? parts.join(" • ") : "";
     }
 
