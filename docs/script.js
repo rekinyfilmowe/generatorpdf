@@ -97,7 +97,7 @@ function renderOferta({ karta, oferta, tworca }) {
 
         // ilość
         if (op.podtyp) {
-            const m = String(op.podtyp).match(/\d/);
+           const m = String(op.podtyp).match(/\d+/);
             if (m && Number(m[0]) >= 2) parts.push(`ilość: ${m[0]}`);
         }
 
