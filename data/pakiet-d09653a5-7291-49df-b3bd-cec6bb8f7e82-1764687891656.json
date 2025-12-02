@@ -1,0 +1,166 @@
+{
+  "karta": {
+    "idKlient": "108fb1a6-f1ee-4693-8808-7686aa505517",
+    "miejsceRealizacji": {
+      "subdivisions": [
+        {
+          "code": "Województwo małopolskie",
+          "name": "Województwo małopolskie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Nowe Żukowice",
+          "name": "Nowe Żukowice",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Nowe Żukowice",
+      "location": {
+        "latitude": 50.09852919999999,
+        "longitude": 21.1331574
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": "",
+        "formattedAddressLine": "33-151"
+      },
+      "formatted": "33-151 Nowe Żukowice, Polska",
+      "country": "PL",
+      "postalCode": "33-151",
+      "subdivision": "MA"
+    },
+    "umowaZaakceptowana": true,
+    "_id": "71e98191-f222-49f5-9580-e783e50b8acf",
+    "_owner": "842cdcb3-371a-4ab4-b968-1814139db70b",
+    "_createdDate": "2025-05-14T15:02:13.499Z",
+    "nazwa": "Karolina Piwko & Roberto Bucciacchio [25.07.2025]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-11-30T21:00:24.874Z",
+    "dataRealizacji": "2025-07-25",
+    "status": "porealizacji",
+    "idTworca": "f38b377a-7ce8-486b-852b-6ee1a0939db0",
+    "idProfilKlienta": "7c14451a-ac69-4939-93d3-9bb06db36498"
+  },
+  "oferta": {
+    "sumaNettoPrzedRabatem": 10750,
+    "sumaCalkowita": 8600,
+    "sumaNetto": 8600,
+    "kosztOperatorow": 0,
+    "_id": "d09653a5-7291-49df-b3bd-cec6bb8f7e82",
+    "wybraneOpcje": [
+      {
+        "opis": "Krótkie panoramy otoczenia. Ujęcia z góry wykorzystane na początek filmu realizowane przez głównego twórcę lub asystenta (jeśli został wybrany)",
+        "_id": "def567",
+        "nazwa": "Dron Lite",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "def567",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Oddawane online na prywatnym serwerze gotowe do pobrania",
+        "_id": "pkst1",
+        "nazwa": "Materiały w jakości 4K",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst1",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Realizowana o zachodzie słońca przez około 10-15 minut wplątana w film główny",
+        "_id": "pkst2",
+        "nazwa": "Sesja w dniu ślubu",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst2",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Klip z najlepszymi momentami dnia (około 3 minuty)",
+        "_id": "abc456",
+        "nazwa": "Zwiastun",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abc456",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Reportaż filmowy zawierający wszystkie etapy dnia (około 15-25 minut - styl kinowy)",
+        "_id": "abk123",
+        "nazwa": "Film główny",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abk123",
+        "podtyp": "{\"label\":\"15-25 min\",\"cena\":0}",
+        "meta": null
+      },
+      {
+        "opis": "Możemy wykorzystać Wasz film w pełnym zakresie – social media, strona, prezentacje. Zgoda obejmuje wszystkie osoby i pozwala na modyfikacje.",
+        "_id": "xyz4226",
+        "nazwa": "Publikacja całości",
+        "ilosc": 1,
+        "cena": -20,
+        "idLocal": "xyz4226",
+        "podtyp": null,
+        "meta": null
+      }
+    ],
+    "_owner": "3be06790-7f7f-41d4-9d75-3b49db269033",
+    "_createdDate": "2025-05-19T00:11:55.113Z",
+    "idRezerwacji": "a0fad989-c304-40ea-a09a-88775b6e5aac",
+    "nocleg": "Nocleg niewliczony w cenę",
+    "_updatedDate": "2025-10-29T17:35:09.696Z",
+    "idKlientKarta": "71e98191-f222-49f5-9580-e783e50b8acf",
+    "zapisOferty": "konfiguratorReczny",
+    "potwierdzony": true,
+    "nazwaOferty": "oferta indywidualna",
+    "idProfilu": "7c14451a-ac69-4939-93d3-9bb06db36498",
+    "liczbaAsystentow": 1,
+    "wyslanaDoTworcy": true,
+    "kosztDojazdu": 0,
+    "typUslugi": "filmowiec",
+    "czasPracy": 12
+  },
+  "tworca": null,
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
