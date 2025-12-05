@@ -187,22 +187,6 @@ body {
     color: #AE8E54;
 }
 
-.rezerwacja-option {
-    margin-top: 6px;
-    margin-bottom: 20px;
-}
-
-#rodzajRezerwacjiNazwa {
-    font-weight: 600;
-}
-
-#rodzajRezerwacjiOpis {
-    margin-top: 8px;
-    font-size: 10px;
-    color: #555;
-    line-height: 1.45;
-}
-
 /* ---- MARGINS, PRINT FRIENDLY ----------------------- */
 
 @media print {
