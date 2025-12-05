@@ -143,7 +143,7 @@ if (op.idLocal === "bazaCeny" || op.idLocalOpcji === "bazaCeny") {
         const opisTechniczny = getOpisTechniczny(op);
 
         lista.innerHTML += `
-            <div class="option-block avoid-break">
+            <div class="option-block nosplit">
 
                 <div class="option-row">
                     <span>${op.nazwa}</span>
