@@ -11,7 +11,7 @@ async function loadData() {
     return res.json();
 }
 
-/* FORMATERY WIX (przeniesione 1:1) */
+/* FORMATERY WIX */
 function formatDuration(timeStr) {
     if (!timeStr) return "";
     const clean = timeStr.trim().toLowerCase();
@@ -38,7 +38,7 @@ function formatTermin(kartaData, dni) {
     if (!kartaData) return "";
     const base = new Date(kartaData);
     if (isNaN(base.getTime())) return "";
-   base.setDate(base.getDate() + dni);
+    base.setDate(base.getDate() + dni);
     return base.toLocaleDateString("pl-PL");
 }
 
@@ -46,10 +46,8 @@ function formatTermin(kartaData, dni) {
 function renderOferta({ karta, oferta, tworca }) {
 
     /* METADANE */
-   document.getElementById("dataUtworzenia").textContent =
-    new Date().toLocaleString("pl-PL");
-
-   
+    document.getElementById("dataUtworzenia").textContent =
+        new Date().toLocaleString("pl-PL");
 
     document.getElementById("dataRealizacji").textContent =
         karta.dataRealizacji || "—";
@@ -66,11 +64,9 @@ function renderOferta({ karta, oferta, tworca }) {
     document.getElementById("tworca").textContent =
         `${tworca.imie} ${tworca.nazwisko}`;
 
-   
-
     const nocleg = (oferta.nocleg ?? "").toString().trim();
-document.getElementById("noclegFinal").textContent =
-    nocleg !== "" ? nocleg : "-";
+    document.getElementById("noclegFinal").textContent =
+        nocleg !== "" ? nocleg : "-";
 
     /* OPCJE */
     const lista = document.getElementById("listaOpcji");
@@ -90,56 +86,42 @@ document.getElementById("noclegFinal").textContent =
     }
 
     function kategoria(txt) {
-      lista.innerHTML += `<div class="category">${txt}</div>`;
+        lista.innerHTML += `<div class="category">${txt}</div>`;
     }
 
     function getOpisTechniczny(op) {
-
         const parts = [];
 
-        // ilość
         if (op.podtyp) {
-    const m = String(op.podtyp).match(/\d+/);
-    if (m && Number(m[0]) >= 2) {
-
-        // 🔥 SPECJALNY WYJĄTEK TYLKO DLA bazaCeny
-        if (op.idLocal === "bazaCeny" || op.idLocalOpcji === "bazaCeny") {
-            parts.push(`ilość godzin pracy: ${m[0]} (maksymalnie do 00:30)`);
-        } else {
-            parts.push(`ilość: ${m[0]}`);
+            const m = String(op.podtyp).match(/\d+/);
+            if (m && Number(m[0]) >= 2) {
+                if (op.idLocal === "bazaCeny" || op.idLocalOpcji === "bazaCeny") {
+                    parts.push(`ilość godzin pracy: ${m[0]} (maksymalnie do 00:30)`);
+                } else {
+                    parts.push(`ilość: ${m[0]}`);
+                }
+            }
         }
 
-    }
-
-            
-}
-
-        // czas trwania
         let czas = op.czasTrwania || extractTimeFromName(op.nazwa) || "";
-        if (czas) {
-            parts.push(`długość: ${formatDuration(czas)}`);
-        }
+        if (czas) parts.push(`długość: ${formatDuration(czas)}`);
 
-        // termin oddania (tylko dla plików wynikowych)
         if (op.meta?.plikWynikowy) {
             const dni = op.terminOddania ?? op.meta?.terminOddania ?? 180;
             const termin = formatTermin(karta.dataRealizacji, dni);
             if (termin) parts.push(`termin oddania: ${termin}`);
         }
 
-        // 🔥 SPECJALNY CASE: bazaCeny → dodaj ilość operatorów
-if (op.idLocal === "bazaCeny" || op.idLocalOpcji === "bazaCeny") {
-    const asystenci = Number(oferta.liczbaAsystentow ?? 0);
-    const operatorzy = 1 + (isNaN(asystenci) ? 0 : asystenci);
-    parts.push(`ilość operatorów: ${operatorzy}`);
-}
-
+        if (op.idLocal === "bazaCeny" || op.idLocalOpcji === "bazaCeny") {
+            const asystenci = Number(oferta.liczbaAsystentow ?? 0);
+            const operatorzy = 1 + (isNaN(asystenci) ? 0 : asystenci);
+            parts.push(`ilość operatorów: ${operatorzy}`);
+        }
 
         return parts.length ? parts.join(" • ") : "";
     }
 
     function addOpcja(op) {
-
         const opisTechniczny = getOpisTechniczny(op);
 
         lista.innerHTML += `
@@ -150,13 +132,8 @@ if (op.idLocal === "bazaCeny" || op.idLocalOpcji === "bazaCeny") {
                     <span>${op.cenaBrutto.toLocaleString("pl-PL")} zł</span>
                 </div>
 
-                ${opisTechniczny
-                    ? `<div class="option-meta">${opisTechniczny}</div>`
-                    : ""}
-
-                ${op.opis
-                    ? `<div class="option-desc">${op.opis}</div>`
-                    : ""}
+                ${opisTechniczny ? `<div class="option-meta">${opisTechniczny}</div>` : ""}
+                ${op.opis ? `<div class="option-desc">${op.opis}</div>` : ""}
 
             </div>
         `;
@@ -172,54 +149,46 @@ if (op.idLocal === "bazaCeny" || op.idLocalOpcji === "bazaCeny") {
         rez.forEach(addOpcja);
     }
 
-    // === DODAJEMY RODZAJ REZERWACJI JAKO OSTATNIĄ OPCJĘ ===
-let nazwaRodzaju = "";
-if (oferta.bezzwrotnaDodatkowaKwota > 0) {
-    nazwaRodzaju = "Rezerwacja zwrotna";
-} else if (oferta.bezzwrotna === true) {
-    nazwaRodzaju = "Rezerwacja bezzwrotna";
-}
+    let nazwaRodzaju = "";
+    if (oferta.bezzwrotnaDodatkowaKwota > 0) {
+        nazwaRodzaju = "Rezerwacja zwrotna";
+    } else if (oferta.bezzwrotna === true) {
+        nazwaRodzaju = "Rezerwacja bezzwrotna";
+    }
 
-lista.innerHTML += `
-    <div class="category">Rodzaj rezerwacji</div>
+    lista.innerHTML += `
+        <div class="category">Rodzaj rezerwacji</div>
 
-    <div class="option-block">
-        <div class="option-row">
-            <span>${nazwaRodzaju}</span>
-            <span>${
-                oferta.bezzwrotnaDodatkowaKwota > 0
-                    ? oferta.bezzwrotnaDodatkowaKwota + " zł"
-                    : "0 zł"
-            }</span>
+        <div class="option-block nosplit">
+            <div class="option-row">
+                <span>${nazwaRodzaju}</span>
+                <span>${
+                    oferta.bezzwrotnaDodatkowaKwota > 0
+                        ? oferta.bezzwrotnaDodatkowaKwota + " zł"
+                        : "0 zł"
+                }</span>
+            </div>
+
+            <div class="option-desc">${oferta.rodzajRezerwacjiOpis || ""}</div>
         </div>
-
-        <div class="option-desc">
-            ${oferta.rodzajRezerwacjiOpis || ""}
-        </div>
-    </div>
-`;
+    `;
 
     /* PODSUMOWANIE */
+
     document.getElementById("sumaPrzedRabatem").textContent =
         oferta.sumaBruttoPrzedRabatem.toLocaleString("pl-PL") + " zł";
 
     let zgoda = oferta.zgodaNazwaPubliczna || "Zgoda marketingowa";
+    zgoda = zgoda.replace(/<\/?[^>]+(>|$)/g, "").trim();
+    document.getElementById("zgodaMarketingowaLabel").textContent = zgoda;
 
-// Usuń wszystkie tagi HTML (p, strong, span itp.)
-zgoda = zgoda.replace(/<\/?[^>]+(>|$)/g, "").trim();
+    const sumaPrzed = oferta.sumaBruttoPrzedRabatem || 0;
+    const sumaPo = oferta.sumaBrutto || 0;
 
-document.getElementById("zgodaMarketingowaLabel").textContent = zgoda;
+    const rabat = Math.round(sumaPrzed - sumaPo);
 
-// Wyliczamy rabat identycznie jak w Wix
-const sumaPrzed = oferta.sumaBruttoPrzedRabatem || 0;
-const sumaPo = oferta.sumaBrutto || 0;
-
-const rabat = Math.round(sumaPrzed - sumaPo);
-
-document.getElementById("zgodaMarketingowa").textContent =
-    rabat > 0
-        ? `- ${rabat.toLocaleString("pl-PL")} zł`
-        : "0 zł";
+    document.getElementById("zgodaMarketingowa").textContent =
+        rabat > 0 ? `- ${rabat.toLocaleString("pl-PL")} zł` : "0 zł";
 
     document.getElementById("sumaPoRabacie").textContent =
         oferta.sumaBrutto.toLocaleString("pl-PL") + " zł";
@@ -233,12 +202,11 @@ document.getElementById("zgodaMarketingowa").textContent =
         suma.toLocaleString("pl-PL") + " zł";
 
     window.__pdfKwota = suma;
-window.__pdfDataRealizacji = karta.dataRealizacji;
+    window.__pdfDataRealizacji = karta.dataRealizacji;
 }
 
-/* PDF */
+/* PDF GENERATOR */
 function autoPDF() {
-
     const dataReal = formatDateForFilename(window.__pdfDataRealizacji || "");
     const kwota = (window.__pdfKwota || 0)
         .toLocaleString("pl-PL")
@@ -262,13 +230,12 @@ function autoPDF() {
                 putOnlyUsedFonts: true
             },
             pagebreak: {
-    mode: 'css'
-}
+                mode: "css"
+            }
         })
         .from(document.getElementById("pdf-root"))
         .save();
 }
-
 
 window.onload = async () => {
     const data = await loadData();
