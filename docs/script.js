@@ -252,7 +252,6 @@ function autoPDF() {
           pagebreak: {
     mode: ['css', 'legacy'],
     avoid: ['.option-block', '.rezerwacja-row'],
-    after: '.category'   // 🔥 łamie po nagłówkach sekcji
 }
         })
         .from(document.getElementById("pdf-root"))
