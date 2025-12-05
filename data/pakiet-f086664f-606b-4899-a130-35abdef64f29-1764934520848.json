@@ -1,0 +1,392 @@
+{
+  "karta": {
+    "idKlient": "c7a79bc2-2b4f-4579-b81a-d39f49617b12",
+    "miejsceRealizacji": {
+      "city": "Łódź",
+      "location": {
+        "latitude": 51.7592924,
+        "longitude": 19.4558778
+      },
+      "latitude": 51.7592924,
+      "formatted": "Łódź, Polska",
+      "country": "PL",
+      "longitude": 19.4558778,
+      "subdivision": "LD"
+    },
+    "_id": "752ea22c-19d6-4cef-9f2c-ab5cf84d51ad",
+    "_owner": "e2049771-db5a-4a3d-8ea3-6a6fc98faac6",
+    "_createdDate": "2025-11-20T09:34:47.752Z",
+    "nazwa": "Moja realizacja [17.07.2027]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-11-30T07:55:13.234Z",
+    "dataRealizacji": "2027-07-17",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "idProfilKlienta": "68efdc04-0ea1-4aac-9750-3cf6f1b9ce5f"
+  },
+  "oferta": {
+    "wartoscVATPrzedRabatem": 3903,
+    "sumaNettoPrzedRabatem": 16972,
+    "sumaCalkowita": 14612,
+    "sumaNetto": 11880,
+    "kosztOperatorow": null,
+    "blokadaEdycjiPakietu": false,
+    "idZgodaMarketingowa": "ee96813f-c2fe-4976-a9cb-84f7215d2688",
+    "_id": "f086664f-606b-4899-a130-35abdef64f29",
+    "wybraneOpcje": [
+      {
+        "vat": 869,
+        "_id": "bazaCeny",
+        "nazwa": "Usługa operatorska",
+        "terminCena": 0,
+        "cena": 4649,
+        "terminOddania": 180,
+        "idLocal": "bazaCeny",
+        "podtyp": "9",
+        "cenaBrutto": 4649,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 0,
+        "_id": "jakosc4k",
+        "nazwa": "Rozdzielczość 4K",
+        "terminCena": 0,
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "jakosc4k",
+        "podtyp": "1",
+        "cenaBrutto": 0,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 2,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 276,
+        "_id": "zwiastun-std",
+        "nazwa": "Zwiastun",
+        "terminCena": 0,
+        "czasTrwania": "3 min.",
+        "cena": 1476,
+        "terminOddania": 180,
+        "idLocal": "zwiastun-std",
+        "podtyp": "1",
+        "cenaBrutto": 1476,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 2,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 1104,
+        "_id": "film-glowny-25",
+        "nazwa": "Film główny",
+        "terminCena": 0,
+        "czasTrwania": "20-25 min.",
+        "cena": 5904,
+        "terminOddania": 180,
+        "idLocal": "film-glowny-25",
+        "podtyp": "1",
+        "cenaBrutto": 5904,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 138,
+        "_id": "xyz567",
+        "nazwa": "Dodatkowa kamera na ceremonii",
+        "terminCena": 0,
+        "cena": 738,
+        "terminOddania": 180,
+        "idLocal": "xyz567",
+        "podtyp": "1",
+        "cenaBrutto": 738,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 0,
+        "_id": "sesjaZachod",
+        "nazwa": "Sesja plenerowa w dniu ślubu",
+        "terminCena": 0,
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "sesjaZachod",
+        "podtyp": "1",
+        "cenaBrutto": 0,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 5,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 345,
+        "_id": "def234",
+        "nazwa": "Dron - Full Repo",
+        "terminCena": 0,
+        "cena": 1845,
+        "terminOddania": 180,
+        "idLocal": "def234",
+        "podtyp": "1",
+        "cenaBrutto": 1845,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      }
+    ],
+    "_owner": "e2049771-db5a-4a3d-8ea3-6a6fc98faac6",
+    "zgodaWarunkiUmowy": "<p class=\"font_8\">7.6.1. Korzystanie z materiałów z Reportażu udostępnionych w mediach społecznościowych przez inne osoby fizyczne lub podmioty trzecie uczestniczące w Reportażu.</p>\n<p class=\"font_8\">7.6.2. Wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych. Publikowanie fragmentów Dzieła w portfolio, internecie, mediach społecznościowych, kursach online oraz materiałach promocyjnych, niezależnie od terminu publikacji przez Zamawiającego, na czas nieokreślony, na wszystkich polach eksploatacji, bez ograniczeń terytorialnych;</p>\n<p class=\"font_8\">7.6.3. Przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim — zarówno uczestniczącym w Reportażu, jak i innym — na podstawie odrębnych umów (przeniesienia praw lub licencji) pod warunkiem, że materiały będą wykorzystywane wyłącznie w celach promocji w ramach Umowy;</p>\n<p class=\"font_8\">7.6.4. Zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów marketingowych w celu promocji swojej usługi;</p>\n<p class=\"font_8\">7.6.5. Wyłączność na rejestrację i publikowanie w internecie Reportażu w celach swojej promocji. Zamawiający zobowiązuje się nie angażować ani nie zezwalać na angażowanie przez podmioty trzecie (w szczególności przez wedding plannerów, fotografów, operatorów itp.) równoległych firm wideo dokonujących rejestracji Reportażu, a także zobowiązuje się, aby m.in. wskazane podmioty nie dokonywały samodzielnie takiej rejestracji do swojej promocji. Postanowień niniejszego zakazu nie stosuje się, jeżeli Zamawiający uzgodni i uzyska od Wykonawcy zgodę, na warunkach określonych przez Wykonawcę. W szczególności zakazane są działania, które:</p>\n<p class=\"font_8\">7.6.5.1. Zakłócają realizację Dzieła i wpływają na jakość lub przebieg pracy Wykonawcy;</p>\n<p class=\"font_8\">7.6.5.2. Ujawniają jego know-how, w tym sposób pracy, dobór sprzętu, techniki rejestracji i oświetlania planu;</p>\n<p class=\"font_8\">7.6.5.3. Prowadzą do tworzenia i publikowania w internecie materiałów, które przedstawiają sceny i kompozycje kadrów myląco podobne do Rezultatów Dzieła, co obniża jego wartość komercyjną.</p>",
+    "_createdDate": "2025-11-20T09:39:41.790Z",
+    "idRezerwacji": null,
+    "wartoscVAT": 2732,
+    "sumaOpcjiNettoBezProwizji": 9900,
+    "prowizjaPlatformyVAT": 456,
+    "nocleg": "Niewliczony w cenę",
+    "_updatedDate": "2025-11-25T13:40:58.708Z",
+    "zgodaNazwaPubliczna": "<p class=\"font_9\"><strong>Pełna zgoda marketingowa + wyłączność</strong></p>",
+    "rodzajRezerwacjiOpis": "Wybierasz „niższą cenę za bezzwrotną rezerwację”. Rezerwujesz usługę w niższej cenie,\nale bez prawa odstąpienia od umowy. W przypadku rezygnacji należy wpłacić pełną kwotę\nwynagrodzenia, a wpłacona kwota nie podlega zwrotowi.",
+    "idKlientKarta": "752ea22c-19d6-4cef-9f2c-ab5cf84d51ad",
+    "bezzwrotnaDodatkowyProcent": 0,
+    "zapisOferty": "konfigurator",
+    "bezzwrotnaDodatkowaKwota": 0,
+    "prowizjaPlatformyNetto": 1980,
+    "potwierdzony": false,
+    "snapshot": {
+      "cart": [
+        [
+          "bazaCeny",
+          {
+            "qty": 9,
+            "name": "Usługa operatorska",
+            "multi": true,
+            "selected": true
+          }
+        ],
+        [
+          "jakosc4k",
+          {
+            "qty": 1,
+            "name": "Rozdzielczość 4K",
+            "multi": false,
+            "selected": true
+          }
+        ],
+        [
+          "film-glowny-15",
+          {
+            "name": "Film główny",
+            "selected": false,
+            "qty": 1,
+            "stepId": "e58e8e4d-0290-423d-a641-c8898d713c2a",
+            "multi": false
+          }
+        ],
+        [
+          "film-glowny-25",
+          {
+            "name": "Film główny",
+            "selected": true,
+            "qty": 1,
+            "stepId": "e58e8e4d-0290-423d-a641-c8898d713c2a",
+            "multi": false
+          }
+        ],
+        [
+          "film-glowny-40",
+          {
+            "name": "Film główny",
+            "selected": false,
+            "qty": 1,
+            "stepId": "e58e8e4d-0290-423d-a641-c8898d713c2a",
+            "multi": false
+          }
+        ],
+        [
+          "film-glowny-60",
+          {
+            "name": "Film główny",
+            "selected": false,
+            "qty": 1,
+            "stepId": "e58e8e4d-0290-423d-a641-c8898d713c2a",
+            "multi": false
+          }
+        ],
+        [
+          "zwiastun-std",
+          {
+            "name": "Zwiastun",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40e2e2d1-6162-4954-a2a6-ba174038c4e9",
+            "multi": false
+          }
+        ],
+        [
+          "xyz567",
+          {
+            "name": "Dodatkowa kamera na ceremonii",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40c8e026-4434-4f3f-8e56-0159f21bcdde",
+            "multi": false
+          }
+        ],
+        [
+          "sesjaZachod",
+          {
+            "name": "Sesja plenerowa w dniu ślubu",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40c8e026-4434-4f3f-8e56-0159f21bcdde",
+            "multi": false
+          }
+        ],
+        [
+          "def567",
+          {
+            "name": "Dron - Pano",
+            "selected": false,
+            "qty": 1,
+            "stepId": "26da579c-8842-4a3b-bbb8-4bb5ad14ff9d",
+            "multi": false
+          }
+        ],
+        [
+          "def234",
+          {
+            "name": "Dron - Full Repo",
+            "selected": true,
+            "qty": 1,
+            "stepId": "26da579c-8842-4a3b-bbb8-4bb5ad14ff9d",
+            "multi": false
+          }
+        ],
+        [
+          "dron-sport",
+          {
+            "name": "Dron - Full Repo i Drone FPV",
+            "selected": false,
+            "qty": 1,
+            "stepId": "26da579c-8842-4a3b-bbb8-4bb5ad14ff9d",
+            "multi": false
+          }
+        ]
+      ],
+      "currentStepIndex": 5,
+      "priceMode": "brutto",
+      "version": 1,
+      "rebateOn": true
+    },
+    "zgodaOpisPubliczny": "<p class=\"font_9\">W ramach wybranej opcji Zamawiający otrzymuje preferencyjne warunki współpracy oraz rabat. Wykonawca wzamian otrzymuje licencję na:</p>\n<ul class=\"font_9\">\n  <li><p class=\"font_9\">korzystanie z materiałów z Reportażu udostępnionych w mediach społecznościowych przez inne osoby fizyczne lub podmioty trzecie uczestniczące w Reportażu;</p></li>\n  <li><p class=\"font_9\">wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych;</p></li>\n  <li><p class=\"font_9\">przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim;</p></li>\n  <li><p class=\"font_9\">zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów marketingowych w celu promocji swojej usługi;</p></li>\n  <li><p class=\"font_9\">wyłączność na rejestrację i publikowanie w internecie Reportażu w celach swojej promocji. Zamawiający zobowiązuje się nie angażować ani nie zezwalać na angażowanie przez podmioty trzecie (w szczególności przez wedding plannerów, fotografów, operatorów itp.) równoległych firm wideo dokonujących rejestracji Reportażu, a także zobowiązuje się, aby m.in. wskazane podmioty nie dokonywały samodzielnie takiej rejestracji do swojej promocji. Postanowień niniejszego zakazu nie stosuje się, jeżeli Zamawiający uzgodni i uzyska od Wykonawcy zgodę, na warunkach określonych przez Wykonawcę. W szczególności zakazane są działania, które:</p><ul><li><p class=\"font_9\">zakłócają realizację Dzieła i wpływają na jakość lub przebieg pracy Wykonawcy;</p></li><li><p class=\"font_9\">ujawniają jego know-how, w tym sposób pracy, dobór sprzętu, techniki rejestracji i oświetlania planu;</p></li><li><p class=\"font_9\">prowadzą do tworzenia i publikowania w internecie materiałów, które przedstawiają sceny i kompozycje kadrów myląco podobne do Rezultatów Dzieła, co obniża jego wartość komercyjną.</p></li></ul></li>\n  </ul>",
+    "idTworca": "0af6572b-0116-4094-9d7a-a74bcbf4e036",
+    "nazwaOferty": "Nowy pakiet",
+    "idProfilu": "68efdc04-0ea1-4aac-9750-3cf6f1b9ce5f",
+    "liczbaAsystentow": 1,
+    "sumaBruttoPrzedRabatem": 20875,
+    "sumaBrutto": 14612,
+    "wyslanaDoTworcy": false,
+    "kosztDojazdu": 246,
+    "typUslugi": "filmowiec",
+    "bezzwrotna": true,
+    "rabatSpecjalny": {
+      "tryb": "on",
+      "wartosc": 0
+    },
+    "szczegolyFV": {
+      "suma": {
+        "netto": 11880,
+        "vat": 2732,
+        "brutto": 14612
+      }
+    },
+    "czasPracy": 9,
+    "statusPakietu": "draft"
+  },
+  "tworca": {
+    "typProfilu": "tworca",
+    "wykonawcaAdresNrLokalu": 7,
+    "wykonawcaAdresKodPocztowy": "25-516",
+    "jezyki": "pl, en",
+    "ibanRachunek": "82 1050 1416 1000 0090 8185 5257",
+    "wykonawcaAdresMiejscowosc": "Kielce",
+    "avatar": "https://rekiny-filmowe.b-cdn.net/tworcy/0af6572b-0116-4094-9d7a-a74bcbf4e036/zdjecie/2342940a-2b21-47e2-baa3-b3be791a407c.JPG",
+    "stripeAccountId": "acct_1SSZieI0FX1GvixR",
+    "_id": "0af6572b-0116-4094-9d7a-a74bcbf4e036",
+    "_owner": "d37be024-ec98-4ed0-a37b-8da5d8e1a785",
+    "_createdDate": "2025-10-07T17:14:39.701Z",
+    "nazwa": "Patryk",
+    "completion": 0,
+    "telefon": "+48 664 220 747",
+    "idUzytkownika": "68358a93-6235-4bf5-869d-82cbe8bfe142",
+    "nazwisko": "Jarząbek",
+    "_updatedDate": "2025-12-05T11:03:58.682Z",
+    "wykonawcaKraj": "Polska",
+    "wykonawcaImie": "Marcin",
+    "wykonawcaNazwa": "Rekiny Filmowe Spółka z ograniczoną odpowiedzialnością",
+    "zweryfikowany": true,
+    "wykonawcaNazwisko": "Zakrzewski",
+    "wykonawcaAdresUlica": "al. IX Wieków Kielc",
+    "imie": "Patryk",
+    "wykonawcaEmail": "zapytaj@rekinyfilmowe.pl",
+    "nazwaBanku": "ING Bank Śląski",
+    "wykonawcaNip": "6572974769",
+    "zadatekWartosc": 80,
+    "wykonawcaRegon": 523652315,
+    "wykonawcaAdresNrDomu": 16,
+    "wykonawcaTelefon": "+48 880 286 588",
+    "nazwaFirmy": "Rekiny Filmowe",
+    "waluta": "PLN"
+  },
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
