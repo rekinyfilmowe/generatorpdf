@@ -180,10 +180,11 @@ if (oferta.bezzwrotnaDodatkowaKwota > 0) {
 }
 
 // 🔹 Wypełnij opis z nazwą u góry
-document.getElementById("rodzajRezerwacjiOpis").innerHTML = `
-    <strong>${nazwaRodzaju}</strong><br>
-    ${oferta.rodzajRezerwacjiOpis || ""}
-`;
+document.getElementById("rodzajRezerwacjiNazwa").textContent =
+    nazwaRodzaju;
+
+document.getElementById("rodzajRezerwacjiOpis").textContent =
+    oferta.rodzajRezerwacjiOpis || "";
 
     document.getElementById("rodzajRezerwacjiCena").textContent =
         oferta.bezzwrotnaDodatkowaKwota > 0
