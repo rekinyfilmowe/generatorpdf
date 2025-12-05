@@ -249,10 +249,11 @@ function autoPDF() {
     putOnlyUsedFonts: true
 },
 
-            pagebreak: {
-                mode: ['css', 'legacy'],
-                avoid: ['.option-block', '.rezerwacja-row']
-            }
+          pagebreak: {
+    mode: ['css', 'legacy'],
+    avoid: ['.option-block', '.rezerwacja-row'],
+    after: '.category'   // 🔥 łamie po nagłówkach sekcji
+}
         })
         .from(document.getElementById("pdf-root"))
         .save();
