@@ -110,6 +110,8 @@ document.getElementById("noclegFinal").textContent =
         }
 
     }
+
+            
 }
 
         // czas trwania
@@ -229,34 +231,45 @@ document.getElementById("zgodaMarketingowa").textContent =
 
     document.getElementById("sumaKoncowa").textContent =
         suma.toLocaleString("pl-PL") + " zł";
+
+    window.__pdfKwota = suma;
+window.__pdfDataRealizacji = karta.dataRealizacji;
 }
 
 /* PDF */
 function autoPDF() {
+
+    const dataReal = formatDateForFilename(window.__pdfDataRealizacji || "");
+    const kwota = (window.__pdfKwota || 0)
+        .toLocaleString("pl-PL")
+        .replace(/\s+/g, "_");
+
+    const nazwaPliku = `Rekiny_Filmowe_Oferta_${kwota}_zl_${dataReal}.pdf`;
+
     html2pdf()
         .set({
             margin: [18, 0, 18, 0],
-            filename: "oferta.pdf",
+            filename: nazwaPliku,
             html2canvas: {
                 scale: 4,
                 letterRendering: true,
                 backgroundColor: "#ffffff"
             },
             jsPDF: {
-    unit: "mm",
-    format: "a4",
-    orientation: "portrait",
-    putOnlyUsedFonts: true
-},
-
-          pagebreak: {
-    mode: ['css', 'legacy'],
-    avoid: ['.option-block', '.rezerwacja-row'],
-}
+                unit: "mm",
+                format: "a4",
+                orientation: "portrait",
+                putOnlyUsedFonts: true
+            },
+            pagebreak: {
+                mode: ['css', 'legacy'],
+                avoid: ['.option-block', '.rezerwacja-row']
+            }
         })
         .from(document.getElementById("pdf-root"))
         .save();
 }
+
 
 window.onload = async () => {
     const data = await loadData();
@@ -266,3 +279,13 @@ window.onload = async () => {
 
     setTimeout(autoPDF, 500);
 };
+
+function formatDateForFilename(dateStr) {
+    if (!dateStr) return "";
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return "";
+    const dd = String(d.getDate()).padStart(2, "0");
+    const mm = String(d.getMonth() + 1).padStart(2, "0");
+    const yyyy = d.getFullYear();
+    return `${dd}-${mm}-${yyyy}`;
+}
