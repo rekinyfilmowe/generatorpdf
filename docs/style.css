@@ -90,10 +90,8 @@ body {
     font-size: 15px;
     font-weight: 600;
     margin: 0 0 16px 0;
-    padding-top: 20px;
-    border-top: 1px solid #E0E0E0;
-    letter-spacing: -0.1px;
-    color: #333;
+    padding-top: 12px; /* mniej, bardziej stabilne */
+    border-top: none;  /* 🔥 NAJWAŻNIEJSZE */
 }
 
 .section:nth-of-type(2) h2 {
