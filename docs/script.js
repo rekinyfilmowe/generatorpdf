@@ -262,9 +262,8 @@ function autoPDF() {
                 putOnlyUsedFonts: true
             },
             pagebreak: {
-                mode: ['css', 'legacy'],
-                avoid: ['.option-block', '.rezerwacja-row']
-            }
+    mode: 'css'
+}
         })
         .from(document.getElementById("pdf-root"))
         .save();
