@@ -27,7 +27,7 @@ body {
     min-height: 277mm;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 8mm 6mm;
+    padding: 0 6mm 8mm 6mm;
 }
 
 /* --- HEADER ---------------------------------------- */
