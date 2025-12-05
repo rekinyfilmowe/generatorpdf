@@ -41,11 +41,6 @@ body {
     margin-bottom: 28px;
 }
 
-.first-page-offset {
-    height: 15mm;              /* kompensuje margines @page */
-    page-break-after: avoid;
-}
-
 .logo {
     height: 36px;
 }
