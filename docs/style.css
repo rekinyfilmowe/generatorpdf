@@ -96,7 +96,6 @@ body {
     color: #333;
 }
 
-/* Usunięcie linii nad drugim h2 ("Wybrany pakiet") */
 .section:nth-of-type(2) h2 {
     border-top: none !important;
     padding-top: 0 !important;
