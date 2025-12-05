@@ -204,6 +204,10 @@ body {
     font-weight: 700;
     color: #AE8E54;
 }
+.option-block {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
 
 /* ---- MARGINS, PRINT FRIENDLY ----------------------- */
 
