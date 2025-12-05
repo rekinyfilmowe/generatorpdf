@@ -90,23 +90,17 @@ body {
     font-size: 15px;
     font-weight: 600;
     margin: 0 0 16px 0;
-    padding-top: 12px; /* mniej, bardziej stabilne */
-    border-top: none;  /* 🔥 NAJWAŻNIEJSZE */
+    padding-top: 12px;
+    border-top: none;
 }
 
-.section:nth-of-type(2) h2 {
-    border-top: none !important;
-    padding-top: 0 !important;
-}
-
+.section:nth-of-type(2) h2,
 .section:first-of-type h2 {
     border-top: none !important;
     padding-top: 0 !important;
 }
 
 .section {
-    break-inside: avoid;
-    page-break-inside: avoid;
     margin-top: 28px;
 }
 
@@ -131,6 +125,14 @@ body {
     border-radius: 8px;
     margin-bottom: 12px;
 }
+
+/* --- ⛔ JEDYNA REGUŁA OD ŁAMANIA STRON (WORD-LIKE) --- */
+
+.nosplit {
+    page-break-inside: avoid !important;
+}
+
+/* --- OPTION META ------------------------------------ */
 
 .option-row {
     display: flex;
@@ -204,17 +206,8 @@ body {
     font-weight: 700;
     color: #AE8E54;
 }
-.option-block {
-    break-inside: avoid;
-    page-break-inside: avoid;
-}
-.avoid-break {
-    page-break-inside: avoid !important;
-}
-.nosplit {
-    page-break-inside: avoid !important;
-}
-/* ---- MARGINS, PRINT FRIENDLY ----------------------- */
+
+/* ---- PRINT ----------------------------------------- */
 
 @media print {
     body {
