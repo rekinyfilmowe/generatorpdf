@@ -96,6 +96,21 @@ body {
     color: #333;
 }
 
+.section:first-of-type h2 {
+    border-top: none !important;
+    padding-top: 0 !important;
+}
+
+.section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-top: 28px;
+}
+
+.section:first-of-type {
+    margin-top: 0;
+}
+
 /* --- OPTION BLOCKS ---------------------------------- */
 
 .category {
