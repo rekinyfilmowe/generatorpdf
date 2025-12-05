@@ -211,7 +211,9 @@ body {
 .avoid-break {
     page-break-inside: avoid !important;
 }
-
+.nosplit {
+    page-break-inside: avoid !important;
+}
 /* ---- MARGINS, PRINT FRIENDLY ----------------------- */
 
 @media print {
