@@ -170,8 +170,7 @@ if (op.idLocal === "bazaCeny" || op.idLocalOpcji === "bazaCeny") {
         rez.forEach(addOpcja);
     }
 
-    /* RODZAJ REZERWACJI */
-    // 🔹 NAZWA RODZAJU REZERWACJI – identycznie jak na stronie
+    // === DODAJEMY RODZAJ REZERWACJI JAKO OSTATNIĄ OPCJĘ ===
 let nazwaRodzaju = "";
 if (oferta.bezzwrotnaDodatkowaKwota > 0) {
     nazwaRodzaju = "Rezerwacja zwrotna";
@@ -179,17 +178,24 @@ if (oferta.bezzwrotnaDodatkowaKwota > 0) {
     nazwaRodzaju = "Rezerwacja bezzwrotna";
 }
 
-// 🔹 Wypełnij opis z nazwą u góry
-document.getElementById("rodzajRezerwacjiNazwa").textContent =
-    nazwaRodzaju;
+lista.innerHTML += `
+    <div class="category">Rodzaj rezerwacji</div>
 
-document.getElementById("rodzajRezerwacjiOpis").textContent =
-    oferta.rodzajRezerwacjiOpis || "";
+    <div class="option-block">
+        <div class="option-row">
+            <span>${nazwaRodzaju}</span>
+            <span>${
+                oferta.bezzwrotnaDodatkowaKwota > 0
+                    ? oferta.bezzwrotnaDodatkowaKwota + " zł"
+                    : "0 zł"
+            }</span>
+        </div>
 
-    document.getElementById("rodzajRezerwacjiCena").textContent =
-        oferta.bezzwrotnaDodatkowaKwota > 0
-            ? `${oferta.bezzwrotnaDodatkowaKwota} zł`
-            : "0 zł";
+        <div class="option-desc">
+            ${oferta.rodzajRezerwacjiOpis || ""}
+        </div>
+    </div>
+`;
 
     /* PODSUMOWANIE */
     document.getElementById("sumaPrzedRabatem").textContent =
