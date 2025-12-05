@@ -208,6 +208,9 @@ body {
     break-inside: avoid;
     page-break-inside: avoid;
 }
+.avoid-break {
+    page-break-inside: avoid !important;
+}
 
 /* ---- MARGINS, PRINT FRIENDLY ----------------------- */
 
