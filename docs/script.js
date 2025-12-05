@@ -235,7 +235,7 @@ document.getElementById("zgodaMarketingowa").textContent =
 function autoPDF() {
     html2pdf()
         .set({
-            margin: [0, 0, 15, 0],
+            margin: [18, 0, 18, 0],
             filename: "oferta.pdf",
             html2canvas: {
                 scale: 2,
@@ -243,10 +243,12 @@ function autoPDF() {
                 backgroundColor: "#ffffff"
             },
             jsPDF: {
-                unit: "mm",
-                format: "a4",
-                orientation: "portrait"
-            },
+    unit: "mm",
+    format: "a4",
+    orientation: "portrait",
+    putOnlyUsedFonts: true
+},
+
             pagebreak: {
                 mode: ['css', 'legacy'],
                 avoid: ['.option-block', '.rezerwacja-row']
