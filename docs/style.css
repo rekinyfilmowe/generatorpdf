@@ -122,12 +122,6 @@ body {
     margin-top: 0;
 }
 
-/* Usuń linię nad Wybrany pakiet */
-.section:nth-of-type(2) h2 {
-    border-top: none !important;
-    padding-top: 0 !important;
-}
-
 /* --- OPTION BLOCKS ---------------------------------- */
 
 .category {
