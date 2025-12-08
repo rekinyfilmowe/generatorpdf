@@ -1,0 +1,213 @@
+{
+  "karta": {
+    "idKlient": "827acd0f-78b3-494e-8058-c21ea86006e2",
+    "miejsceRealizacji": {
+      "subdivisions": [
+        {
+          "code": "Województwo mazowieckie",
+          "name": "Województwo mazowieckie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat żyrardowski",
+          "name": "Powiat żyrardowski",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Tartak Brzózki",
+          "name": "Tartak Brzózki",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Tartak Brzózki",
+      "location": {
+        "latitude": 52.01228529999999,
+        "longitude": 20.5214383
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "number": "2",
+        "name": "Letniskowa",
+        "apt": "",
+        "formattedAddressLine": "Letniskowa 2"
+      },
+      "formatted": "Letniskowa 2, 96-325 Tartak Brzózki, Polska",
+      "country": "PL",
+      "postalCode": "96-325",
+      "subdivision": "MZ"
+    },
+    "umowaZaakceptowana": true,
+    "_id": "b2e1edf0-dd10-434b-b18a-fe14b76f71c2",
+    "_owner": "23f53fc3-e2eb-4b1d-902c-4736a27fa647",
+    "_createdDate": "2025-05-14T14:28:11.700Z",
+    "nazwa": "Patrycja & Michał [18.07.2025]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-11-30T21:00:24.876Z",
+    "dataRealizacji": "2025-07-18",
+    "status": "porealizacji",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "idProfilKlienta": "5ac15df3-6840-4f45-a162-542a6dd38a6e"
+  },
+  "oferta": {
+    "sumaNettoPrzedRabatem": 21625,
+    "sumaCalkowita": 17300,
+    "sumaNetto": 17300,
+    "kosztOperatorow": 0,
+    "_id": "252c2d81-941d-4773-8574-d18652b6eee4",
+    "wybraneOpcje": [
+      {
+        "opis": "Klip na Social Media w pionie przygotowany z gotowego Zwiastuna lub Filmu głównego (około 15 sekund)",
+        "_id": "abc123",
+        "nazwa": "Rolka",
+        "ilosc": 4,
+        "cena": 0,
+        "idLocal": "abc123",
+        "podtyp": "4",
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Osobny dynamiczny film z części tanecznej w formie dłuższych fragmentów z zabawy (około 15-20 minut)",
+        "_id": "def7382",
+        "nazwa": "Dodatkowy klip z części tanecznej",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "def7382",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 5,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Krótkie panoramy otoczenia. Ujęcia z góry wykorzystane na początek filmu realizowane przez głównego twórcę lub asystenta (jeśli został wybrany)",
+        "_id": "def567",
+        "nazwa": "Dron Lite",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "def567",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Oddawane online na prywatnym serwerze gotowe do pobrania",
+        "_id": "pkst1",
+        "nazwa": "Materiały w jakości 4K",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst1",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Realizowana o zachodzie słońca przez około 10-15 minut wplątana w film główny",
+        "_id": "pkst2",
+        "nazwa": "Sesja w dniu ślubu",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst2",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Klip z najlepszymi momentami dnia (około 3 minuty)",
+        "_id": "abc456",
+        "nazwa": "Zwiastun",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abc456",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Reportaż filmowy zawierający wszystkie etapy dnia (około 15-25 minut - styl kinowy)",
+        "_id": "abk123",
+        "nazwa": "Film główny",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abk123",
+        "podtyp": "{\"label\":\"15-25 min\",\"cena\":0}",
+        "meta": null
+      },
+      {
+        "opis": "Kolejny operator, który realizuje dodatkowe ujęcia z drugiej prespektywy",
+        "_id": "op12",
+        "nazwa": "Dodatkowy operator (asystent)",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "op12",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Możemy wykorzystać Wasz film w pełnym zakresie – social media, strona, prezentacje. Zgoda obejmuje wszystkie osoby i pozwala na modyfikacje.",
+        "_id": "xyz4226",
+        "nazwa": "Publikacja całości",
+        "ilosc": 1,
+        "cena": -20,
+        "idLocal": "xyz4226",
+        "podtyp": null,
+        "meta": null
+      }
+    ],
+    "_owner": "89c8bb77-2f72-470b-b1b9-3995b3713ae5",
+    "_createdDate": "2025-05-18T23:58:43.051Z",
+    "idRezerwacji": "ee4d22a3-d886-44aa-be67-da4c1deab56c",
+    "nocleg": "Nocleg niewliczony w cenę",
+    "_updatedDate": "2025-10-29T17:35:09.694Z",
+    "idKlientKarta": "b2e1edf0-dd10-434b-b18a-fe14b76f71c2",
+    "zapisOferty": "konfiguratorReczny",
+    "potwierdzony": true,
+    "nazwaOferty": "oferta indywidualna",
+    "idProfilu": "5ac15df3-6840-4f45-a162-542a6dd38a6e",
+    "liczbaAsystentow": 2,
+    "wyslanaDoTworcy": true,
+    "kosztDojazdu": 0,
+    "typUslugi": "filmowiec",
+    "czasPracy": 12
+  },
+  "tworca": null,
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
