@@ -1,0 +1,506 @@
+{
+  "karta": {
+    "idKlient": "a22e8c5a-db7a-4102-8714-5595ec330e50",
+    "miejsceRealizacji": {
+      "city": "",
+      "location": {
+        "latitude": 41.4925374,
+        "longitude": -99.9018131
+      },
+      "latitude": 41.4925374,
+      "formatted": "Nebraska, Stany Zjednoczone",
+      "country": "US",
+      "longitude": -99.9018131,
+      "subdivision": "NE"
+    },
+    "_id": "1128d3dc-d8d2-4c57-a0f4-e31f662a1456",
+    "_owner": "086b01f5-2762-4435-9b09-2ca0af20579d",
+    "_createdDate": "2025-11-24T12:11:45.782Z",
+    "nazwa": "Moja realizacja [27.11.2026]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-11-30T07:55:13.233Z",
+    "dataRealizacji": "2026-11-27",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "idProfilKlienta": "36af9270-22e2-40ce-88f5-bb7814f136ae"
+  },
+  "oferta": {
+    "wartoscVATPrzedRabatem": 4555,
+    "sumaNettoPrzedRabatem": 10,
+    "sumaCalkowita": 22000,
+    "sumaNetto": 50,
+    "kosztOperatorow": null,
+    "blokadaEdycjiPakietu": false,
+    "idZgodaMarketingowa": "b2f0d3ea-8f59-4477-81d2-deb31ae7f0a3",
+    "_id": "89b1ef50-bf75-4f5d-8d40-fe908a890112",
+    "wybraneOpcje": [
+      {
+        "opis": "Liczba godzin pracy wybranego Twórcy w ramach rezerwacji usługi.\n\nCena bazowa obejmuje:\n✔ Usługę operatorską realizowaną przez Twórcę\n✔ Profesjonalne nagranie wszystkich kluczowych momentów\n✔ Korzystanie z wysokiej klasy sprzętu filmowego i audio\n\nCena bazowa nie obejmuje:\n✔ Usługi montażowej z zarejestrowanych materiałów\n\nJeśli chcesz zamówić usługę montażu, przejdź do kolejnych opcji i sprawdź, co proponujemy.",
+        "vat": 405,
+        "_id": "bazaCeny",
+        "nazwa": "Usługa operatorska",
+        "terminCena": 0,
+        "cena": 10965,
+        "terminOddania": 180,
+        "idLocal": "bazaCeny",
+        "podtyp": "14",
+        "cenaBrutto": 10965,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Materiał wideo o wysokiej rozdzielczości, pozwalający dostrzec najdrobniejsze detale obrazu. Film jest możliwy do oglądania na odpowiednich, do tego przystosowanych urządzeniach z oznaczeniem 4K lub wyższych.",
+        "vat": 0,
+        "_id": "jakosc4k",
+        "nazwa": "Rozdzielczość 4K",
+        "terminCena": 0,
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "jakosc4k",
+        "podtyp": "1",
+        "cenaBrutto": 0,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 2,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Klip będący hipnotyzującą zapowiedzią całego dnia i ukazujący jego najważniejsze momenty. Udostępniany jest online do pobrania dzień po reportażu, gotowy do wyświetlenia na dużym ekranie podczas poprawin. To wzruszająca atrakcja, która zachwyca parę młodą, rodzinę i gości. Wykonawca dostarcza klip wideo, nie zajmuje się projekcją ani jej organizacją.",
+        "vat": 202,
+        "_id": "zwiastun-nde",
+        "nazwa": "Zwiastun - Next Day Edit",
+        "terminCena": 0,
+        "czasTrwania": "3 min.",
+        "cena": 5482,
+        "terminOddania": 1,
+        "idLocal": "zwiastun-nde",
+        "podtyp": "1",
+        "cenaBrutto": 5482,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 2,
+          "czasTrwania": "",
+          "terminOddania": 1,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Reportażowa forma przedstawienia historii o Parze Młodej. Spokojne ujęcia i muzyka subtelnie prowadzą emocje widza przez cały film. Materiał obejmuje ujęcia ze wszystkich etapów dnia objętych godzinami pracy (np. przygotowania, ceremonia, przysięga, przemowy, przyjęcie i zabawa).",
+        "vat": 405,
+        "_id": "film-glowny-40",
+        "nazwa": "Film główny",
+        "terminCena": 0,
+        "czasTrwania": "40 min.",
+        "cena": 10965,
+        "terminOddania": 180,
+        "idLocal": "film-glowny-40",
+        "podtyp": "1",
+        "cenaBrutto": 10965,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Dodatkowa kamera na statywie, obsługiwana przez głównego operatora, wykorzystywana w kościele podczas przysięgi i kazania, a także w innych wybranych fragmentach reportażu. Jest niezbędna w sytuacji, gdy na realizacji pracuje tylko jeden operator, ponieważ pozwala mu skoncentrować się na tworzeniu większej liczby kreatywnych i zwruszających ujęć, które wzbogacają film.",
+        "vat": 58,
+        "_id": "xyz567",
+        "nazwa": "Dodatkowa kamera na ceremonii",
+        "terminCena": 0,
+        "cena": 1566,
+        "terminOddania": 180,
+        "idLocal": "xyz567",
+        "podtyp": "1",
+        "cenaBrutto": 1566,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Klip z udziałem gości, nagrywany w trakcie przyjęcia w oddzielnym pomieszczeniu, gdzie przygotowane jest mini studio. Wybrani przez parę goście odpowiadają na pytania dotyczące pary, jej historii, przyszłości, a także udzielają życzeń i rad małżeńskich. Materiał ma charakter zarówno zabawny i humorystyczny, jak i wzruszający (czas pracy: 21:00-23:00).",
+        "vat": 202,
+        "_id": "ijk5791",
+        "nazwa": "Wywiady z gośćmi",
+        "terminCena": 0,
+        "czasTrwania": "10 min.",
+        "cena": 5482,
+        "terminOddania": 180,
+        "idLocal": "ijk5791",
+        "podtyp": "1",
+        "cenaBrutto": 5482,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 4,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Rejestracja wybranych momentów reportażu w zwolnionym tempie, ukazująca emocje, uśmiechy, ruch oraz dynamikę ujęcia niedostrzegalną dla ludzkiego oka, dzięki czemu materiał zyskuje filmowy charakter.",
+        "vat": 52,
+        "_id": "ujeciaSlowMotion",
+        "nazwa": "Dodatkowe ujęcia - Super Slow Motion",
+        "terminCena": 0,
+        "cena": 1410,
+        "terminOddania": 180,
+        "idLocal": "ujeciaSlowMotion",
+        "podtyp": "1",
+        "cenaBrutto": 1410,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 4,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Ujęcia realizowane w dniu reportażu, najczęściej o zachodzie słońca, na terenie miejsca przyjęcia. Stanowią one doskonałe uzupełnienie materiału, do wykorzystania na początku lub w zakończeniu filmu (czas pracy: 15–20 min.).",
+        "vat": 0,
+        "_id": "sesjaZachod",
+        "nazwa": "Sesja plenerowa w dniu ślubu",
+        "terminCena": 0,
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "sesjaZachod",
+        "podtyp": "1",
+        "cenaBrutto": 0,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 5,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Zaawansowane ujęcia lotnicze w ramach opcji Drone (Full Repo), a także szybkie i dynamiczne loty sportowym małym dronem, zarówno na zewnątrz, jak i wewnątrz obiektu podczas przygotowań między dekoracjami (czas pracy: do 22:00).",
+        "vat": 144,
+        "_id": "dron-sport",
+        "nazwa": "Dron - Full Repo i Drone FPV",
+        "terminCena": 0,
+        "cena": 3916,
+        "terminOddania": 180,
+        "idLocal": "dron-sport",
+        "podtyp": "1",
+        "cenaBrutto": 3916,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Ujęcia pary w strojach codziennych, realizowane w jednym wybranym miejscu (np. w parku lub w centrum miasta), ukazujące miłość, emocje, relacje i historię pary. Mogą one również przybrać formę wywiadów z parą o jej historii oraz zawierać podziękowania dla rodziców i gości. Ujęcia realizowane są najczęściej przed reportażem, gdy wybierana jest opcja z wywiadami (czas pracy: około 2–3 godz.).",
+        "vat": 231,
+        "_id": "wwr453",
+        "nazwa": "Sesja narzeczeńska innego dnia",
+        "terminCena": 0,
+        "czasTrwania": "5 min.",
+        "cena": 6266,
+        "terminOddania": 180,
+        "idLocal": "wwr453",
+        "podtyp": "1",
+        "cenaBrutto": 6266,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 10,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      }
+    ],
+    "_owner": "086b01f5-2762-4435-9b09-2ca0af20579d",
+    "zgodaWarunkiUmowy": "<p class=\"font_8\">7.6.1. Korzystanie z materiałów z Reportażu udostępnionych w mediach społecznościowych przez inne osoby fizyczne lub podmioty trzecie uczestniczące w Reportażu.</p>\n<p class=\"font_8\">7.6.2. Wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych. Publikowanie fragmentów Dzieła w portfolio, internecie, mediach społecznościowych, kursach online oraz materiałach promocyjnych, niezależnie od terminu publikacji przez Zamawiającego, na czas nieokreślony, na wszystkich polach eksploatacji, bez ograniczeń terytorialnych;</p>\n<p class=\"font_8\">7.6.3. Przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim — zarówno uczestniczącym w Reportażu, jak i innym — na podstawie odrębnych umów (przeniesienia praw lub licencji) pod warunkiem, że materiały będą wykorzystywane wyłącznie w celach promocji w ramach Umowy;</p>\n<p class=\"font_8\">7.6.4. Zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów marketingowych w celu promocji swojej usługi.</p>",
+    "_createdDate": "2025-11-24T12:11:54.261Z",
+    "idRezerwacji": null,
+    "wartoscVAT": 20,
+    "sumaOpcjiNettoBezProwizji": 33600,
+    "prowizjaPlatformyVAT": 1545,
+    "nocleg": "Niewliczony w cenę",
+    "_updatedDate": "2025-12-11T21:32:02.830Z",
+    "zgodaNazwaPubliczna": "<p class=\"font_9\"><strong>Pełna zgoda marketingowa</strong></p>",
+    "rodzajRezerwacjiOpis": "Wybierasz rezerwację zwrotną (droższą o 10%). Zachowujesz prawo do odstąpienia od umowy\nw ciągu 14 dni od jej zawarcia. W przypadku odstąpienia od umowy zwrotowi nie podlega\n10-procentowa różnica w cenie, stanowiąca opłatę za elastyczność rezerwacji.",
+    "idKlientKarta": "1128d3dc-d8d2-4c57-a0f4-e31f662a1456",
+    "bezzwrotnaDodatkowyProcent": 10,
+    "zapisOferty": "konfigurator",
+    "bezzwrotnaDodatkowaKwota": 4605,
+    "prowizjaPlatformyNetto": 6720,
+    "potwierdzony": false,
+    "snapshot": {
+      "cart": [
+        [
+          "jakosc4k",
+          {
+            "name": "Rozdzielczość 4K",
+            "selected": true,
+            "qty": 1,
+            "stepId": "9d5ae391-cb13-4aa3-b8bb-ef2d727c0942",
+            "multi": false
+          }
+        ],
+        [
+          "bazaCeny",
+          {
+            "name": "Usługa operatorska",
+            "selected": true,
+            "qty": 14,
+            "stepId": "288e619a-2f1b-4b5b-9830-918dd214a768",
+            "multi": true
+          }
+        ],
+        [
+          "film-glowny-40",
+          {
+            "name": "Film główny",
+            "selected": true,
+            "qty": 1,
+            "stepId": "e58e8e4d-0290-423d-a641-c8898d713c2a",
+            "multi": false
+          }
+        ],
+        [
+          "zwiastun-nde",
+          {
+            "name": "Zwiastun - Next Day Edit",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40e2e2d1-6162-4954-a2a6-ba174038c4e9",
+            "multi": false
+          }
+        ],
+        [
+          "xyz567",
+          {
+            "name": "Dodatkowa kamera na ceremonii",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40c8e026-4434-4f3f-8e56-0159f21bcdde",
+            "multi": false
+          }
+        ],
+        [
+          "ijk5791",
+          {
+            "name": "Wywiady z gośćmi",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40c8e026-4434-4f3f-8e56-0159f21bcdde",
+            "multi": false
+          }
+        ],
+        [
+          "sesjaZachod",
+          {
+            "name": "Sesja plenerowa w dniu ślubu",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40c8e026-4434-4f3f-8e56-0159f21bcdde",
+            "multi": false
+          }
+        ],
+        [
+          "ujeciaSlowMotion",
+          {
+            "name": "Dodatkowe ujęcia - Super Slow Motion",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40c8e026-4434-4f3f-8e56-0159f21bcdde",
+            "multi": false
+          }
+        ],
+        [
+          "wwr453",
+          {
+            "name": "Sesja narzeczeńska innego dnia",
+            "selected": true,
+            "qty": 1,
+            "stepId": "40c8e026-4434-4f3f-8e56-0159f21bcdde",
+            "multi": false
+          }
+        ],
+        [
+          "dron-sport",
+          {
+            "name": "Dron - Full Repo i Drone FPV",
+            "selected": true,
+            "qty": 1,
+            "stepId": "26da579c-8842-4a3b-bbb8-4bb5ad14ff9d",
+            "multi": false
+          }
+        ]
+      ],
+      "currentStepIndex": 5,
+      "priceMode": "brutto",
+      "version": 1,
+      "rebateOn": true
+    },
+    "zgodaOpisPubliczny": "<p class=\"font_9\">W ramach wybranej opcji Zamawiający otrzymuje preferencyjne warunki współpracy oraz rabat. Wykonawca wzamian otrzymuje licencję na:</p>\n<ul class=\"font_9\">\n  <li><p class=\"font_9\">korzystanie z materiałów z Reportażu udostępnionych w mediach społecznościowych przez inne osoby fizyczne lub podmioty trzecie uczestniczące w Reportażu;</p></li>\n  <li><p class=\"font_9\">wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych;</p></li>\n  <li><p class=\"font_9\">przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim;</p></li>\n  <li><p class=\"font_9\">zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów marketingowych w celu promocji swojej usługi.</p></li>\n</ul>",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "nazwaOferty": "Nowy pakiet",
+    "idProfilu": "36af9270-22e2-40ce-88f5-bb7814f136ae",
+    "liczbaAsystentow": 1,
+    "sumaBruttoPrzedRabatem": 70000,
+    "sumaBrutto": 30000,
+    "wyslanaDoTworcy": false,
+    "kosztDojazdu": 100000,
+    "typUslugi": "filmowiec",
+    "bezzwrotna": false,
+    "rabatSpecjalny": {
+      "tryb": "on",
+      "wartosc": -0.14285714285714302
+    },
+    "szczegolyFV": {
+      "suma": {
+        "netto": 44353,
+        "vat": 1699,
+        "brutto": 46052
+      }
+    },
+    "czasPracy": 14,
+    "statusPakietu": "draft"
+  },
+  "tworca": {
+    "typProfilu": "tworca",
+    "link-profile-nazwa": "/profile/marcin",
+    "vat": 0,
+    "lp": "0001",
+    "wykonawcaAdresKodPocztowy": "26-001",
+    "jezyki": "pl, en",
+    "ibanRachunek": "82 1050 1416 1000 0090 8185 5257",
+    "cenaZaPoprawkiDoDziela": 500,
+    "darmoweKm": 0,
+    "wykonawcaAdresMiejscowosc": "Wola Kopcowa",
+    "mozliwoscBezzwrotnejRezerwacji": true,
+    "progKwoty": 17000,
+    "avatar": "https://rekiny-filmowe.b-cdn.net/tworcy/default/zdjecie/db95b1bc-bbed-423f-b63a-07ffa2e46a6e.jpg",
+    "terminOddaniaDziela": 180,
+    "stripeAccountId": "acct_1SSZieI0FX1GvixR",
+    "_id": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "_owner": "d37be024-ec98-4ed0-a37b-8da5d8e1a785",
+    "_createdDate": "2025-10-07T17:14:39.400Z",
+    "nazwa": "marcin",
+    "completion": 90,
+    "telefon": "+48 880 826 588",
+    "idUzytkownika": "a22e8c5a-db7a-4102-8714-5595ec330e50",
+    "prowizjaPlatfomyInd": 0.2,
+    "maksIloscAsys": 3,
+    "specjalizacje": "film, montaz, dzwiek",
+    "zadatekWartosc1": 30,
+    "nazwisko": "Zakrzewski",
+    "_updatedDate": "2025-12-11T20:19:24.951Z",
+    "wykonawcaKraj": "Polska",
+    "slug": "marcin",
+    "ofertaPubliczna": true,
+    "wykonawcaImie": "Marcin",
+    "wykonawcaNazwa": "Rekiny Filmowe Spółka z ograniczoną odpowiedzialnością",
+    "playlisty": 1,
+    "prowizjaPlatfomyIndCc": 0.1,
+    "cenyPakietowe": "{ '#containerRolki': 800, '#containerZwiastun': 800, '#containerDodKam': 600, '#containerLiteDron': 900, '#containerOpDron': 1900, '#containerContentCreator': 3900, '#containerDzielo30': 1900, '#containerMatZrod': 1900, '#containerBrakAsys': 0, '#containerAsys1': 1900, '#containerAsys2': 3500, '#containerAsys1SDE': 3500, '#containerAsys1WywFilm': 3000, '#containerAsys1WywOddz': 3000, '#containerAsys1DodKlipZabawa': 1900, '#containerAsys2SDE': 3500, '#containerAsys2WywFilm': 3000, '#containerAsys2WywOddz': 3000, '#containerAsys2DodKlipZabawa': 1900}",
+    "stawkaZaKm": 1.5,
+    "zweryfikowany": true,
+    "wykonawcaNazwisko": "Zakrzewski",
+    "wykonawcaAdresUlica": "Polna",
+    "imie": "Marcin",
+    "wykonawcaEmail": "zapytaj@rekinyfilmowe.pl",
+    "karaUmownaProcent": 30,
+    "nazwaBanku": "ING Bank Śląski",
+    "wykonawcaNip": "6572974769",
+    "zadatekWartosc": 30,
+    "wykonawcaRegon": "523652315",
+    "sde": true,
+    "oMnie": "\"🎥 „Film to dla mnie coś więcej niż obraz i dźwięk – to podróż w czasie.”\n\nOd lat towarzyszę parom w ich najpiękniejszych momentach, zamieniając ulotne chwile w opowieści, do których można wracać bez końca. Każdy ślub, każde spojrzenie, każdy drobny gest – mają swoją historię, a moim zadaniem jest uchwycić je tak, by po latach wywoływały te same emocje, które towarzyszyły Wam w dniu ceremonii.\n\nPracuję dyskretnie, ale z pełnym zaangażowaniem, obserwując, a nie reżyserując. Dzięki temu filmy, które tworzę, są naturalne, autentyczne i pełne życia. Łączę w nich kreatywne kadry, nowoczesny montaż i subtelne detale, które czynią każdy materiał niepowtarzalnym.\n\nNieważne, czy wybierzecie krótką formę, czy dłuższy film – zawsze otrzymacie historię opowiedzianą sercem, dopasowaną do Was i tego, co najważniejsze w Waszym dniu.\n\nBo te wspomnienia są Wasze. Ja tylko pomagam je zatrzymać.\"",
+    "wykonawcaAdresNrDomu": 15,
+    "iloscFilmow": 20,
+    "wykonawcaTelefon": "+48 880 286 588",
+    "dodatkowyOperator": 2500,
+    "kategoriaCenowa": 1,
+    "lokalizacja": {
+      "subdivisions": [
+        {
+          "code": "Świętokrzyskie Voivodeship",
+          "name": "Świętokrzyskie Voivodeship",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Kielce",
+          "name": "Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Kielce",
+          "name": "Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Poland",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Kielce",
+      "location": {
+        "latitude": 50.8659989,
+        "longitude": 20.6286268
+      },
+      "countryFullname": "Poland",
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": "",
+        "formattedAddressLine": "Kielce"
+      },
+      "formatted": "Kielce, Poland",
+      "country": "PL",
+      "postalCode": "25",
+      "subdivision": "SK"
+    },
+    "godzinaSzczytowa": "00:30:00.000",
+    "potwierdzanieRezerwacji": "manual",
+    "nazwaFirmy": "Rekiny Filmowe",
+    "cenaBazowa": "7500",
+    "waluta": "PLN"
+  },
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
