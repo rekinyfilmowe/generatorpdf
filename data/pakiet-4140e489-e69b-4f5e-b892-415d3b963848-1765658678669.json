@@ -1,0 +1,207 @@
+{
+  "karta": {
+    "idKlient": "2792c004-155f-4ce1-bc0f-78cb0e8816ab",
+    "miejsceRealizacji": {
+      "subdivisions": [
+        {
+          "code": "Województwo łódzkie",
+          "name": "Województwo łódzkie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat piotrkowski",
+          "name": "Powiat piotrkowski",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Studzianki",
+          "name": "Studzianki",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Studzianki",
+      "location": {
+        "latitude": 51.50579279999999,
+        "longitude": 19.8956787
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": "19A",
+        "formattedAddressLine": "19A"
+      },
+      "formatted": "Studzianki 19A, 97-320, Polska",
+      "country": "PL",
+      "postalCode": "97-320",
+      "subdivision": "LD"
+    },
+    "umowaZaakceptowana": true,
+    "_id": "d61d002b-246a-4ed8-98af-8c1acc873a68",
+    "_owner": "355912ab-2342-44d4-950d-20936eeef63f",
+    "_createdDate": "2025-05-14T18:08:02.517Z",
+    "nazwa": "Luiza & Rafał [16.08.2025]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-11-30T21:00:24.854Z",
+    "dataRealizacji": "2025-08-16",
+    "status": "porealizacji",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "idProfilKlienta": "b5bcc474-1cc1-4ab2-97a6-11b21184e0bb"
+  },
+  "oferta": {
+    "sumaNettoPrzedRabatem": 16222.22222,
+    "sumaCalkowita": 14600,
+    "sumaNetto": 14600,
+    "kosztOperatorow": 0,
+    "_id": "4140e489-e69b-4f5e-b892-415d3b963848",
+    "wybraneOpcje": [
+      {
+        "opis": "Klip na Social Media w pionie przygotowany z gotowego Zwiastuna lub Filmu głównego (około 15 sekund)",
+        "_id": "abc123",
+        "nazwa": "Rolka",
+        "ilosc": 2,
+        "cena": 0,
+        "idLocal": "abc123",
+        "podtyp": "2",
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Kamera na statywie podczas ceremonii, która dodatkowo nagrywa szeroki kadr np. z przysięgi, kazania, itp.",
+        "_id": "xyz567",
+        "nazwa": "Dodatkowa kamera na ceremonii",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "xyz567",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Oddawane online na prywatnym serwerze gotowe do pobrania",
+        "_id": "pkst1",
+        "nazwa": "Materiały w jakości 4K",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst1",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Realizowana o zachodzie słońca przez około 10-15 minut wplątana w film główny",
+        "_id": "pkst2",
+        "nazwa": "Sesja w dniu ślubu",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst2",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Klip z najlepszymi momentami dnia (około 3 minuty)",
+        "_id": "abc456",
+        "nazwa": "Zwiastun",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abc456",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Reportaż filmowy zawierający wszystkie etapy dnia (około 40 minut - styl reportażowy)",
+        "_id": "abk123",
+        "nazwa": "Film główny",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abk123",
+        "podtyp": "{\"label\":\"40 min\",\"cena\":0}",
+        "meta": null
+      },
+      {
+        "opis": "Kolejny operator, który realizuje dodatkowe ujęcia z drugiej prespektywy",
+        "_id": "op12",
+        "nazwa": "Dodatkowy operator (asystent)",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "op12",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Możemy wykorzystać Wasz film w pełnym zakresie – social media, strona, prezentacje. Zgoda obejmuje wszystkie osoby i pozwala na modyfikacje.",
+        "_id": "xyz4226",
+        "nazwa": "Publikacja całości",
+        "ilosc": 1,
+        "cena": -10,
+        "idLocal": "xyz4226",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Dodatkowy operator, który realizuje wyłacznie materiały w formacie pionowym na Social Media (aparat)",
+        "_id": "cc434g",
+        "nazwa": "Content Creator",
+        "ilosc": 8,
+        "cena": 0,
+        "idLocal": "cc434g",
+        "podtyp": "8",
+        "meta": null
+      }
+    ],
+    "_owner": "61ffb132-1cf8-4637-a888-ad948c20b32b",
+    "_createdDate": "2025-05-19T16:21:02.418Z",
+    "idRezerwacji": "960e9b77-fdd9-4f17-8301-011edc701f92",
+    "nocleg": "po stronie Zamawiającego na dzień przed oraz w dniu Realizacji",
+    "_updatedDate": "2025-10-29T17:35:09.695Z",
+    "idKlientKarta": "d61d002b-246a-4ed8-98af-8c1acc873a68",
+    "zapisOferty": "konfiguratorReczny",
+    "potwierdzony": true,
+    "nazwaOferty": "oferta indywidualna",
+    "idProfilu": "b5bcc474-1cc1-4ab2-97a6-11b21184e0bb",
+    "liczbaAsystentow": 2,
+    "wyslanaDoTworcy": true,
+    "kosztDojazdu": 0,
+    "typUslugi": "filmowiec",
+    "czasPracy": 12
+  },
+  "tworca": null,
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
