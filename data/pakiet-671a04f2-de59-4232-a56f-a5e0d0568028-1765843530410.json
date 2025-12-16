@@ -1,0 +1,332 @@
+{
+  "karta": {
+    "idKlient": "0e90a727-f8ce-4277-afb6-af29523e85bc",
+    "miejsceRealizacji": {
+      "subdivisions": [
+        {
+          "code": "GR",
+          "name": "Grecja",
+          "type": "COUNTRY"
+        }
+      ],
+      "location": {
+        "latitude": 35.5119873,
+        "longitude": 23.9562925
+      },
+      "countryFullname": "Grecja",
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": ""
+      },
+      "formatted": "Lofos Psathi, Chania 731 00, Grecja",
+      "country": "GR",
+      "postalCode": "731 00"
+    },
+    "_id": "b47cee2f-cabf-43df-9f49-650a79ae82ab",
+    "_owner": "3d079288-eef7-4670-90d4-a764050808b2",
+    "_createdDate": "2025-12-11T19:43:04.596Z",
+    "nazwa": "Aleksandra & Daniel [24.06.2026]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-12-15T12:02:20.421Z",
+    "dataRealizacji": "2026-06-24",
+    "idProfilKlienta": "bca357b1-da21-4497-b97d-0f7c40e37af2"
+  },
+  "oferta": {
+    "sumaNetto": 1000,
+    "_id": "671a04f2-de59-4232-a56f-a5e0d0568028",
+    "wybraneOpcje": [
+      {
+        "opis": "Liczba godzin pracy Twórcy oraz asystentów w ramach rezerwacji usługi.\n\nCena bazowa obejmuje:\n✔ Usługę operatorską realizowaną przez Twórcę\n✔ Profesjonalne nagranie wszystkich kluczowych momentów\n✔ Korzystanie z wysokiej klasy sprzętu filmowego i audio\n\nCena bazowa nie obejmuje:\n✔ Usługi montażowej z zarejestrowanych materiałów\n\nJeśli chcesz zamówić usługę montażu, przejdź do kolejnych opcji i sprawdź, co proponujemy.",
+        "_id": "bazaCeny",
+        "nazwa": "Usługa operatorska",
+        "terminCena": 0,
+        "terminOddania": 180,
+        "idLocal": "bazaCeny",
+        "podtyp": "7",
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Klip w bardzo krótkiej formie, ukazujący najpiękniejsze momenty reportażu lub jego wybrane etapy zmontowane z gotowego filmu głównego, zwiastuna (jeśli zostały wybrane). Najczęściej przygotowywany w formacie pionowym, idealny do publikacji w mediach społecznościowych.",
+        "vat": 18,
+        "_id": "abc123",
+        "nazwa": "Rolka",
+        "terminCena": 0,
+        "czasTrwania": "30 sek.",
+        "cena": 498,
+        "terminOddania": 160,
+        "idLocal": "abc123",
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 160,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Materiał wideo o wysokiej rozdzielczości, pozwalający dostrzec najdrobniejsze detale obrazu. Film jest możliwy do oglądania na odpowiednich, do tego przystosowanych urządzeniach z oznaczeniem 4K lub wyższych.",
+        "vat": 0,
+        "_id": "jakosc4k",
+        "nazwa": "Rozdzielczość 4K",
+        "terminCena": 0,
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "jakosc4k",
+        "podtyp": "1",
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 2,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Dodatkowa kamera na statywie, obsługiwana przez głównego operatora, wykorzystywana w kościele podczas przysięgi i kazania, a także w innych wybranych fragmentach reportażu. Jest niezbędna w sytuacji, gdy na realizacji pracuje tylko jeden operator, ponieważ pozwala mu skoncentrować się na tworzeniu większej liczby kreatywnych i zwruszających ujęć, które wzbogacają film.",
+        "vat": 32,
+        "_id": "xyz567",
+        "nazwa": "Dodatkowa kamera na ceremonii",
+        "terminCena": 0,
+        "cena": 872,
+        "terminOddania": 180,
+        "idLocal": "xyz567",
+        "podtyp": "1",
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Ujęcia realizowane w dniu reportażu, najczęściej o zachodzie słońca, na terenie miejsca przyjęcia. Stanowią one doskonałe uzupełnienie materiału, do wykorzystania na początku lub w zakończeniu filmu (czas pracy: 15–20 min.).",
+        "vat": 0,
+        "_id": "sesjaZachod",
+        "nazwa": "Sesja plenerowa w dniu ślubu",
+        "terminCena": 0,
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "sesjaZachod",
+        "podtyp": "1",
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 5,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Podstawowe ujęcia lotnicze przedstawiające panoramę otoczenia, obiektu, kościoła, bez kluczowych etapów dnia t.j. wejście do kościoła, wyjście z kościoła, fajerwerki)",
+        "vat": 32,
+        "_id": "def567",
+        "nazwa": "Dron - Pano",
+        "terminCena": 0,
+        "cena": 872,
+        "terminOddania": 180,
+        "idLocal": "def567",
+        "podtyp": "1",
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      }
+    ],
+    "_owner": "3d079288-eef7-4670-90d4-a764050808b2",
+    "_createdDate": "2025-12-15T15:16:07.396Z",
+    "idRezerwacji": "f55b3c70-624c-4dc3-b727-a0fbb4934a55",
+    "wartoscVAT": 500,
+    "prowizjaPlatformyVAT": 23,
+    "nocleg": "po stronie Zamawiającego na dzień przed oraz w dniu Realizacji wraz ze śniadaniami",
+    "_updatedDate": "2025-12-15T15:40:25.753Z",
+    "rodzajRezerwacjiOpis": "Wybierasz „niższą cenę za bezzwrotną rezerwację”. Rezerwujesz usługę w niższej cenie,\nale bez prawa odstąpienia od umowy. W przypadku rezygnacji należy wpłacić pełną kwotę\nwynagrodzenia, a wpłacona kwota nie podlega zwrotowi.",
+    "idKlientKarta": "b47cee2f-cabf-43df-9f49-650a79ae82ab",
+    "bezzwrotnaDodatkowyProcent": 0,
+    "bezzwrotnaDodatkowaKwota": 0,
+    "prowizjaPlatformyNetto": 100,
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "idProfilu": "bca357b1-da21-4497-b97d-0f7c40e37af2",
+    "liczbaAsystentow": 1,
+    "sumaBrutto": 1500,
+    "wyslanaDoTworcy": true,
+    "kosztDojazdu": 58,
+    "typUslugi": "filmowiec",
+    "bezzwrotna": true,
+    "czasPracy": 12
+  },
+  "tworca": {
+    "typProfilu": "tworca",
+    "link-profile-nazwa": "/profile/marcin",
+    "vat": 0,
+    "lp": "0001",
+    "wykonawcaAdresKodPocztowy": "26-001",
+    "jezyki": "pl, en",
+    "ibanRachunek": "82 1050 1416 1000 0090 8185 5257",
+    "cenaZaPoprawkiDoDziela": 500,
+    "darmoweKm": 0,
+    "wykonawcaAdresMiejscowosc": "Wola Kopcowa",
+    "mozliwoscBezzwrotnejRezerwacji": true,
+    "progKwoty": 17000,
+    "avatar": "https://rekiny-filmowe.b-cdn.net/tworcy/default/zdjecie/db95b1bc-bbed-423f-b63a-07ffa2e46a6e.jpg",
+    "terminOddaniaDziela": 180,
+    "stripeAccountId": "acct_1SSZieI0FX1GvixR",
+    "_id": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "_owner": "d37be024-ec98-4ed0-a37b-8da5d8e1a785",
+    "_createdDate": "2025-10-07T17:14:39.400Z",
+    "nazwa": "marcin",
+    "completion": 95,
+    "telefon": "+48 880 826 588",
+    "idUzytkownika": "a22e8c5a-db7a-4102-8714-5595ec330e50",
+    "prowizjaPlatfomyInd": 0.2,
+    "maksIloscAsys": 3,
+    "specjalizacje": "film, montaz, dzwiek",
+    "zadatekWartosc1": 30,
+    "adres": {
+      "subdivisions": [
+        {
+          "code": "Województwo świętokrzyskie",
+          "name": "Województwo świętokrzyskie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat Kielce",
+          "name": "Powiat Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Kielce",
+          "name": "Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Kielce",
+      "location": {
+        "latitude": 50.8659989,
+        "longitude": 20.6286268
+      },
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": "",
+        "formattedAddressLine": "Kielce"
+      },
+      "formatted": "Kielce, Polska",
+      "country": "PL",
+      "postalCode": "25",
+      "subdivision": "SK"
+    },
+    "nazwisko": "Zakrzewski",
+    "_updatedDate": "2025-12-15T22:00:29.392Z",
+    "wykonawcaKraj": "Polska",
+    "slug": "marcin",
+    "ofertaPubliczna": true,
+    "wykonawcaImie": "Marcin",
+    "wykonawcaNazwa": "Rekiny Filmowe Spółka z ograniczoną odpowiedzialnością",
+    "playlisty": 1,
+    "prowizjaPlatfomyIndCc": 0.1,
+    "cenyPakietowe": "{ '#containerRolki': 800, '#containerZwiastun': 800, '#containerDodKam': 600, '#containerLiteDron': 900, '#containerOpDron': 1900, '#containerContentCreator': 3900, '#containerDzielo30': 1900, '#containerMatZrod': 1900, '#containerBrakAsys': 0, '#containerAsys1': 1900, '#containerAsys2': 3500, '#containerAsys1SDE': 3500, '#containerAsys1WywFilm': 3000, '#containerAsys1WywOddz': 3000, '#containerAsys1DodKlipZabawa': 1900, '#containerAsys2SDE': 3500, '#containerAsys2WywFilm': 3000, '#containerAsys2WywOddz': 3000, '#containerAsys2DodKlipZabawa': 1900}",
+    "stawkaZaKm": 1.5,
+    "zweryfikowany": true,
+    "wykonawcaNazwisko": "Zakrzewski",
+    "wykonawcaAdresUlica": "Polna",
+    "imie": "Marcin",
+    "wykonawcaEmail": "zapytaj@rekinyfilmowe.pl",
+    "karaUmownaProcent": 30,
+    "nazwaBanku": "ING Bank Śląski",
+    "wykonawcaNip": "6572974769",
+    "zadatekWartosc": 30,
+    "wykonawcaRegon": "523652315",
+    "sde": true,
+    "oMnie": "\"🎥 „Film to dla mnie coś więcej niż obraz i dźwięk – to podróż w czasie.”\n\nOd lat towarzyszę parom w ich najpiękniejszych momentach, zamieniając ulotne chwile w opowieści, do których można wracać bez końca. Każdy ślub, każde spojrzenie, każdy drobny gest – mają swoją historię, a moim zadaniem jest uchwycić je tak, by po latach wywoływały te same emocje, które towarzyszyły Wam w dniu ceremonii.\n\nPracuję dyskretnie, ale z pełnym zaangażowaniem, obserwując, a nie reżyserując. Dzięki temu filmy, które tworzę, są naturalne, autentyczne i pełne życia. Łączę w nich kreatywne kadry, nowoczesny montaż i subtelne detale, które czynią każdy materiał niepowtarzalnym.\n\nNieważne, czy wybierzecie krótką formę, czy dłuższy film – zawsze otrzymacie historię opowiedzianą sercem, dopasowaną do Was i tego, co najważniejsze w Waszym dniu.\n\nBo te wspomnienia są Wasze. Ja tylko pomagam je zatrzymać.\"",
+    "wykonawcaAdresNrDomu": 15,
+    "iloscFilmow": 20,
+    "wykonawcaTelefon": "+48 880 286 588",
+    "dodatkowyOperator": 2500,
+    "kategoriaCenowa": 1,
+    "lokalizacja": {
+      "subdivisions": [
+        {
+          "code": "Świętokrzyskie Voivodeship",
+          "name": "Świętokrzyskie Voivodeship",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Kielce",
+          "name": "Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Kielce",
+          "name": "Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Poland",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Kielce",
+      "location": {
+        "latitude": 50.8659989,
+        "longitude": 20.6286268
+      },
+      "countryFullname": "Poland",
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": "",
+        "formattedAddressLine": "Kielce"
+      },
+      "formatted": "Kielce, Poland",
+      "country": "PL",
+      "postalCode": "25",
+      "subdivision": "SK"
+    },
+    "godzinaSzczytowa": "00:30:00.000",
+    "potwierdzanieRezerwacji": "manual",
+    "nazwaFirmy": "Rekiny Filmowe",
+    "cenaBazowa": "7500",
+    "waluta": "PLN"
+  },
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
