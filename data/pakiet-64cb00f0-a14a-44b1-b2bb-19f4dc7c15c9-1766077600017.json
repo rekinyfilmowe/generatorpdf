@@ -1,0 +1,192 @@
+{
+  "karta": {
+    "idKlient": "70b5c9f0-a950-4ac9-8bde-895e30e37d25",
+    "miejsceRealizacji": {
+      "subdivisions": [
+        {
+          "code": "Województwo lubelskie",
+          "name": "Województwo lubelskie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat bialski",
+          "name": "Powiat bialski",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Janów Podlaski",
+          "name": "Janów Podlaski",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Janów Podlaski",
+      "location": {
+        "latitude": 52.1987047,
+        "longitude": 23.2021488
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "number": "1",
+        "name": "Zamkowa",
+        "apt": "",
+        "formattedAddressLine": "Zamkowa 1"
+      },
+      "formatted": "Zamkowa 1, 21-505 Janów Podlaski, Polska",
+      "country": "PL",
+      "postalCode": "21-505",
+      "subdivision": "LU"
+    },
+    "umowaZaakceptowana": true,
+    "_id": "a1f76e9f-0ff3-4420-adeb-51ddc5cb80a7",
+    "_owner": "d4c3b3d9-d6e8-4e2f-8a86-a38d18053efb",
+    "_createdDate": "2025-05-14T09:52:18.927Z",
+    "nazwa": "Natalia  & Artur [21.06.2025]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-12-15T12:02:20.421Z",
+    "dataRealizacji": "2025-06-21",
+    "status": "porealizacji",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "idProfilKlienta": "7e7fe971-614b-4562-b271-6dd5a09b52ea"
+  },
+  "oferta": {
+    "sumaNettoPrzedRabatem": 13666.66667,
+    "sumaNetto": 12300,
+    "_id": "64cb00f0-a14a-44b1-b2bb-19f4dc7c15c9",
+    "wybraneOpcje": [
+      {
+        "opis": "Klip na Social Media w pionie przygotowany z gotowego Zwiastuna lub Filmu głównego (około 15 sekund)",
+        "_id": "abc123",
+        "nazwa": "Rolka",
+        "ilosc": 2,
+        "cena": 0,
+        "idLocal": "abc123",
+        "podtyp": "2",
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Kamera na statywie podczas ceremonii, która dodatkowo nagrywa szeroki kadr np. z przysięgi, kazania, itp.",
+        "_id": "xyz567",
+        "nazwa": "Dodatkowa kamera na ceremonii",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "xyz567",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Krótkie panoramy otoczenia. Ujęcia z góry wykorzystane na początek filmu realizowane przez głównego twórcę lub asystenta (jeśli został wybrany)",
+        "_id": "def567",
+        "nazwa": "Dron Lite",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "def567",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Oddawane online na prywatnym serwerze gotowe do pobrania",
+        "_id": "pkst1",
+        "nazwa": "Materiały w jakości 4K",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst1",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Realizowana o zachodzie słońca przez około 10-15 minut wplątana w film główny",
+        "_id": "pkst2",
+        "nazwa": "Sesja w dniu ślubu",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst2",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Klip z najlepszymi momentami dnia (około 3 minuty)",
+        "_id": "abc456",
+        "nazwa": "Zwiastun",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abc456",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Reportaż filmowy zawierający wszystkie etapy dnia (około 40 minut - styl reportażowy)",
+        "_id": "abk123",
+        "nazwa": "Film główny",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abk123",
+        "podtyp": "{\"label\":\"40 min\",\"cena\":0}",
+        "meta": null
+      }
+    ],
+    "_owner": "10f258a9-c6cb-4509-bf02-96a11d300eef",
+    "_createdDate": "2025-05-18T21:01:18.096Z",
+    "idRezerwacji": "e5bd016b-3aec-4bf9-891c-a020fc7daf06",
+    "nocleg": "po stronie Zamawiającego na dzień przed oraz w dniu Realizacji",
+    "_updatedDate": "2025-12-15T15:05:36.865Z",
+    "idKlientKarta": "a1f76e9f-0ff3-4420-adeb-51ddc5cb80a7",
+    "zapisOferty": "konfiguratorReczny",
+    "potwierdzony": true,
+    "nazwaOferty": "oferta indywidualna",
+    "idProfilu": "7e7fe971-614b-4562-b271-6dd5a09b52ea",
+    "liczbaAsystentow": 1,
+    "sumaBrutto": 12300,
+    "wyslanaDoTworcy": true,
+    "kosztDojazdu": 0,
+    "typUslugi": "filmowiec",
+    "czasPracy": 12
+  },
+  "tworca": null,
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
