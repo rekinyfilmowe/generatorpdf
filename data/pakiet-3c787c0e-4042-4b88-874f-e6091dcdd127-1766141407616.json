@@ -1,0 +1,312 @@
+{
+  "karta": {
+    "idKlient": "a22e8c5a-db7a-4102-8714-5595ec330e50",
+    "miejsceRealizacji": {
+      "city": "Wola Więcławska",
+      "location": {
+        "latitude": 50.1885176,
+        "longitude": 20.0169296
+      },
+      "latitude": 50.1885176,
+      "formatted": "Polonijna 22, 32-091 Wola Więcławska, Polska",
+      "country": "PL",
+      "longitude": 20.0169296,
+      "subdivision": "MA"
+    },
+    "_id": "291a5617-a481-449c-a1d4-8c95c696449a",
+    "_owner": "593d282c-e231-4c30-a7ac-b0064dc44e83",
+    "_createdDate": "2025-12-12T12:49:21.576Z",
+    "nazwa": "Moja realizacja [12.07.2027]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-12-15T12:02:20.419Z",
+    "dataRealizacji": "2027-07-12",
+    "idProfilKlienta": "36af9270-22e2-40ce-88f5-bb7814f136ae"
+  },
+  "oferta": {
+    "wartoscVATPrzedRabatem": 658,
+    "sumaNettoPrzedRabatem": 17142,
+    "sumaNetto": 12000,
+    "blokadaEdycjiPakietu": false,
+    "idZgodaMarketingowa": "ee96813f-c2fe-4976-a9cb-84f7215d2688",
+    "_id": "3c787c0e-4042-4b88-874f-e6091dcdd127",
+    "wybraneOpcje": [
+      {
+        "opis": "Liczba godzin pracy Twórcy oraz asystentów w ramach rezerwacji usługi.\n\nCena bazowa obejmuje:\n✔ Usługę operatorską realizowaną przez Twórcę\n✔ Profesjonalne nagranie wszystkich kluczowych momentów\n✔ Korzystanie z wysokiej klasy sprzętu filmowego i audio\n\nCena bazowa nie obejmuje:\n✔ Usługi montażowej z zarejestrowanych materiałów\n\nJeśli chcesz zamówić usługę montażu, przejdź do kolejnych opcji i sprawdź, co proponujemy.",
+        "vat": 184,
+        "_id": "bazaCeny",
+        "nazwa": "Usługa operatorska",
+        "terminCena": 0,
+        "cena": 4984,
+        "terminOddania": 180,
+        "idLocal": "bazaCeny",
+        "podtyp": "8",
+        "cenaBrutto": 4984,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Materiał wideo o wysokiej rozdzielczości, pozwalający dostrzec najdrobniejsze detale obrazu. Film jest możliwy do oglądania na odpowiednich, do tego przystosowanych urządzeniach z oznaczeniem 4K lub wyższych.",
+        "vat": 0,
+        "_id": "jakosc4k",
+        "nazwa": "Rozdzielczość 4K",
+        "terminCena": 0,
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "jakosc4k",
+        "podtyp": "1",
+        "cenaBrutto": 0,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 2,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Kinowa forma przedstawienia opowieści o Parze Młodej. Spokojne ujęcia płynnie przeplatają się z dynamicznymi scenami w kreatywny sposób, a muzyka i narracja subtelnie prowadzą emocje widza przez cały film. Materiał obejmuje ujęcia ze wszystkich etapów dnia objętych godzinami pracy (np. przygotowania, ceremonia, przysięga, przemowy, przyjęcie i zabawa).",
+        "vat": 230,
+        "_id": "film-glowny-15",
+        "nazwa": "Film główny",
+        "terminCena": 0,
+        "czasTrwania": "15 min.",
+        "cena": 6230,
+        "terminOddania": 180,
+        "idLocal": "film-glowny-15",
+        "podtyp": "1",
+        "cenaBrutto": 6230,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Podstawowe ujęcia lotnicze przedstawiające panoramę otoczenia, obiektu, kościoła, bez kluczowych etapów dnia t.j. wejście do kościoła, wyjście z kościoła, fajerwerki)",
+        "vat": 46,
+        "_id": "def567",
+        "nazwa": "Dron - Pano",
+        "terminCena": 0,
+        "cena": 1246,
+        "terminOddania": 180,
+        "idLocal": "def567",
+        "podtyp": "1",
+        "cenaBrutto": 1246,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      }
+    ],
+    "_owner": "593d282c-e231-4c30-a7ac-b0064dc44e83",
+    "zgodaWarunkiUmowy": "<p class=\"font_8\">7.6.1. Korzystanie z materiałów z Reportażu publicznie udostępnionych w mediach społecznościowych przez inne osoby fizyczne lub podmioty trzecie uczestniczące w Reportażu, wyłącznie w zakresie dozwolonego użytku publicznego, bez naruszania praw autorskich osób trzecich;</p>\n<p class=\"font_8\">7.6.2. Wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych. Publikowanie fragmentów Dzieła w portfolio, internecie, mediach społecznościowych, kursach online oraz materiałach promocyjnych, niezależnie od terminu publikacji przez Zamawiającego, na czas nieokreślony, na wszystkich polach eksploatacji, bez ograniczeń terytorialnych;</p>\n<p class=\"font_8\">7.6.3. Przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim — zarówno uczestniczącym w Reportażu, jak i innym — może odbywać się wyłącznie na podstawie odrębnych umów przenoszących prawa lub udzielających licencji, po uprzedniej pisemnej zgodzie Wykonawcy. Materiały mogą być wykorzystywane wyłącznie w celach promocji zgodnie z Umową i w sposób nienaruszający prawa Wykonawcy ani osób trzecich.</p>\n<p class=\"font_8\">7.6.4. Zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów marketingowych w celu promocji swojej usługi;</p>\n<p class=\"font_8\">7.6.5. Wyłączność na obeność firmy video oraz rejestrację i publikowanie w internecie materiałow filmowych z Reportażu w celach swojej promocji. Zamawiający zobowiązuje się, że żadna osoba ani podmiot trzeci (w tym wedding plannerzy, fotografowie, operatorzy z innych firm video, itp.) nie będzie rejestrować ani publikować materiałów filmowych z Reportażu w celach promocyjnych lub do swojego portfolio bez uprzedniej pisemnej zgody Wykonawcy. Wszelkie odstępstwa od tego zakazu wymagają wyraźnej, pisemnej zgody Wykonawcy, określającej zakres i warunki tworzenia i publikowania takich materiałów. W szczególności zakazane są działania, które:</p>\n<p class=\"font_8\">7.6.5.1. Zakłócają realizację Dzieła i wpływają na jakość lub przebieg pracy Wykonawcy;</p>\n<p class=\"font_8\">7.6.5.2. Ujawniają know-how Wykonawcy, w tym sposób pracy, dobór sprzętu, techniki rejestracji i oświetlania planu;</p>\n<p class=\"font_8\">7.6.5.3. Prowadzą do tworzenia lub publikowania w internecie materiałów, które w istotny sposób powielają układ scen, kompozycję kadrów tworzonych przez Wykonawcę, co obniża wartość komercyjną Dzieła i wyrządza szkodę na rzecz Wykonawcy.</p>",
+    "_createdDate": "2025-12-12T13:26:20.573Z",
+    "idRezerwacji": null,
+    "wartoscVAT": 460,
+    "sumaOpcjiNettoBezProwizji": 10000,
+    "prowizjaPlatformyVAT": 460,
+    "nocleg": "nocleg po stronie Zamawiajacego",
+    "_updatedDate": "2025-12-15T15:05:36.864Z",
+    "zgodaNazwaPubliczna": "<p class=\"font_9\"><strong>Pełna zgoda marketingowa + wyłączność</strong></p>",
+    "rodzajRezerwacjiOpis": "Wybierasz „niższą cenę za bezzwrotną rezerwację”. Rezerwujesz usługę w niższej cenie,\nale bez prawa odstąpienia od umowy. W przypadku rezygnacji należy wpłacić pełną kwotę\nwynagrodzenia, a wpłacona kwota nie podlega zwrotowi.",
+    "idKlientKarta": "291a5617-a481-449c-a1d4-8c95c696449a",
+    "bezzwrotnaDodatkowyProcent": 0,
+    "zapisOferty": "konfigurator",
+    "bezzwrotnaDodatkowaKwota": 0,
+    "prowizjaPlatformyNetto": 2000,
+    "potwierdzony": false,
+    "zgodaOpisPubliczny": "<p class=\"font_9\">W ramach wybranej opcji Zamawiający otrzymuje preferencyjne warunki współpracy oraz rabat. Wykonawca wzamian otrzymuje zgodę na:</p>\n<ul class=\"font_9\">\n  <li><p class=\"font_9\">korzystanie z materiałów z Reportażu publicznie udostępnionych w mediach społecznościowych przez inne osoby;</p></li>\n  <li><p class=\"font_9\">wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych;</p></li>\n  <li><p class=\"font_9\">przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim;</p></li>\n  <li><p class=\"font_9\">zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów promocyjnych;</p></li>\n  <li><p class=\"font_9\">wyłączność na obecność firmy video oraz rejestrację i publikowanie w internecie materiałów filmowych z Reportażu w celach swojej promocji. Zakaz dotyczy wszelkich działań, które ujawniają sposób pracy Wykonawcy, jego know-how oraz prowadzą do tworzenia lub publikowania w internecie materiałów, które w istotny sposób powielają układ scen oraz kompozycję kadrów Wykonawcy, co prowadzi do obniżenia komercyjnej wartości Dzieła.</p></li>\n</ul>",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "nazwaOferty": "Nowy pakiet",
+    "idProfilu": "46bc7ea2-76f8-44cd-8ab1-c85763ad89a4",
+    "liczbaAsystentow": 0,
+    "sumaBruttoPrzedRabatem": 17800,
+    "sumaBrutto": 12460,
+    "wyslanaDoTworcy": false,
+    "kosztDojazdu": 261,
+    "typUslugi": "filmowiec",
+    "bezzwrotna": true,
+    "rabatSpecjalny": {
+      "tryb": "on",
+      "wartosc": 0
+    },
+    "czasPracy": 8,
+    "statusPakietu": "draft"
+  },
+  "tworca": {
+    "typProfilu": "tworca",
+    "vat": 0,
+    "lp": "0001",
+    "wykonawcaAdresKodPocztowy": "26-001",
+    "jezyki": "pl, en",
+    "ibanRachunek": "82 1050 1416 1000 0090 8185 5257",
+    "cenaZaPoprawkiDoDziela": 500,
+    "darmoweKm": 0,
+    "verificationStatus": "pending",
+    "wykonawcaAdresMiejscowosc": "Wola Kopcowa",
+    "mozliwoscBezzwrotnejRezerwacji": true,
+    "progKwoty": 17000,
+    "avatar": "https://rekiny-filmowe.b-cdn.net/tworcy/default/zdjecie/db95b1bc-bbed-423f-b63a-07ffa2e46a6e.jpg",
+    "terminOddaniaDziela": 180,
+    "stripeAccountId": "acct_1SSZieI0FX1GvixR",
+    "_id": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "_owner": "d37be024-ec98-4ed0-a37b-8da5d8e1a785",
+    "_createdDate": "2025-10-07T17:14:39.400Z",
+    "nazwa": "Marcin Zakrzewski",
+    "completion": 90,
+    "telefon": "+48 880 826 588",
+    "idUzytkownika": "a22e8c5a-db7a-4102-8714-5595ec330e50",
+    "prowizjaPlatfomyInd": 0.2,
+    "maksIloscAsys": 3,
+    "specjalizacje": "film, montaz, dzwiek",
+    "zadatekWartosc1": 30,
+    "adres": {
+      "subdivisions": [
+        {
+          "code": "Województwo świętokrzyskie",
+          "name": "Województwo świętokrzyskie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat Kielce",
+          "name": "Powiat Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Kielce",
+          "name": "Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Kielce",
+      "location": {
+        "latitude": 50.8659989,
+        "longitude": 20.6286268
+      },
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": "",
+        "formattedAddressLine": "Kielce"
+      },
+      "formatted": "Kielce, Polska",
+      "country": "PL",
+      "postalCode": "25",
+      "subdivision": "SK"
+    },
+    "nazwisko": "Zakrzewski",
+    "_updatedDate": "2025-12-18T22:00:33.232Z",
+    "wykonawcaKraj": "Polska",
+    "slug": "marcin",
+    "ofertaPubliczna": true,
+    "wykonawcaImie": "Marcin",
+    "wykonawcaNazwa": "Rekiny Filmowe Spółka z ograniczoną odpowiedzialnością",
+    "playlisty": 1,
+    "prowizjaPlatfomyIndCc": 0.1,
+    "cenyPakietowe": "{ '#containerRolki': 800, '#containerZwiastun': 800, '#containerDodKam': 600, '#containerLiteDron': 900, '#containerOpDron': 1900, '#containerContentCreator': 3900, '#containerDzielo30': 1900, '#containerMatZrod': 1900, '#containerBrakAsys': 0, '#containerAsys1': 1900, '#containerAsys2': 3500, '#containerAsys1SDE': 3500, '#containerAsys1WywFilm': 3000, '#containerAsys1WywOddz': 3000, '#containerAsys1DodKlipZabawa': 1900, '#containerAsys2SDE': 3500, '#containerAsys2WywFilm': 3000, '#containerAsys2WywOddz': 3000, '#containerAsys2DodKlipZabawa': 1900}",
+    "stawkaZaKm": 1.5,
+    "zweryfikowany": true,
+    "wykonawcaNazwisko": "Zakrzewski",
+    "wykonawcaAdresUlica": "Polna",
+    "imie": "Marcin",
+    "wykonawcaEmail": "zapytaj@rekinyfilmowe.pl",
+    "karaUmownaProcent": 30,
+    "nazwaBanku": "ING Bank Śląski",
+    "wykonawcaNip": "6572974769",
+    "zadatekWartosc": 30,
+    "wykonawcaRegon": "523652315",
+    "sde": true,
+    "oMnie": "\"🎥 „Film to dla mnie coś więcej niż obraz i dźwięk – to podróż w czasie.”Od lat towarzyszę parom w ich najpiękniejszych momentach, zamieniając ulotne chwile w opowieści, do których można wracać bez końca. Każdy ślub, każde spojrzenie, każdy drobny gest – mają swoją historię, a moim zadaniem jest uchwycić je tak, by po latach wywoływały te same emocje, które towarzyszyły Wam w dniu ceremonii.Pracuję dyskretnie, ale z pełnym zaangażowaniem, obserwując, a nie reżyserując. Dzięki temu filmy, które tworzę, są naturalne, autentyczne i pełne życia. Łączę w nich kreatywne kadry, nowoczesny montaż i subtelne detale, które czynią każdy materiał niepowtarzalnym.Nieważne, czy wybierzecie krótką formę, czy dłuższy film – zawsze otrzymacie historię opowiedzianą sercem, dopasowaną do Was i tego, co najważniejsze w Waszym dniu.Bo te wspomnienia są Wasze. Ja tylko pomagam je zatrzymać.\"",
+    "wykonawcaAdresNrDomu": 15,
+    "iloscFilmow": 20,
+    "wykonawcaTelefon": "+48 880 286 588",
+    "dodatkowyOperator": 2500,
+    "typUslugi": "filmowiec, content_creator",
+    "kategoriaCenowa": 1,
+    "lokalizacja": {
+      "subdivisions": [
+        {
+          "code": "Świętokrzyskie Voivodeship",
+          "name": "Świętokrzyskie Voivodeship",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Kielce",
+          "name": "Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Kielce",
+          "name": "Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Poland",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Kielce",
+      "location": {
+        "latitude": 50.8659989,
+        "longitude": 20.6286268
+      },
+      "countryFullname": "Poland",
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": "",
+        "formattedAddressLine": "Kielce"
+      },
+      "formatted": "Kielce, Poland",
+      "country": "PL",
+      "postalCode": "25",
+      "subdivision": "SK"
+    },
+    "godzinaSzczytowa": "00:30:00.000",
+    "potwierdzanieRezerwacji": "manual",
+    "nazwaFirmy": "Rekiny Filmowe",
+    "cenaBazowa": "7500",
+    "waluta": "PLN",
+    "www": ""
+  },
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
