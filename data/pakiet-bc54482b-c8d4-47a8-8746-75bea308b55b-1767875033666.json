@@ -1,0 +1,187 @@
+{
+  "karta": {
+    "idKlient": "b14f5c75-64d6-403b-b71c-82cfc966d746",
+    "miejsceRealizacji": {
+      "subdivisions": [
+        {
+          "code": "Województwo mazowieckie",
+          "name": "Województwo mazowieckie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat grójecki",
+          "name": "Powiat grójecki",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Mała Wieś",
+          "name": "Mała Wieś",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Mała Wieś",
+      "location": {
+        "latitude": 51.8242776,
+        "longitude": 20.7891708
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": "40",
+        "formattedAddressLine": "40"
+      },
+      "formatted": "Mała Wieś 40, 05-622, Polska",
+      "country": "PL",
+      "postalCode": "05-622",
+      "subdivision": "MZ"
+    },
+    "umowaZaakceptowana": true,
+    "_id": "1c6c7222-6ec2-4fee-8b11-18383754e8b1",
+    "_owner": "17edcee4-5809-4856-8f02-ff09f53bf79a",
+    "_createdDate": "2025-05-12T20:02:23.382Z",
+    "nazwa": "Marta & Rafał [30.05.2025]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-12-15T12:02:20.419Z",
+    "dataRealizacji": "2025-05-30",
+    "status": "porealizacji",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "idProfilKlienta": "69eaa19f-7296-4f42-800a-f60e5499b668"
+  },
+  "oferta": {
+    "sumaNettoPrzedRabatem": 13966.66667,
+    "sumaNetto": 12570,
+    "_id": "bc54482b-c8d4-47a8-8746-75bea308b55b",
+    "wybraneOpcje": [
+      {
+        "opis": "Nagrania z bliskimi – wzruszające wspomnienia i życzenia, które zostaną na zawsze",
+        "_id": "ijk5791",
+        "nazwa": "Wywiady",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "ijk5791",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 4,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Krótkie panoramy otoczenia, ujęcia z góry na początek filmu, np. lokacja ślubu, fajerwerki. Realizowane przez głównego twórcę – tylko jeśli warunki logistyczne i czas na to pozwalają.",
+        "_id": "def567",
+        "nazwa": "Dron Lite",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "def567",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "klip z najlepszymi momentami dnia. Długość 2-4 minuty",
+        "_id": "abc456",
+        "nazwa": "Zwiastun (3 min)",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abc456",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Najważniejsze momenty z całego dnia",
+        "_id": "abk123",
+        "nazwa": "Film główny",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abk123",
+        "podtyp": "15-25 min",
+        "meta": null
+      },
+      {
+        "opis": "Kolejny operator uchwyci jeszcze więcej ujęć – idealne przy dużych ślubach",
+        "_id": "op12",
+        "nazwa": "Dodatkowy operator na życzenie (asystent)",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "op12",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Oddawane online na prywatnym serwerze gotowe do pobrania",
+        "_id": "pkst1",
+        "nazwa": "Materiały w jakości 4K",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst1",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Realizowana o zachodzie słońca przez około 10-15 minut w zależności od możliwości na reportażu",
+        "_id": "pkst2",
+        "nazwa": "Sesja w dniu ślubu",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst2",
+        "podtyp": null,
+        "meta": null
+      }
+    ],
+    "_owner": "1acbf3ab-343d-491f-bf85-a1709e452898",
+    "_createdDate": "2025-05-17T21:50:36.726Z",
+    "idRezerwacji": "454f5e4b-7ed0-47a7-a6e6-a3a5d3afc976",
+    "nocleg": "Nocleg niewliczony w cenę",
+    "_updatedDate": "2025-12-19T13:39:10.459Z",
+    "idKlientKarta": "1c6c7222-6ec2-4fee-8b11-18383754e8b1",
+    "zapisOferty": "konfiguratorReczny",
+    "potwierdzony": true,
+    "nazwaOferty": "oferta indywidualna",
+    "idProfilu": "69eaa19f-7296-4f42-800a-f60e5499b668",
+    "liczbaAsystentow": 2,
+    "sumaBrutto": 12570,
+    "wyslanaDoTworcy": true,
+    "kosztDojazdu": 0,
+    "typUslugi": "filmowiec",
+    "czasPracy": 12,
+    "statusPakietu": "rezerwacja"
+  },
+  "tworca": null,
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
