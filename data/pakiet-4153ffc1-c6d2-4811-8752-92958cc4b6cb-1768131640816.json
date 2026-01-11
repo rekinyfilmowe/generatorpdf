@@ -1,0 +1,170 @@
+{
+  "karta": {
+    "idKlient": "eb53eebe-f4f0-402c-82a7-d442df24d7c4",
+    "miejsceRealizacji": {
+      "subdivisions": [
+        {
+          "code": "Województwo mazowieckie",
+          "name": "Województwo mazowieckie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat grójecki",
+          "name": "Powiat grójecki",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Mała Wieś",
+          "name": "Mała Wieś",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Mała Wieś",
+      "location": {
+        "latitude": 51.8242776,
+        "longitude": 20.7891708
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": "40",
+        "formattedAddressLine": "40"
+      },
+      "formatted": "Mała Wieś 40, 05-622, Polska",
+      "country": "PL",
+      "postalCode": "05-622",
+      "subdivision": "MZ"
+    },
+    "umowaZaakceptowana": true,
+    "_id": "b237ae69-fdab-41fc-9228-a88c30fd8c45",
+    "_owner": "750684c2-8a99-4b29-b425-ec57f3848e6d",
+    "_createdDate": "2025-05-13T13:33:46.436Z",
+    "nazwa": "Jan & Monica [12.06.2025]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-12-15T12:02:20.421Z",
+    "dataRealizacji": "2025-06-12",
+    "status": "porealizacji",
+    "idTworca": "157beb09-8d31-4eb6-bccc-8fd107f066c5",
+    "idProfilKlienta": "b9962b5f-6a45-45d4-9669-557bd4d02cc6"
+  },
+  "oferta": {
+    "sumaNettoPrzedRabatem": 9777.777778,
+    "sumaNetto": 8800,
+    "_id": "4153ffc1-c6d2-4811-8752-92958cc4b6cb",
+    "wybraneOpcje": [
+      {
+        "opis": "Krótkie panoramy otoczenia. Ujęcia z góry wykorzystane na początek filmu realizowane przez głównego twórcę lub asystenta (jeśli został wybrany)",
+        "_id": "def567",
+        "nazwa": "Dron Lite",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "def567",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Klip z najlepszymi momentami dnia",
+        "_id": "abc456",
+        "nazwa": "Zwiastun (3 min)",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abc456",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Najważniejsze momenty z całego dnia",
+        "_id": "abk123",
+        "nazwa": "Film główny",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abk123",
+        "podtyp": "{\"label\":\"15-25 min\",\"cena\":0}",
+        "meta": null
+      },
+      {
+        "opis": "Kolejny operator, który realizuje dodatkowe ujęcia z drugiej prespektywy",
+        "_id": "op12",
+        "nazwa": "Dodatkowy operator (asystent)",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "op12",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Oddawane online na prywatnym serwerze gotowe do pobrania",
+        "_id": "pkst1",
+        "nazwa": "Materiały w jakości 4K",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst1",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Realizowana o zachodzie słońca przez około 10-15 minut w zależności od możliwości na reportażu",
+        "_id": "pkst2",
+        "nazwa": "Sesja w dniu ślubu",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst2",
+        "podtyp": null,
+        "meta": null
+      }
+    ],
+    "_owner": "4b1bb302-0f4d-46a6-b377-68ded29c9a0c",
+    "_createdDate": "2025-05-17T22:55:00.116Z",
+    "nocleg": "Nocleg niewliczony w cenę",
+    "_updatedDate": "2025-12-15T15:05:36.864Z",
+    "idKlientKarta": "b237ae69-fdab-41fc-9228-a88c30fd8c45",
+    "zapisOferty": "konfiguratorReczny",
+    "potwierdzony": true,
+    "nazwaOferty": "oferta indywidualna",
+    "idProfilu": "b9962b5f-6a45-45d4-9669-557bd4d02cc6",
+    "liczbaAsystentow": 1,
+    "sumaBrutto": 8800,
+    "wyslanaDoTworcy": true,
+    "kosztDojazdu": 0,
+    "typUslugi": "filmowiec",
+    "czasPracy": 12,
+    "statusPakietu": "draft"
+  },
+  "tworca": null,
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
