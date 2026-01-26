@@ -1,0 +1,171 @@
+{
+  "karta": {
+    "idKlient": "fb3a9468-e661-4df3-ab55-26d1a03bd09a",
+    "miejsceRealizacji": {
+      "subdivisions": [
+        {
+          "code": "Województwo małopolskie",
+          "name": "Województwo małopolskie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat nowosądecki",
+          "name": "Powiat nowosądecki",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Niskowa",
+          "name": "Niskowa",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Niskowa",
+      "location": {
+        "latitude": 49.6223615,
+        "longitude": 20.6411176
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": "120",
+        "formattedAddressLine": "120"
+      },
+      "formatted": "Niskowa 120, 33-395, Polska",
+      "country": "PL",
+      "postalCode": "33-395",
+      "subdivision": "MA"
+    },
+    "umowaZaakceptowana": true,
+    "_id": "1537f590-7b44-44fd-9307-fc5a6797b023",
+    "_owner": "5b0d3cdd-6bb0-4079-8d08-fcc49154efaf",
+    "_createdDate": "2025-05-14T14:01:14.550Z",
+    "nazwa": "Karolina & Andrzej [12.07.2025]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-12-15T12:02:20.419Z",
+    "dataRealizacji": "2025-07-12",
+    "status": "porealizacji",
+    "idTworca": "0af6572b-0116-4094-9d7a-a74bcbf4e036",
+    "idProfilKlienta": "5426cdcd-06e6-48b2-b359-5f34d73d2b64"
+  },
+  "oferta": {
+    "sumaNettoPrzedRabatem": 11500,
+    "sumaNetto": 9200,
+    "_id": "eae36b2c-23f9-46da-8842-255a0b801daf",
+    "wybraneOpcje": [
+      {
+        "opis": "Krótkie panoramy otoczenia. Ujęcia z góry wykorzystane na początek filmu realizowane przez głównego twórcę lub asystenta (jeśli został wybrany)",
+        "_id": "def567",
+        "nazwa": "Dron Lite",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "def567",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Oddawane online na prywatnym serwerze gotowe do pobrania",
+        "_id": "pkst1",
+        "nazwa": "Materiały w jakości 4K",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst1",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Realizowana o zachodzie słońca przez około 10-15 minut wplątana w film główny",
+        "_id": "pkst2",
+        "nazwa": "Sesja w dniu ślubu",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst2",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Klip z najlepszymi momentami dnia (około 3 minuty)",
+        "_id": "abc456",
+        "nazwa": "Zwiastun",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abc456",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Reportaż filmowy zawierający wszystkie etapy dnia",
+        "_id": "abk123",
+        "nazwa": "Film główny",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abk123",
+        "podtyp": "{\"label\":\"15-25 min\",\"cena\":0}",
+        "meta": null
+      },
+      {
+        "opis": "Możemy wykorzystać Wasz film w pełnym zakresie – social media, strona, prezentacje. Zgoda obejmuje wszystkie osoby i pozwala na modyfikacje.",
+        "_id": "xyz4226",
+        "nazwa": "Publikacja całości",
+        "ilosc": 1,
+        "cena": -20,
+        "idLocal": "xyz4226",
+        "podtyp": null,
+        "meta": null
+      }
+    ],
+    "_owner": "5ba358de-d412-4931-a105-5b68eabc9486",
+    "_createdDate": "2025-05-18T22:17:03.583Z",
+    "idRezerwacji": "fab9cd50-a853-46a1-b6a5-3e87ba402398",
+    "nocleg": "Nocleg niewliczony w cenę",
+    "_updatedDate": "2025-12-19T13:39:10.459Z",
+    "idKlientKarta": "1537f590-7b44-44fd-9307-fc5a6797b023",
+    "zapisOferty": "konfiguratorReczny",
+    "potwierdzony": true,
+    "nazwaOferty": "oferta indywidualna",
+    "idProfilu": "5426cdcd-06e6-48b2-b359-5f34d73d2b64",
+    "liczbaAsystentow": 1,
+    "sumaBrutto": 9200,
+    "wyslanaDoTworcy": true,
+    "kosztDojazdu": 0,
+    "typUslugi": "filmowiec",
+    "czasPracy": 12,
+    "statusPakietu": "rezerwacja"
+  },
+  "tworca": null,
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
