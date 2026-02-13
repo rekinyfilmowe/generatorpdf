@@ -1,0 +1,161 @@
+{
+  "karta": {
+    "idKlient": "b842059a-5ff8-48b8-93d6-f4a5745716c1",
+    "miejsceRealizacji": {
+      "subdivisions": [
+        {
+          "code": "Województwo wielkopolskie",
+          "name": "Województwo wielkopolskie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat Kalisz",
+          "name": "Powiat Kalisz",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Kalisz",
+          "name": "Kalisz",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Kalisz",
+      "location": {
+        "latitude": 51.7654919,
+        "longitude": 18.0830782
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "number": "9",
+        "name": "Chopina",
+        "apt": "",
+        "formattedAddressLine": "Chopina 9"
+      },
+      "formatted": "Chopina 9, 62-800 Kalisz, Polska",
+      "country": "PL",
+      "postalCode": "62-800",
+      "subdivision": "WP"
+    },
+    "umowaZaakceptowana": true,
+    "_id": "ea9448e1-1db1-4df8-ac5e-45071f3c7289",
+    "_owner": "7ec300f7-19ba-4617-b889-a1cce7679427",
+    "_createdDate": "2025-05-14T11:48:54.659Z",
+    "nazwa": "Barbara & Michał [28.06.2025]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-12-15T12:02:20.421Z",
+    "dataRealizacji": "2025-06-28",
+    "status": "porealizacji",
+    "idTworca": "157beb09-8d31-4eb6-bccc-8fd107f066c5",
+    "idProfilKlienta": "a15c7d3a-6857-44d8-aaaa-a05e9293b0b8"
+  },
+  "oferta": {
+    "sumaNettoPrzedRabatem": 10222.22222,
+    "sumaNetto": 9200,
+    "_id": "9e1de5e1-2d08-4825-8415-28efe395fca3",
+    "wybraneOpcje": [
+      {
+        "opis": "Krótkie panoramy otoczenia. Ujęcia z góry wykorzystane na początek filmu realizowane przez głównego twórcę lub asystenta (jeśli został wybrany)",
+        "_id": "def567",
+        "nazwa": "Dron Lite",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "def567",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Oddawane online na prywatnym serwerze gotowe do pobrania",
+        "_id": "pkst1",
+        "nazwa": "Materiały w jakości 4K",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst1",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Realizowana o zachodzie słońca przez około 10-15 minut wplątana w film główny",
+        "_id": "pkst2",
+        "nazwa": "Sesja w dniu ślubu",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst2",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Klip z najlepszymi momentami dnia (około 3 minuty)",
+        "_id": "abc456",
+        "nazwa": "Zwiastun",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abc456",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Reportaż filmowy zawierający wszystkie etapy dnia (około 40 minut - styl reportażowy)",
+        "_id": "abk123",
+        "nazwa": "Film główny",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abk123",
+        "podtyp": "{\"label\":\"45 min\",\"cena\":0}",
+        "meta": null
+      }
+    ],
+    "_owner": "dc6e22bf-b1c1-4897-af3d-22e767b77ace",
+    "_createdDate": "2025-05-18T21:22:24.402Z",
+    "idRezerwacji": "477e476a-2432-41e8-b147-d3b8775db44d",
+    "nocleg": "po stronie Zamawiającego",
+    "_updatedDate": "2025-12-19T13:39:10.459Z",
+    "idKlientKarta": "ea9448e1-1db1-4df8-ac5e-45071f3c7289",
+    "zapisOferty": "konfiguratorReczny",
+    "potwierdzony": true,
+    "nazwaOferty": "oferta indywidualna",
+    "idProfilu": "a15c7d3a-6857-44d8-aaaa-a05e9293b0b8",
+    "liczbaAsystentow": 1,
+    "sumaBrutto": 9200,
+    "wyslanaDoTworcy": true,
+    "kosztDojazdu": 0,
+    "typUslugi": "filmowiec",
+    "czasPracy": 12,
+    "statusPakietu": "rezerwacja"
+  },
+  "tworca": null,
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
