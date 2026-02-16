@@ -1,0 +1,381 @@
+{
+  "karta": {
+    "idKlient": "047df431-8790-4558-8ba2-eae00a2a58c0",
+    "miejsceRealizacji": {
+      "city": "Opypy",
+      "location": {
+        "latitude": 52.0892219,
+        "longitude": 20.672567
+      },
+      "latitude": 52.0892219,
+      "formatted": "Mazowiecka 163, 05-825 Opypy, Polska",
+      "country": "PL",
+      "longitude": 20.672567,
+      "subdivision": "MZ"
+    },
+    "_id": "70955c67-b303-4887-bb7b-27786405eceb",
+    "_owner": "6439ad82-3bf4-449e-aec4-039cef10de80",
+    "_createdDate": "2026-02-14T00:08:04.379Z",
+    "nazwa": "Moja realizacja ślubna 10.07.2027",
+    "typRealizacji": "slub",
+    "hasloUmowy": "NR8K5J",
+    "_updatedDate": "2026-02-16T13:40:38.461Z",
+    "dataRealizacji": "2027-07-10",
+    "daneDoUmowy": {
+      "adresZam1": {
+        "subdivisions": [
+          {
+            "code": "Województwo mazowieckie",
+            "name": "Województwo mazowieckie",
+            "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+          },
+          {
+            "code": "Powiat Warszawa",
+            "name": "Powiat Warszawa",
+            "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+          },
+          {
+            "code": "Warszawa",
+            "name": "Warszawa",
+            "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+          },
+          {
+            "code": "PL",
+            "name": "Polska",
+            "type": "COUNTRY"
+          }
+        ],
+        "city": "Warszawa",
+        "location": {
+          "latitude": 52.25028229999999,
+          "longitude": 20.9887378
+        },
+        "streetAddress": {
+          "number": "8",
+          "name": "Miła",
+          "apt": "",
+          "formattedAddressLine": "Miła 8"
+        },
+        "formatted": "Miła 8, 00-174 Warszawa, Polska",
+        "country": "PL",
+        "postalCode": "00-174",
+        "subdivision": "MZ"
+      },
+      "imNazZam1": "Filip Kornata",
+      "emailZam1": "filip.kornata@gmail.com",
+      "nazwiskoZam1": "Kornata",
+      "imieZam1": "Filip",
+      "zyczeniaSpecjalne": "Podobają nam się filmy z elementami dokumentalnymi, gdzie widać emocję, autentyczność i relację. Chcielibyśmy je pomieszać z klasycznymi filmowymi ujęciami. Zależy nam na naturalnej atmosferze. ",
+      "telefonZam1": "+48663636444",
+      "rezerwujacyTelefon": "+48510363658",
+      "rezerwujacyImie": "Zuzanna",
+      "rezerwacjaTyp": "dlaSiebieKontakt",
+      "rezerwujacyEmail": "Zuzannalisik@gmail.com",
+      "rezerwujacyNazwisko": "Lisik"
+    },
+    "idProfilKlienta": "1b85a125-bc19-4462-915e-341a56e4be1b"
+  },
+  "oferta": {
+    "wartoscVATPrzedRabatem": 3824,
+    "sumaNettoPrzedRabatem": 16629,
+    "sumaNetto": 11640,
+    "blokadaEdycjiPakietu": false,
+    "idZgodaMarketingowa": "ee96813f-c2fe-4976-a9cb-84f7215d2688",
+    "_id": "be6203c3-7b47-4c1e-a308-befba77ecdc4",
+    "wybraneOpcje": [
+      {
+        "opis": "Liczba godzin pracy Twórcy oraz asystentów w ramach rezerwacji usługi.\n\nCena bazowa obejmuje:\n✔ Usługę operatorską realizowaną przez Twórcę\n✔ Profesjonalne nagranie wszystkich kluczowych momentów\n✔ Korzystanie z wysokiej klasy sprzętu filmowego i audio\n\nCena bazowa nie obejmuje:\n✔ Usługi montażowej z zarejestrowanych materiałów\n\nJeśli chcesz zamówić usługę montażu, przejdź do kolejnych opcji i sprawdź, co proponujemy.",
+        "vat": 1159,
+        "_id": "bazaCeny",
+        "nazwa": "Usługa operatorska",
+        "terminCena": 0,
+        "terminInd": null,
+        "czasTrwania": "",
+        "cena": 6199,
+        "terminOddania": 180,
+        "idLocal": "bazaCeny",
+        "podtyp": "12",
+        "cenaBrutto": 6199,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Materiał wideo o wysokiej rozdzielczości, pozwalający dostrzec najdrobniejsze detale obrazu. Film jest możliwy do oglądania na odpowiednich, do tego przystosowanych urządzeniach z oznaczeniem 4K lub wyższych.",
+        "vat": 0,
+        "_id": "jakosc4k",
+        "nazwa": "Rozdzielczość 4K",
+        "terminCena": 0,
+        "terminInd": null,
+        "czasTrwania": null,
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "jakosc4k",
+        "podtyp": "1",
+        "cenaBrutto": 0,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 2,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Klip będący hipnotyzującą zapowiedzią całego dnia, prezentujący najważniejsze jego momenty.",
+        "vat": 276,
+        "_id": "zwiastun-std",
+        "nazwa": "Zwiastun",
+        "terminCena": 0,
+        "terminInd": 180,
+        "czasTrwania": "3 min.",
+        "cena": 1476,
+        "terminOddania": 180,
+        "idLocal": "zwiastun-std",
+        "podtyp": "1",
+        "cenaBrutto": 1476,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 2,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Kinowa forma przedstawienia opowieści o Parze Młodej. Spokojne ujęcia płynnie przeplatają się z dynamicznymi scenami w kreatywny sposób, a muzyka i narracja subtelnie prowadzą emocje widza przez cały film. Materiał obejmuje ujęcia ze wszystkich etapów dnia objętych godzinami pracy (np. przygotowania, ceremonia, przysięga, przemowy, przyjęcie i zabawa).",
+        "vat": 1104,
+        "_id": "film-glowny-25",
+        "nazwa": "Film główny",
+        "terminCena": 0,
+        "terminInd": 180,
+        "czasTrwania": "20-25 min.",
+        "cena": 5904,
+        "terminOddania": 180,
+        "idLocal": "film-glowny-25",
+        "podtyp": "1",
+        "cenaBrutto": 5904,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Dodatkowa kamera na statywie, obsługiwana przez głównego operatora, wykorzystywana w kościele podczas przysięgi i kazania, a także w innych wybranych fragmentach reportażu. Jest niezbędna w sytuacji, gdy na realizacji pracuje tylko jeden operator, ponieważ pozwala mu skoncentrować się na tworzeniu większej liczby kreatywnych i zwruszających ujęć, które wzbogacają film.",
+        "vat": 138,
+        "_id": "xyz567",
+        "nazwa": "Dodatkowa kamera na ceremonii",
+        "terminCena": 0,
+        "terminInd": null,
+        "czasTrwania": "",
+        "cena": 738,
+        "terminOddania": 180,
+        "idLocal": "xyz567",
+        "podtyp": "1",
+        "cenaBrutto": 738,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Ujęcia realizowane w dniu reportażu, najczęściej o zachodzie słońca, na terenie miejsca przyjęcia. Stanowią one doskonałe uzupełnienie materiału, do wykorzystania na początku lub w zakończeniu filmu (czas pracy: 15–20 min.).",
+        "vat": 0,
+        "_id": "sesjaZachod",
+        "nazwa": "Sesja plenerowa w dniu ślubu",
+        "terminCena": 0,
+        "terminInd": null,
+        "czasTrwania": null,
+        "cena": 0,
+        "terminOddania": 180,
+        "idLocal": "sesjaZachod",
+        "podtyp": "1",
+        "cenaBrutto": 0,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 5,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      }
+    ],
+    "_owner": "6439ad82-3bf4-449e-aec4-039cef10de80",
+    "zgodaWarunkiUmowy": "<p class=\"font_8\">7.6.1. Korzystanie z materiałów z Reportażu publicznie udostępnionych w mediach społecznościowych przez inne osoby fizyczne lub podmioty trzecie uczestniczące w Reportażu, wyłącznie w zakresie dozwolonego użytku publicznego, bez naruszania praw autorskich osób trzecich;</p>\n<p class=\"font_8\">7.6.2. Wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych. Publikowanie fragmentów Dzieła w portfolio, internecie, mediach społecznościowych, kursach online oraz materiałach promocyjnych, niezależnie od terminu publikacji przez Zamawiającego, na czas nieokreślony, na wszystkich polach eksploatacji, bez ograniczeń terytorialnych;</p>\n<p class=\"font_8\">7.6.3. Przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim — zarówno uczestniczącym w Reportażu, jak i innym — może odbywać się wyłącznie na podstawie odrębnych umów przenoszących prawa lub udzielających licencji, po uprzedniej pisemnej zgodzie Wykonawcy. Materiały mogą być wykorzystywane wyłącznie w celach promocji zgodnie z Umową i w sposób nienaruszający prawa Wykonawcy ani osób trzecich.</p>\n<p class=\"font_8\">7.6.4. Zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów marketingowych w celu promocji swojej usługi;</p>\n<p class=\"font_8\">7.6.5. Wyłączność na obeność firmy video oraz rejestrację i publikowanie w internecie materiałow filmowych z Reportażu w celach swojej promocji. Zamawiający zobowiązuje się, że żadna osoba ani podmiot trzeci (w tym wedding plannerzy, fotografowie, operatorzy z innych firm video, itp.) nie będzie rejestrować ani publikować materiałów filmowych z Reportażu w celach promocyjnych lub do swojego portfolio bez uprzedniej pisemnej zgody Wykonawcy. Wszelkie odstępstwa od tego zakazu wymagają wyraźnej, pisemnej zgody Wykonawcy, określającej zakres i warunki tworzenia i publikowania takich materiałów. W szczególności zakazane są działania, które:</p>\n<p class=\"font_8\">7.6.5.1. Zakłócają realizację Dzieła i wpływają na jakość lub przebieg pracy Wykonawcy;</p>\n<p class=\"font_8\">7.6.5.2. Ujawniają know-how Wykonawcy, w tym sposób pracy, dobór sprzętu, techniki rejestracji i oświetlania planu;</p>\n<p class=\"font_8\">7.6.5.3. Prowadzą do tworzenia lub publikowania w internecie materiałów, które w istotny sposób powielają układ scen, kompozycję kadrów tworzonych przez Wykonawcę, co obniża wartość komercyjną Dzieła i wyrządza szkodę na rzecz Wykonawcy.</p>",
+    "_createdDate": "2026-02-14T00:09:57.400Z",
+    "idRezerwacji": "a2ca4052-5e61-4e78-9612-6a6ee6423185",
+    "wartoscVAT": 2677,
+    "sumaOpcjiNettoBezProwizji": 9700,
+    "prowizjaPlatformyVAT": 446,
+    "nocleg": "Niewliczony w cenę",
+    "_updatedDate": "2026-02-16T14:38:53.505Z",
+    "zgodaNazwaPubliczna": "<p class=\"font_9\"><strong>Pełna zgoda marketingowa + wyłączność</strong></p>",
+    "rodzajRezerwacjiOpis": "Wybierasz „niższą cenę za bezzwrotną rezerwację”. Rezerwujesz usługę w niższej cenie,\nale bez prawa odstąpienia od umowy. W przypadku rezygnacji należy wpłacić pełną kwotę\nwynagrodzenia, a wpłacona kwota nie podlega zwrotowi.",
+    "idKlientKarta": "70955c67-b303-4887-bb7b-27786405eceb",
+    "bezzwrotnaDodatkowyProcent": 0,
+    "zapisOferty": "konfigurator",
+    "bezzwrotnaDodatkowaKwota": 0,
+    "prowizjaPlatformyNetto": 1940,
+    "potwierdzony": false,
+    "zgodaOpisPubliczny": "<p class=\"font_9\">W ramach wybranej opcji Zamawiający otrzymuje preferencyjne warunki współpracy oraz rabat. Wykonawca wzamian otrzymuje zgodę na:</p>\n<ul class=\"font_9\">\n  <li><p class=\"font_9\">korzystanie z materiałów z Reportażu publicznie udostępnionych w mediach społecznościowych przez inne osoby;</p></li>\n  <li><p class=\"font_9\">wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych;</p></li>\n  <li><p class=\"font_9\">przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim;</p></li>\n  <li><p class=\"font_9\">zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów promocyjnych;</p></li>\n  <li><p class=\"font_9\">wyłączność na obecność firmy video oraz rejestrację i publikowanie w internecie materiałów filmowych z Reportażu w celach swojej promocji. Zakaz dotyczy wszelkich działań, które ujawniają sposób pracy Wykonawcy, jego know-how oraz prowadzą do tworzenia lub publikowania w internecie materiałów, które w istotny sposób powielają układ scen oraz kompozycję kadrów Wykonawcy, co prowadzi do obniżenia komercyjnej wartości Dzieła.</p></li>\n</ul>",
+    "idTworca": "0af6572b-0116-4094-9d7a-a74bcbf4e036",
+    "nazwaOferty": "Nowy pakiet",
+    "idProfilu": "1b85a125-bc19-4462-915e-341a56e4be1b",
+    "liczbaAsystentow": 0,
+    "sumaBruttoPrzedRabatem": 20453,
+    "sumaBrutto": 14317,
+    "wyslanaDoTworcy": false,
+    "kosztDojazdu": 29,
+    "typUslugi": "filmowiec",
+    "bezzwrotna": true,
+    "rabatSpecjalny": {
+      "tryb": "on",
+      "wartosc": 0
+    },
+    "czasPracy": 12,
+    "statusPakietu": "rezerwacja"
+  },
+  "tworca": {
+    "pokazOferteIDostepnosc": true,
+    "typProfilu": "tworca",
+    "vat": 0,
+    "lp": "0003",
+    "wykonawcaAdresKodPocztowy": "26-001",
+    "jezyki": "pl, en",
+    "ibanRachunek": "82 1050 1416 1000 0090 8185 5257",
+    "cenaZaPoprawkiDoDziela": 400,
+    "statusWizytowka": "complete",
+    "nick": "patrykjarzabek",
+    "darmoweKm": 50,
+    "statusDaneKontaktowe": "complete",
+    "wykonawcaAdresMiejscowosc": "Wola Kopcowa",
+    "mozliwoscBezzwrotnejRezerwacji": true,
+    "progKwoty": 10500,
+    "avatar": "https://rekiny-filmowe.b-cdn.net/tworcy/0af6572b-0116-4094-9d7a-a74bcbf4e036/zdjecie/2342940a-2b21-47e2-baa3-b3be791a407c.JPG",
+    "email": "biuro@rekinyfilmowe.pl",
+    "terminOddaniaDziela": 180,
+    "stripeAccountId": "acct_1SSZieI0FX1GvixR",
+    "rodzajUslug": "filmowiec",
+    "_id": "0af6572b-0116-4094-9d7a-a74bcbf4e036",
+    "_owner": "d37be024-ec98-4ed0-a37b-8da5d8e1a785",
+    "_createdDate": "2025-10-07T17:14:39.701Z",
+    "nazwa": "Patryk Jarząbek",
+    "wizytowkaPublicznaOd": "2026-01-19T03:00:00.000Z",
+    "telefon": "+48 664 220 747",
+    "idUzytkownika": "68358a93-6235-4bf5-869d-82cbe8bfe142",
+    "prowizjaPlatfomyInd": 0.2,
+    "maksIloscAsys": 3,
+    "zadatekWartosc1": 30,
+    "adres": {
+      "subdivisions": [
+        {
+          "code": "Województwo mazowieckie",
+          "name": "Województwo mazowieckie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat miński",
+          "name": "Powiat miński",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Mińsk Mazowiecki",
+          "name": "Mińsk Mazowiecki",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Mińsk Mazowiecki",
+      "location": {
+        "latitude": 52.1792836,
+        "longitude": 21.5721057
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "number": "",
+        "name": "",
+        "apt": ""
+      },
+      "formatted": "Mińsk Mazowiecki, Polska",
+      "country": "PL",
+      "postalCode": "08",
+      "subdivision": "MZ"
+    },
+    "nazwisko": "Jarząbek",
+    "_updatedDate": "2026-02-15T22:00:28.346Z",
+    "wykonawcaKraj": "Polska",
+    "slug": "patryk",
+    "ofertaPubliczna": true,
+    "wykonawcaImie": "Marcin",
+    "licencja": "otwarta",
+    "wykonawcaNazwa": "Rekiny Filmowe Spółka z ograniczoną odpowiedzialnością",
+    "prowizjaPlatfomyIndCc": 0.1,
+    "cenyPakietowe": "{ '#containerRolki': 800, '#containerZwiastun': 800, '#containerDodKam': 700, '#containerLiteDron': 800, '#containerOpDron': 1900, '#containerContentCreator': 3900, '#containerDzielo30': 1900, '#containerMatZrod': 1900, '#containerBrakAsys': 0, '#containerAsys1': 1900, '#containerAsys2': 3500, '#containerAsys1SDE': 3500, '#containerAsys1WywFilm': 3500, '#containerAsys1WywOddz': 3500, '#containerAsys1DodKlipZabawa': 1900, '#containerAsys2SDE': 3500, '#containerAsys2WywFilm': 3500, '#containerAsys2WywOddz': 3500, '#containerAsys2DodKlipZabawa': 1900}",
+    "statusOferta": "complete",
+    "stawkaZaKm": 1.2,
+    "zweryfikowany": true,
+    "wykonawcaNazwisko": "Zakrzewski",
+    "wykonawcaAdresUlica": "Polna",
+    "kalendarzAktywny": true,
+    "imie": "Patryk",
+    "wykonawcaEmail": "zapytaj@rekinyfilmowe.pl",
+    "karaUmownaProcent": 20,
+    "statusDaneRozliczeniowe": "complete",
+    "nazwaBanku": "ING Bank Śląski",
+    "wykonawcaNip": "6572974769",
+    "zadatekWartosc": 10,
+    "profileStatus": "active",
+    "wykonawcaRegon": "523652315",
+    "sde": true,
+    "wykonawcaAdresNrDomu": 15,
+    "obszarDzialaniaTyp": "poland",
+    "iloscFilmow": 26,
+    "wykonawcaTelefon": "+48 880 286 588",
+    "dodatkowyOperator": 2000,
+    "wizytowkaPubliczna": true,
+    "kategoriaCenowa": 3,
+    "godzinaSzczytowa": "00:30:00.000",
+    "potwierdzanieRezerwacji": "manual",
+    "nazwaFirmy": "Rekiny Filmowe",
+    "cenaBazowa": "7900",
+    "waluta": "PLN"
+  },
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
