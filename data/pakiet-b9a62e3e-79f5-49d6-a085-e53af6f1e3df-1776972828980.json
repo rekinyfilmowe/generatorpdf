@@ -1,0 +1,197 @@
+{
+  "karta": {
+    "idKlient": "31d8d41d-e741-4c79-ba1a-79284918715d",
+    "miejsceRealizacji": {
+      "subdivisions": [
+        {
+          "code": "Województwo warmińsko-mazurskie",
+          "name": "Województwo warmińsko-mazurskie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat Olsztyn",
+          "name": "Powiat Olsztyn",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Olsztyn",
+          "name": "Olsztyn",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Olsztyn",
+      "location": {
+        "latitude": 53.7819453,
+        "longitude": 20.4508242
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "number": "4",
+        "name": "Żeglarska",
+        "apt": "",
+        "formattedAddressLine": "Żeglarska 4"
+      },
+      "formatted": "Żeglarska 4, 10-160 Olsztyn, Polska",
+      "country": "PL",
+      "postalCode": "10-160",
+      "subdivision": "WN"
+    },
+    "umowaZaakceptowana": true,
+    "_id": "5d738c5d-03ff-417c-9be8-a086f36997f7",
+    "_owner": "babee2b2-2d06-4e77-86a0-e002ada9b4a3",
+    "_createdDate": "2025-05-14T16:15:06.360Z",
+    "nazwa": "Marcelina & Jakub [08.08.2025]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-12-15T12:02:20.420Z",
+    "dataRealizacji": "2025-08-08",
+    "status": "porealizacji",
+    "idTworca": "0af6572b-0116-4094-9d7a-a74bcbf4e036",
+    "idProfilKlienta": "0396e58c-cecc-4748-bb8b-363b509617ac"
+  },
+  "oferta": {
+    "sumaNettoPrzedRabatem": 14111.11111,
+    "sumaNetto": 12700,
+    "_id": "b9a62e3e-79f5-49d6-a085-e53af6f1e3df",
+    "wybraneOpcje": [
+      {
+        "opis": "Klip na Social Media w pionie przygotowany z gotowego Zwiastuna lub Filmu głównego (około 30 sekund)",
+        "_id": "abc123",
+        "nazwa": "Rolka",
+        "ilosc": 2,
+        "cena": 0,
+        "idLocal": "abc123",
+        "podtyp": "2",
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Krótkie panoramy otoczenia. Ujęcia z góry wykorzystane na początek filmu realizowane przez głównego twórcę lub asystenta (jeśli został wybrany)",
+        "_id": "def567",
+        "nazwa": "Dron Lite",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "def567",
+        "podtyp": null,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "opis": "Oddawane online na prywatnym serwerze gotowe do pobrania",
+        "_id": "pkst1",
+        "nazwa": "Materiały w jakości 4K",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst1",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Realizowana o zachodzie słońca przez około 10-15 minut wplątana w film główny",
+        "_id": "pkst2",
+        "nazwa": "Sesja w dniu ślubu",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "pkst2",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Klip z najlepszymi momentami dnia (około 3 minuty)",
+        "_id": "abc456",
+        "nazwa": "Zwiastun",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abc456",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Reportaż filmowy zawierający wszystkie etapy dnia (około 15-25 minut - styl kinowy)",
+        "_id": "abk123",
+        "nazwa": "Film główny",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "abk123",
+        "podtyp": "{\"label\":\"25 min\",\"cena\":0}",
+        "meta": null
+      },
+      {
+        "opis": "Kolejny operator, który realizuje dodatkowe ujęcia z drugiej prespektywy",
+        "_id": "op12",
+        "nazwa": "Dodatkowy operator (asystent)",
+        "ilosc": 1,
+        "cena": 0,
+        "idLocal": "op12",
+        "podtyp": null,
+        "meta": null
+      },
+      {
+        "opis": "Możemy wykorzystać Wasz film w pełnym zakresie – social media, strona, prezentacje. Zgoda obejmuje wszystkie osoby i pozwala na modyfikacje.",
+        "_id": "xyz4226",
+        "nazwa": "Publikacja całości",
+        "ilosc": 1,
+        "cena": -10,
+        "idLocal": "xyz4226",
+        "podtyp": null,
+        "meta": null
+      }
+    ],
+    "_owner": "4534512e-14f2-45fd-9510-7aeb0af338d5",
+    "_createdDate": "2025-05-19T15:51:30.040Z",
+    "idRezerwacji": "c608edf0-34d6-4090-9c31-d18ae78a7eae",
+    "nocleg": "po stronie Wykonawcy",
+    "_updatedDate": "2025-12-19T13:39:10.458Z",
+    "idKlientKarta": "5d738c5d-03ff-417c-9be8-a086f36997f7",
+    "zapisOferty": "konfiguratorReczny",
+    "potwierdzony": true,
+    "nazwaOferty": "oferta indywidualna",
+    "idProfilu": "0396e58c-cecc-4748-bb8b-363b509617ac",
+    "liczbaAsystentow": 2,
+    "sumaBrutto": 12700,
+    "wyslanaDoTworcy": true,
+    "kosztDojazdu": 0,
+    "typUslugi": "filmowiec",
+    "czasPracy": 12,
+    "statusPakietu": "rezerwacja"
+  },
+  "tworca": null,
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
