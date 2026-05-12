@@ -1,0 +1,133 @@
+{
+  "karta": {
+    "idKlient": "13409814-4744-4a8c-9eae-75e816366103",
+    "miejsceRealizacji": {
+      "subdivisions": [
+        {
+          "code": "Województwo podkarpackie",
+          "name": "Województwo podkarpackie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat przemyski",
+          "name": "Powiat przemyski",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Dubiecko",
+          "name": "Dubiecko",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Dubiecko",
+      "location": {
+        "latitude": 49.8210731,
+        "longitude": 22.3929309
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "number": "1",
+        "name": "Zamkowa",
+        "apt": "",
+        "formattedAddressLine": "Zamkowa 1"
+      },
+      "formatted": "Zamkowa 1, 37-750 Dubiecko, Polska",
+      "country": "PL",
+      "postalCode": "37-750",
+      "subdivision": "PK"
+    },
+    "umowaZaakceptowana": true,
+    "_id": "17f8b8bf-a2dc-4a7b-8371-2b256bfb782d",
+    "_owner": "1c0ff9c3-117d-4313-a33f-df2fafe90b0b",
+    "_createdDate": "2025-05-14T22:58:21.983Z",
+    "nazwa": "Małgorzata  & Pawel  [24.08.2025]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2025-12-15T12:02:20.419Z",
+    "dataRealizacji": "2025-08-24",
+    "status": "porealizacji",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "idProfilKlienta": "b611fb48-4cf9-4452-8ff0-2378331e8949"
+  },
+  "oferta": {
+    "sumaNettoPrzedRabatem": 3375,
+    "sumaNetto": 2700,
+    "terminOddaniaDziela": 180,
+    "blokadaEdycjiPakietu": false,
+    "idZgodaMarketingowa": "ee96813f-c2fe-4976-a9cb-84f7215d2688",
+    "_id": "f50bfac5-924d-4d9b-becf-e3d4323f0efc",
+    "wybraneOpcje": [
+      {
+        "opis": "Dedykowany operator drona, który nagrywa kluczowe momenty z reportażu, panoramy, wejście i wyjście z ceremonii, fajerwerki itp.",
+        "_id": "e891adfa-bd74-416a-899d-05b43f406dd4",
+        "nazwa": "Dron Full",
+        "czyProcent": false,
+        "terminCena": 0,
+        "terminLabel": null,
+        "ilosc": 1,
+        "cenaSumaryczna": 800,
+        "cena": 800,
+        "idLocal": "def234",
+        "podtyp": "standard",
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      }
+    ],
+    "_owner": "73df0ba1-35c3-475b-a940-4da11a50edea",
+    "zgodaWarunkiUmowy": "<p class=\"font_8\">7.6.1. Wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych; publikowanie fragmentów Dzieła w portfolio, Internecie, mediach społecznościowych, kursach online oraz materiałach promocyjnych, niezależnie od terminu publikacji przez Zamawiającego; na czas nieokreślony, na wszystkich polach eksploatacji, bez ograniczeń terytorialnych; Przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim — zarówno uczestniczącym w Reportażu, jak i innym — na podstawie odrębnych umów (przeniesienia praw lub licencji) pod warunkiem, że materiały będą wykorzystywane wyłącznie w celach promocji w ramach Umowy,</p>\n<p class=\"font_8\">7.6.2. Zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów marketingowych w celu promocji swojej usługi,</p>\n<p class=\"font_8\">7.6.3. Korzystanie z materiałów udostępnionych w Social Media przez inne osoby fizyczne lub podmioty trzecie biorące udział w Reportażu,</p>\n<p class=\"font_8\">7.6.4. Wykonawcy przysługuje wyłączność na rejestrację materiałów wideo w trakcie Reportażu, a Zamawiający zobowiązuje się nie angażować ani nie zezwalać na angażowanie przez inne podmioty uczestniczące (w szczególności Wedding Plannerów, Fotografów, Operatorów, itp.) jakichkolwiek profesjonalnych firm lub osób trzecich dokonujących rejestracji tego samego wydarzenia, bez uprzedniej pisemnej zgody Wykonawcy i na warunkach przez niego określonych. W szczególności zakazane są działania, które zakłócają realizację Dzieła i wpływają na jakość lub przebieg pracy Wykonawcy; ujawniają know-how Wykonawcy, w tym sposób pracy, dobór sprzętu, techniki rejestracji i oświetlenia; prowadzą do tworzenia lub publikowania przez inne osoby materiałów, które przedstawiają sceny, ujęcia, aranżacje lub kompozycje kadrów przygotowane przez Wykonawcę, są myląco podobne do rezultatów Dzieła, mogą wpływać na odbiór artystyczny, wizerunkowy lub komercyjną wartość Dzieła. Postanowień niniejszego paragrafu nie stosuje się, jeżeli Zamawiający uzgodni z Wykonawcą obecność innych podmiotów, a Wykonawca wyraził na to uprzednią, pisemną zgodę.</p>",
+    "_createdDate": "2025-07-13T09:56:52.197Z",
+    "idRezerwacji": "e7619a82-4744-473f-a110-a5aa3ddef03b",
+    "wyslanaDoTworcyIp": "92.210.197.72, 10.65.160.230, 10.65.135.147",
+    "nocleg": "Nocleg niewliczony w cenę",
+    "_updatedDate": "2025-12-15T15:05:36.866Z",
+    "zgodaNazwaPubliczna": "<p class=\"font_9\"><strong>Pełna zgoda marketingowa oraz wyłączność</strong></p>",
+    "idKlientKarta": "17f8b8bf-a2dc-4a7b-8371-2b256bfb782d",
+    "zapisOferty": "konfigurator",
+    "potwierdzony": false,
+    "zgodaOpisPubliczny": "<p class=\"font_9\">Udzielasz Wykonawcy pełnej zgody marketingowej i wyłączności:</p>\n<ul class=\"font_9\">\n  <li><p class=\"font_9\">może wykorzystywać zaakceptowane materiały w celach promocyjnych i komercyjnych bez ograniczeń terytorialnych i czasowych,</p></li>\n  <li><p class=\"font_9\">przez 15 dni od dnia reportażu nie zlecasz podobnych ujęć innym firmom ani osobom,</p></li>\n  <li><p class=\"font_9\">w zamian otrzymujesz najwyższy rabat i preferencyjne warunki współpracy.</p></li>\n</ul>",
+    "nazwaOferty": "Dokupienie opcji",
+    "idProfilu": "b611fb48-4cf9-4452-8ff0-2378331e8949",
+    "liczbaAsystentow": 1,
+    "sumaBrutto": 2700,
+    "wyslanaDoTworcy": true,
+    "wyslanaDoTworcyData": "2025-07-13T09:57:17.312Z",
+    "kosztDojazdu": 0,
+    "typUslugi": "filmowiec",
+    "czasPracy": 12,
+    "statusPakietu": "draft"
+  },
+  "tworca": null,
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
