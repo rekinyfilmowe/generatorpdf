@@ -1,0 +1,404 @@
+{
+  "karta": {
+    "idKlient": "4bcf1c7c-8de5-4bf7-b493-49fc5e02ce22",
+    "miejsceRealizacji": {
+      "city": "Bystrzyca Nowa",
+      "location": {
+        "latitude": 51.0569529,
+        "longitude": 22.4492938
+      },
+      "latitude": 51.0569529,
+      "formatted": "Bystrzyca Nowa 9, 23-107, Polska",
+      "country": "PL",
+      "longitude": 22.4492938,
+      "subdivision": "LU"
+    },
+    "_id": "5795d7e0-511c-4bab-b9c5-0eaaa095d7ef",
+    "_owner": "25ddf06b-1bb5-41e6-b001-c4e69f1df797",
+    "_createdDate": "2025-09-18T12:27:45.846Z",
+    "nazwa": "Moja realizacja [20.06.2026]",
+    "typRealizacji": "slub",
+    "_updatedDate": "2026-01-07T00:31:00.020Z",
+    "dataRealizacji": "2026-06-20",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "daneDoUmowy": {
+      "adresZam1": {
+        "subdivisions": [
+          {
+            "code": "Województwo lubelskie",
+            "name": "Województwo lubelskie",
+            "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+          },
+          {
+            "code": "Powiat lubelski",
+            "name": "Powiat lubelski",
+            "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+          },
+          {
+            "code": "Natalin",
+            "name": "Natalin",
+            "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+          },
+          {
+            "code": "PL",
+            "name": "Polska",
+            "type": "COUNTRY"
+          }
+        ],
+        "city": "Natalin",
+        "location": {
+          "latitude": 51.2919984,
+          "longitude": 22.4839876
+        },
+        "streetAddress": {
+          "number": "55",
+          "name": "Gwieździsta",
+          "apt": "",
+          "formattedAddressLine": "Gwieździsta 55"
+        },
+        "formatted": "Gwieździsta 55, 21-002 Natalin, Polska",
+        "country": "PL",
+        "postalCode": "21-002",
+        "subdivision": "MZ"
+      },
+      "imNazZam1": "Aleksandra Kołodziejczyk",
+      "emailZam1": "aleksandrakolodziejczyk76@wp.pl",
+      "nazwiskoZam1": "Kołodziejczyk",
+      "imieZam1": "Aleksandra",
+      "telefonZam1": "+48537439537",
+      "rezerwujacyTelefon": "+48537439537",
+      "rezerwujacyImie": "Jacek",
+      "rezerwacjaTyp": "dlaSiebieKontakt",
+      "rezerwujacyEmail": "aleksandrakolodziejczyk76@wp.pl",
+      "rezerwujacyNazwisko": "Zieliński"
+    },
+    "idProfilKlienta": "4c8264d2-19a6-40c6-bf45-8d7e780ca88f"
+  },
+  "oferta": {
+    "wartoscVATPrzedRabatem": 358,
+    "sumaNettoPrzedRabatem": 32813,
+    "sumaNetto": 26250,
+    "terminOddaniaDziela": 180,
+    "blokadaEdycjiPakietu": false,
+    "idZgodaMarketingowa": "ee96813f-c2fe-4976-a9cb-84f7215d2688",
+    "_id": "6c004f5f-6892-4c6a-be7c-b2f571d97f30",
+    "wybraneOpcje": [
+      {
+        "vat": 69,
+        "_id": "bazaCeny",
+        "nazwa": "Usługa operatorska + Czas pracy",
+        "terminCena": 0,
+        "cena": 6369,
+        "idLocal": "bazaCeny",
+        "podtyp": "12",
+        "cenaBrutto": 6369,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 6,
+        "_id": "abc123",
+        "nazwa": "Rolka",
+        "terminCena": 0,
+        "cena": 531,
+        "idLocal": "abc123",
+        "podtyp": "1",
+        "cenaBrutto": 531,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 1,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 40,
+        "_id": "zwiastun-sde",
+        "nazwa": "Szybki zwiastun SDE (w dniu realizacji)",
+        "terminCena": 0,
+        "cena": 3715,
+        "idLocal": "zwiastun-sde",
+        "podtyp": "1",
+        "cenaBrutto": 3715,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 2,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 69,
+        "_id": "film-glowny-25",
+        "nazwa": "Film główny 20 – 25 min",
+        "terminCena": 0,
+        "cena": 6369,
+        "idLocal": "film-glowny-25",
+        "podtyp": "1",
+        "cenaBrutto": 6369,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 12,
+        "_id": "xyz567",
+        "nazwa": "Dodatkowa kamera na ceremonii",
+        "terminCena": 0,
+        "cena": 1062,
+        "idLocal": "xyz567",
+        "podtyp": "1",
+        "cenaBrutto": 1062,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 3,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 40,
+        "_id": "ijk5791",
+        "nazwa": "Wywiady",
+        "terminCena": 0,
+        "cena": 3715,
+        "idLocal": "ijk5791",
+        "podtyp": "1",
+        "cenaBrutto": 3715,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 4,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 23,
+        "_id": "def7382",
+        "nazwa": "Dodatkowy klip z części tanecznej",
+        "terminCena": 0,
+        "cena": 2123,
+        "idLocal": "def7382",
+        "podtyp": "1",
+        "cenaBrutto": 2123,
+        "meta": {
+          "plikWynikowy": true,
+          "kanonicznaKolejnosc": 5,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      },
+      {
+        "vat": 29,
+        "_id": "dron-sport",
+        "nazwa": "Dron Sport (FPV)",
+        "terminCena": 0,
+        "cena": 2654,
+        "idLocal": "dron-sport",
+        "podtyp": "1",
+        "cenaBrutto": 2654,
+        "meta": {
+          "plikWynikowy": false,
+          "kanonicznaKolejnosc": 6,
+          "czasTrwania": "",
+          "terminOddania": 180,
+          "opisKanoniczny": ""
+        }
+      }
+    ],
+    "_owner": "25ddf06b-1bb5-41e6-b001-c4e69f1df797",
+    "zgodaWarunkiUmowy": "<p class=\"font_8\">7.6.1. Wykorzystywanie zaakceptowanych Rezultatów Dzieła oraz Materiału Źródłowego w celach komercyjnych; publikowanie fragmentów Dzieła w portfolio, Internecie, mediach społecznościowych, kursach online oraz materiałach promocyjnych, niezależnie od terminu publikacji przez Zamawiającego; na czas nieokreślony, na wszystkich polach eksploatacji, bez ograniczeń terytorialnych; Przekazywanie Rezultatów Dzieła oraz nowo utworzonych materiałów podmiotom trzecim — zarówno uczestniczącym w Reportażu, jak i innym — na podstawie odrębnych umów (przeniesienia praw lub licencji) pod warunkiem, że materiały będą wykorzystywane wyłącznie w celach promocji w ramach Umowy,</p>\n<p class=\"font_8\">7.6.2. Zatrudnienie dodatkowego operatora na koszt Wykonawcy do rejestracji własnych materiałów marketingowych w celu promocji swojej usługi,</p>\n<p class=\"font_8\">7.6.3. Korzystanie z materiałów udostępnionych w Social Media przez inne osoby fizyczne lub podmioty trzecie biorące udział w Reportażu,</p>\n<p class=\"font_8\">7.6.4. Wykonawcy przysługuje wyłączność na rejestrację materiałów wideo w trakcie Reportażu, a Zamawiający zobowiązuje się nie angażować ani nie zezwalać na angażowanie przez inne podmioty uczestniczące (w szczególności Wedding Plannerów, Fotografów, Operatorów, itp.) jakichkolwiek profesjonalnych firm lub osób trzecich dokonujących rejestracji tego samego wydarzenia, bez uprzedniej pisemnej zgody Wykonawcy i na warunkach przez niego określonych. W szczególności zakazane są działania, które zakłócają realizację Dzieła i wpływają na jakość lub przebieg pracy Wykonawcy; ujawniają know-how Wykonawcy, w tym sposób pracy, dobór sprzętu, techniki rejestracji i oświetlenia; prowadzą do tworzenia lub publikowania przez inne osoby materiałów, które przedstawiają sceny, ujęcia, aranżacje lub kompozycje kadrów przygotowane przez Wykonawcę, są myląco podobne do rezultatów Dzieła, mogą wpływać na odbiór artystyczny, wizerunkowy lub komercyjną wartość Dzieła. Postanowień niniejszego paragrafu nie stosuje się, jeżeli Zamawiający uzgodni z Wykonawcą obecność innych podmiotów, a Wykonawca wyraził na to uprzednią, pisemną zgodę.</p>",
+    "_createdDate": "2025-09-18T12:31:38.827Z",
+    "idRezerwacji": "c72ed8cd-9058-4f63-9f5d-b5032874785c",
+    "wartoscVAT": 288,
+    "sumaOpcjiNettoBezProwizji": 25000,
+    "prowizjaPlatformyVAT": 288,
+    "wyslanaDoTworcyIp": "83.28.188.211, 10.65.160.194, 10.65.157.160",
+    "nocleg": "Nocleg niewliczony w cenę",
+    "_updatedDate": "2026-01-02T14:22:13.597Z",
+    "zgodaNazwaPubliczna": "<p class=\"font_9\"><strong>Pełna zgoda marketingowa oraz wyłączność</strong></p>",
+    "idKlientKarta": "5795d7e0-511c-4bab-b9c5-0eaaa095d7ef",
+    "zapisOferty": "konfigurator",
+    "prowizjaPlatformyNetto": 1250,
+    "potwierdzony": false,
+    "zgodaOpisPubliczny": "<p class=\"font_9\">Udzielasz Wykonawcy pełnej zgody marketingowej i wyłączności:</p>\n<ul class=\"font_9\">\n  <li><p class=\"font_9\">może wykorzystywać zaakceptowane materiały w celach promocyjnych i komercyjnych bez ograniczeń terytorialnych i czasowych,</p></li>\n  <li><p class=\"font_9\">przez 15 dni od dnia reportażu nie zlecasz podobnych ujęć innym firmom ani osobom,</p></li>\n  <li><p class=\"font_9\">w zamian otrzymujesz najwyższy rabat i preferencyjne warunki współpracy.</p></li>\n</ul>",
+    "idTworca": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "nazwaOferty": "Nowy pakiet",
+    "idProfilu": "4c8264d2-19a6-40c6-bf45-8d7e780ca88f",
+    "liczbaAsystentow": 2,
+    "sumaBruttoPrzedRabatem": 33171,
+    "sumaBrutto": 26538,
+    "wyslanaDoTworcy": true,
+    "wyslanaDoTworcyData": "2025-09-18T12:40:46.863Z",
+    "kosztDojazdu": 159,
+    "typUslugi": "filmowiec",
+    "rabatSpecjalny": {
+      "tryb": "on",
+      "wartosc": 0.19999999999999996
+    },
+    "czasPracy": 12,
+    "statusPakietu": "rezerwacja"
+  },
+  "tworca": {
+    "pokazOferteIDostepnosc": true,
+    "typProfilu": "tworca",
+    "wykonawcaAdresNrLokalu": null,
+    "vat": 0,
+    "lp": "0001",
+    "wykonawcaAdresKodPocztowy": "26-001",
+    "jezyki": [],
+    "ibanRachunek": "82 1050 1416 1000 0090 8185 5257",
+    "cenaZaPoprawkiDoDziela": 500,
+    "statusWizytowka": "complete",
+    "nick": "marcinzakrzewski",
+    "darmoweKm": 0,
+    "statusDaneKontaktowe": "complete",
+    "wykonawcaAdresMiejscowosc": "Wola Kopcowa",
+    "mozliwoscBezzwrotnejRezerwacji": true,
+    "progKwoty": 17000,
+    "avatar": "https://rekiny-filmowe.b-cdn.net/tworcy/default/zdjecie/db95b1bc-bbed-423f-b63a-07ffa2e46a6e.jpg",
+    "email": "biuro@rekinyfilmowe.pl",
+    "youtube": null,
+    "zdjecieTlo": "https://rekiny-filmowe.b-cdn.net/tworcy/default/avatar/46e74235-9936-490d-a2fd-a78530b8a71f.jpg",
+    "terminOddaniaDziela": 180,
+    "submittedAt": "2026-01-10T17:18:19.955Z",
+    "tiktok": null,
+    "stripeAccountId": "acct_1SSZieI0FX1GvixR",
+    "rodzajUslug": "filmowiec",
+    "_id": "05e4def4-17d5-40dd-90e6-641c810ccacb",
+    "_owner": "d37be024-ec98-4ed0-a37b-8da5d8e1a785",
+    "doswiadczenieLat": 18,
+    "_createdDate": "2025-10-07T17:14:39.400Z",
+    "nazwa": "Marcin Zakrzewski",
+    "wizytowkaPublicznaOd": "2026-01-09T22:51:09.789Z",
+    "telefon": "+48 880 826 588",
+    "statusChangedAt": "2026-01-10T17:18:19.955Z",
+    "idUzytkownika": "a22e8c5a-db7a-4102-8714-5595ec330e50",
+    "prowizjaPlatfomyInd": 0.2,
+    "maksIloscAsys": 3,
+    "specjalizacje": "film, montaz, dzwiek",
+    "zadatekWartosc1": 30,
+    "adres": {
+      "subdivisions": [
+        {
+          "code": "Województwo świętokrzyskie",
+          "name": "Województwo świętokrzyskie",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_1"
+        },
+        {
+          "code": "Powiat Kielce",
+          "name": "Powiat Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_2"
+        },
+        {
+          "code": "Kielce",
+          "name": "Kielce",
+          "type": "ADMINISTRATIVE_AREA_LEVEL_3"
+        },
+        {
+          "code": "PL",
+          "name": "Polska",
+          "type": "COUNTRY"
+        }
+      ],
+      "city": "Kielce",
+      "location": {
+        "latitude": 50.8659989,
+        "longitude": 20.6286268
+      },
+      "countryFullname": "Polska",
+      "streetAddress": {
+        "apt": "",
+        "name": "",
+        "number": ""
+      },
+      "formatted": "Kielce, Polska",
+      "country": "PL",
+      "postalCode": "25",
+      "subdivision": "SK"
+    },
+    "nazwisko": "Zakrzewski",
+    "_updatedDate": "2026-05-11T21:00:42.746Z",
+    "wykonawcaKraj": "Polska",
+    "wizytowkaPublicznaDo": "2026-01-10T17:18:14.789Z",
+    "slug": "marcin",
+    "ofertaPubliczna": true,
+    "wykonawcaImie": "Marcin",
+    "licencja": "otwarta",
+    "wykonawcaNazwa": "Rekiny Filmowe Spółka z ograniczoną odpowiedzialnością",
+    "prowizjaPlatfomyIndCc": 0.2,
+    "cenyPakietowe": "{ '#containerRolki': 800, '#containerZwiastun': 800, '#containerDodKam': 600, '#containerLiteDron': 900, '#containerOpDron': 1900, '#containerContentCreator': 3900, '#containerDzielo30': 1900, '#containerMatZrod': 1900, '#containerBrakAsys': 0, '#containerAsys1': 1900, '#containerAsys2': 3500, '#containerAsys1SDE': 3500, '#containerAsys1WywFilm': 3000, '#containerAsys1WywOddz': 3000, '#containerAsys1DodKlipZabawa': 1900, '#containerAsys2SDE': 3500, '#containerAsys2WywFilm': 3000, '#containerAsys2WywOddz': 3000, '#containerAsys2DodKlipZabawa': 1900}",
+    "statusOferta": "complete",
+    "stawkaZaKm": 1.5,
+    "zweryfikowany": true,
+    "wykonawcaNazwisko": "Zakrzewski",
+    "minIloscAsys": 0,
+    "facebook": null,
+    "wykonawcaAdresUlica": "Polna",
+    "kalendarzAktywny": true,
+    "imie": "Marcin",
+    "wykonawcaEmail": "biuro@rekinyfilmowe.pl",
+    "karaUmownaProcent": 30,
+    "statusDaneRozliczeniowe": "complete",
+    "nazwaBanku": "ING Bank Śląski",
+    "wykonawcaNip": "6572974769",
+    "zadatekWartosc": 5,
+    "vimeo": null,
+    "profileStatus": "active",
+    "wykonawcaRegon": "523652315",
+    "sde": true,
+    "oMnie": "Film to dla mnie coś więcej niż obraz i dźwięk – to podróż w czasie. Od lat towarzyszę parom w ich najpiękniejszych momentach, zamieniając ulotne chwile w opowieści, do których można wracać bez końca. Każdy ślub, każde spojrzenie, każdy drobny gest – mają swoją historię, a moim zadaniem jest uchwycić je tak, by po latach wywoływały te same emocje, które towarzyszyły Wam w dniu ceremonii. Pracuję dyskretnie, ale z pełnym zaangażowaniem, obserwując, a nie reżyserując. Dzięki temu filmy, które tworzę, są naturalne, autentyczne i pełne życia. Łączę w nich kreatywne kadry, nowoczesny montaż i subtelne detale, które czynią każdy materiał niepowtarzalnym. Nieważne, czy wybierzecie krótką formę, czy dłuższy film – zawsze otrzymacie historię opowiedzianą sercem, dopasowaną do Was i tego, co najważniejsze w Waszym dniu. Bo te wspomnienia są Wasze. Ja tylko pomagam je zatrzymać.\n\nHistoria:\nOd 2008 roku ProStudio Creative Video Agency oraz własna marka osobista\nOd 2016 roku załozyciel oraz członek grupy Rekiny Filmowe\nOd 2026 roku partner platformy Seqnde.com — oferta dostępna jest wyłącznie na platformie",
+    "wykonawcaAdresNrDomu": 15,
+    "obszarDzialaniaTyp": "world",
+    "iloscFilmow": 29,
+    "wykonawcaTelefon": "+48 880 286 588",
+    "dodatkowyOperator": 2500,
+    "wizytowkaPubliczna": true,
+    "kategoriaCenowa": 1,
+    "godzinaSzczytowa": "00:30:00.000",
+    "instagram": "https://www.instagram.com/marcinzakrzewski.rekinyfilmowe/",
+    "potwierdzanieRezerwacji": "manual",
+    "nazwaFirmy": "Rekiny Filmowe",
+    "cenaBazowa": "7500",
+    "waluta": "PLN",
+    "www": "rekinyfilmowe.pl"
+  },
+  "spolka": {
+    "ibanRachunek": "95 1050 1416 1000 0090 8055 6484",
+    "kodPocztowy": "26-001",
+    "regon": 382677442,
+    "miasto": "Wola Kopcowa",
+    "email": "biuro@rekinyfilmowe.pl",
+    "nip": 6572943533,
+    "_id": "2812e68a-b087-4d0c-a318-15402f4bc19f",
+    "_owner": "3e04fa07-89cc-415c-bcef-397fbce97563",
+    "_createdDate": "2025-10-03T21:44:03.866Z",
+    "nazwa": "ProStudio Creative Video Academy Sp. z ograniczoną odpowiedzialnością",
+    "telefon": "+48 880 826 588",
+    "tytulPozycji": "Prowizja w ramach obsługi rezerwacji zlecenia na platformie \"Rekiny Filmowe\"",
+    "adres": "ul. Polna 15",
+    "_updatedDate": "2025-11-12T18:15:17.606Z",
+    "krs": "0000773812",
+    "nazwaBanku": "ING Bank Śląski",
+    "title": "ProStudio Creative Video Academy Spółka z ograniczoną odpowiedzialnością z siedzibą przy ul. Polna 15, 26-001 Wola Kopcowa, Polska, wpisaną do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS. KRS: 0000773812, NIP: 6572943533, REGON: 382677442.",
+    "sad": "Sąd Rejonowy w Kielcach, X Wydział Gospodarczy KRS",
+    "kraj": "Polska",
+    "waluta": "PLN",
+    "publiczny": true,
+    "nazwaHandlowa": "Rekiny Filmowe"
+  }
+}
